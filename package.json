@@ -1,7 +1,7 @@
 {
 	"name": "flowbite-svelte-starter",
 	"version": "0.1.1",
-	"description": "Svelte SVG icons",
+	"description": "SVG icon collection for Svelte",
 	"author": {
 		"name": "Shinichi Okada",
 		"email": "connect@codewithshin.com",
