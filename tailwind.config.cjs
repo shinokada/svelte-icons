@@ -5,6 +5,9 @@ const config = {
 	],
 
 	theme: {
+		colors: {
+			'ebony': '#111827',
+		},
 		extend: {}
 	},
 

@@ -1,14 +1,14 @@
 {
 	"name": "flowbite-svelte-starter",
 	"version": "0.1.1",
-	"description": "Flowbite-Svelte starter kit",
+	"description": "Svelte SVG icons",
 	"author": {
 		"name": "Shinichi Okada",
 		"email": "connect@codewithshin.com",
 		"url": "https://blog.codewithshin.com"
 	},
-	"bugs": "https://github.com/shinokada/flowbite-svelte-starter/issues",
-	"homepage": "https://github.com/shinokada/flowbite-svelte-starter",
+	"bugs": "https://github.com/shinokada/svelte-icons-website/issues",
+	"homepage": "https://github.com/shinokada/svelte-icons-website",
 	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
@@ -28,12 +28,12 @@
 		"@sveltejs/kit": "next",
 		"@typescript-eslint/eslint-plugin": "^5.10.1",
 		"@typescript-eslint/parser": "^5.10.1",
-		"autoprefixer": "^10.4.4",
+		"autoprefixer": "10.4.5",
 		"eslint": "^8.12.0",
 		"eslint-config-prettier": "^8.3.0",
 		"eslint-plugin-svelte3": "^4.0.0",
 		"flowbite": "^1.4.5",
-		"flowbite-svelte": "^0.15.23",
+		"flowbite-svelte": "^0.15.28",
 		"postcss": "^8.4.12",
 		"postcss-load-config": "^3.1.4",
 		"prettier": "^2.5.1",
@@ -56,6 +56,6 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/shinokada/flowbite-svelte-starter.git"
+		"url": "https://github.com/shinokada/svelte-icons-website"
 	}
 }

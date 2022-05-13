@@ -2,3 +2,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  h1{
+    @apply text-5xl text-center dark:text-white;
+  }
+  p {
+    @apply dark:text-white text-xl py-2;
+  }
+  a {
+    @apply text-blue-500;
+  }
+}

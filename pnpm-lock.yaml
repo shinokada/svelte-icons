@@ -6,12 +6,12 @@ specifiers:
   '@sveltejs/kit': next
   '@typescript-eslint/eslint-plugin': ^5.10.1
   '@typescript-eslint/parser': ^5.10.1
-  autoprefixer: ^10.4.4
+  autoprefixer: 10.4.5
   eslint: ^8.12.0
   eslint-config-prettier: ^8.3.0
   eslint-plugin-svelte3: ^4.0.0
   flowbite: ^1.4.5
-  flowbite-svelte: ^0.15.23
+  flowbite-svelte: ^0.15.28
   postcss: ^8.4.12
   postcss-load-config: ^3.1.4
   prettier: ^2.5.1
@@ -30,12 +30,12 @@ devDependencies:
   '@sveltejs/kit': 1.0.0-next.328_svelte@3.48.0
   '@typescript-eslint/eslint-plugin': 5.23.0_c63nfttrfhylg3zmgcxfslaw44
   '@typescript-eslint/parser': 5.23.0_hcfsmds2fshutdssjqluwm76uu
-  autoprefixer: 10.4.7_postcss@8.4.13
+  autoprefixer: 10.4.5_postcss@8.4.13
   eslint: 8.15.0
   eslint-config-prettier: 8.5.0_eslint@8.15.0
   eslint-plugin-svelte3: 4.0.0_usjo443ynfgvutifl4ot2fkxzy
   flowbite: 1.4.5
-  flowbite-svelte: 0.15.23
+  flowbite-svelte: 0.15.28
   postcss: 8.4.13
   postcss-load-config: 3.1.4_postcss@8.4.13
   prettier: 2.6.2
@@ -1056,8 +1056,8 @@ packages:
     engines: {node: '>=8'}
     dev: true
 
-  /autoprefixer/10.4.7_postcss@8.4.13:
-    resolution: {integrity: sha512-ypHju4Y2Oav95SipEcCcI5J7CGPuvz8oat7sUtYj3ClK44bldfvtvcxK6IEK++7rqB7YchDGzweZIBG+SD0ZAA==}
+  /autoprefixer/10.4.5_postcss@8.4.13:
+    resolution: {integrity: sha512-Fvd8yCoA7lNX/OUllvS+aS1I7WRBclGXsepbvT8ZaPgrH24rgXpZzF0/6Hh3ZEkwg+0AES/Osd196VZmYoEFtw==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1788,8 +1788,8 @@ packages:
     resolution: {integrity: sha512-WIWGi2L3DyTUvUrwRKgGi9TwxQMUEqPOPQBVi71R96jZXJdFskXEmf54BoZaS1kknGODoIGASGEzBUYdyMCBJg==}
     dev: true
 
-  /flowbite-svelte/0.15.23:
-    resolution: {integrity: sha512-6jLmMbLvANfnYHsDsWky+aMa3jwVk7MI8bBB4IF2rw+0cmJRsp4uuMxKN38Ien98N9q6RvKjJob6m0GvyFNh4A==}
+  /flowbite-svelte/0.15.28:
+    resolution: {integrity: sha512-K0ait1vVru2vCLYAvEGqlfgweiTuEf8f5NijsacquMOPIa//qFqDSujXIN46/z5kCVmgT4nO6QR+EAo9fLufbA==}
     dependencies:
       flowbite: 1.4.5
       svelte-heros: 2.0.0
