@@ -28,7 +28,7 @@
 	let headerClass = 'text-3xl font-semibold tracking-tight text-gray-900 dark:text-white';
 </script>
 
-<h1>Svelte SVG Icons</h1>
+<h1>SVG Icons Collections for Svelte</h1>
 
 <EcommerceCard
 	{divClass}

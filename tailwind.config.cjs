@@ -7,6 +7,8 @@ const config = {
 	theme: {
 		colors: {
 			'ebony': '#111827',
+			'blue-zodiac': '#102656',
+			'black-pearl':'#040A15',
 		},
 		extend: {}
 	},
