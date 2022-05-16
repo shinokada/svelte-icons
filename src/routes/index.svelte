@@ -43,6 +43,24 @@
 		<a href="https://github.com/shinokada/svelte-ionicons/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgIon}
+	title="Font Awesome: Svelte-awesome-icons"
+	href="https://www.npmjs.com/package/svelte-awesome-icons"
+>
+	<img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" />
+	<p>
+		2000+ SVG icons from the <a href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs"
+			>Font Awesome</a
+		>.<br />
+		<a href="https://github.com/shinokada/svelte-awesome-icons/blob/main/icon-list.md">Icon names</a
+		>
+	</p>
+</EcommerceCard>
+
 <EcommerceCard
 	{divClass}
 	{headerClass}
