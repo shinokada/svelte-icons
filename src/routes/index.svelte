@@ -4,6 +4,10 @@
 		src: '/images/ion.webp',
 		alt: 'Ionicons'
 	};
+	let imgAwesome = {
+		src: '/images/awesome.webp',
+		alt: 'Font Awesome icons'
+	};
 	let imgHero = {
 		src: '/images/heros.webp',
 		alt: 'Heroicons'
@@ -47,7 +51,7 @@
 <EcommerceCard
 	{divClass}
 	{headerClass}
-	img={imgIon}
+	img={imgAwesome}
 	title="Font Awesome: Svelte-awesome-icons"
 	href="https://www.npmjs.com/package/svelte-awesome-icons"
 >
