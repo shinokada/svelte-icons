@@ -105,6 +105,20 @@
 		<a href="https://github.com/shinokada/svelte-flags/blob/main/flags.md">Icon names</a>
 	</p>
 </EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgFeather}
+	title="Feather icons: Svelte-feathers"
+	href="https://www.npmjs.com/package/svelte-feathers"
+>
+	<img src="https://badgen.net/npm/dw/svelte-feathers" alt="weekly download number" />
+	<p>
+		280+ SVG icons from the <a href="https://feathericons.com/">Feather-icons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-feathers/blob/main/icon-list.md">Icon names</a>
+	</p>
+</EcommerceCard>
 <EcommerceCard
 	{divClass}
 	{headerClass}
@@ -117,18 +131,5 @@
 		2230+ SVG icons for popular brands from the <a href="https://simpleicons.org/s">Simple-icons</a
 		>.<br />
 		<a href="https://github.com/shinokada/svelte-simples/blob/main/icon-names.md">Icon names</a>
-	</p>
-</EcommerceCard>
-<EcommerceCard
-	{divClass}
-	{headerClass}
-	img={imgFeather}
-	title="Feather icons: Svelte-feathers"
-	href="https://www.npmjs.com/package/svelte-feathers"
->
-	<img src="https://badgen.net/npm/dw/svelte-feathers" alt="weekly download number" />
-	<p>
-		280+ SVG icons from the <a href="https://feathericons.com/">Feather-icons</a>.<br />
-		<a href="https://github.com/shinokada/svelte-feathers/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
