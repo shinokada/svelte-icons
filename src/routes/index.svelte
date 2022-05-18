@@ -32,7 +32,7 @@
 	let headerClass = 'text-3xl font-semibold tracking-tight text-gray-900 dark:text-white';
 </script>
 
-<h1>SVG Icon Collection for Svelte</h1>
+<h1>SVG Icon Sets for Svelte</h1>
 
 <h2>Support all CSS frameworks</h2>
 
