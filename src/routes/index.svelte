@@ -34,6 +34,8 @@
 
 <h1>SVG Icon Collection for Svelte</h1>
 
+<h2>Support all CSS frameworks</h2>
+
 <EcommerceCard
 	{divClass}
 	{headerClass}
