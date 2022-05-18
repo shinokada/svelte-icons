@@ -7,6 +7,9 @@
   h1{
     @apply text-5xl text-center dark:text-white;
   }
+  h2{
+    @apply text-3xl text-center dark:text-white py-4;
+  }
   p {
     @apply dark:text-white text-xl py-2;
   }
