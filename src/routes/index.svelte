@@ -84,7 +84,7 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-materialdesign-icons" alt="weekly download number" />
 	<p>
-		6980+ SVG icons from the <a href="git@github.com:Templarian/MaterialDesign.git"
+		6980+ SVG icons from the <a href="https://github.com/Templarian/MaterialDesign"
 			>MaterialDesign</a
 		>.<br />
 		<a href="https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md"
