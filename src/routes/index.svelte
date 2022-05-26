@@ -13,7 +13,7 @@
 		alt: 'Heroicons'
 	};
 	let imgMaterial = {
-		src: '/images/heros.webp',
+		src: '/images/materialdesign.webp',
 		alt: 'Material Design icons'
 	};
 	let imgFlagIcons = {
