@@ -20,6 +20,10 @@
 		src: '/images/flag-icons3.webp',
 		alt: 'Flag Icons'
 	};
+	let imgCircleFlags = {
+		src: '/images/circle-flags.webp',
+		alt: 'Circle Flags'
+	};
 	let imgLucide = {
 		src: '/images/lucide.webp',
 		alt: 'Lucide'
@@ -104,6 +108,20 @@
 	<p>
 		260+ SVG icons from <a href="https://github.com/lipis/flag-icons">Flag Icons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-flag-icons/blob/main/icon-list.md">Icon names</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgCircleFlags}
+	title="Circle Flagss: Svelte-Circle-Flags"
+	href="https://www.npmjs.com/package/svelte-circle-flags"
+>
+	<img src="https://badgen.net/npm/dw/svelte-circle-flags" alt="weekly download number" />
+	<p>
+		330+ SVG icons from <a href="https://github.com/HatScripts/circle-flags">Circle-Flags</a>.<br />
+		<a href="https://github.com/shinokada/svelte-circle-flags/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
 
