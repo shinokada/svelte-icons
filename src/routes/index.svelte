@@ -12,6 +12,14 @@
 		src: '/images/heros.webp',
 		alt: 'Heroicons'
 	};
+	let imgMaterial = {
+		src: '/images/heros.webp',
+		alt: 'Material Design icons'
+	};
+	let imgFlagIcons = {
+		src: '/images/flag-icons3.webp',
+		alt: 'Flag Icons'
+	};
 	let imgLucide = {
 		src: '/images/lucide.webp',
 		alt: 'Lucide'
@@ -35,20 +43,6 @@
 <h1>SVG Icon Sets for Svelte</h1>
 
 <h2>Support all CSS frameworks</h2>
-
-<EcommerceCard
-	{divClass}
-	{headerClass}
-	img={imgIon}
-	title="Ionicons: Svelte-ionicons"
-	href="https://www.npmjs.com/package/svelte-ionicons"
->
-	<img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" />
-	<p>
-		1330+ SVG icons from the <a href="https://ionic.io/ionicons">Ionicicons</a>.<br />
-		<a href="https://github.com/shinokada/svelte-ionicons/blob/main/icon-list.md">Icon names</a>
-	</p>
-</EcommerceCard>
 
 <EcommerceCard
 	{divClass}
@@ -80,19 +74,53 @@
 		<a href="https://github.com/shinokada/svelte-heros/blob/main/icon-names.md">Icon names</a>
 	</p>
 </EcommerceCard>
+
 <EcommerceCard
 	{divClass}
 	{headerClass}
-	img={imgLucide}
-	title="Lucide: Svelte-Lucide"
-	href="https://www.npmjs.com/package/svelte-lucide"
+	img={imgMaterial}
+	title="Materialdesign: Svelte-materialdesign-icons"
+	href="https://www.npmjs.com/package/svelte-materialdesign-icons"
 >
-	<img src="https://badgen.net/npm/dw/svelte-lucide" alt="weekly download number" />
+	<img src="https://badgen.net/npm/dw/svelte-materialdesign-icons" alt="weekly download number" />
 	<p>
-		590+ SVG icons from the <a href="https://github.com/lucide-icons/lucide">Lucide icons</a>.<br />
-		<a href="https://github.com/shinokada/svelte-lucide/blob/main/icon-list.md">Icon names</a>
+		6980+ SVG icons from the <a href="git@github.com:Templarian/MaterialDesign.git"
+			>MaterialDesign</a
+		>.<br />
+		<a href="https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md"
+			>Icon names</a
+		>
 	</p>
 </EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgFlagIcons}
+	title="Flag-Icons: Svelte-Flag-Icons"
+	href="https://www.npmjs.com/package/svelte-flag-icons"
+>
+	<img src="https://badgen.net/npm/dw/svelte-flag-icons" alt="weekly download number" />
+	<p>
+		260+ SVG icons from <a href="https://github.com/lipis/flag-icons">Flag Icons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-flag-icons/blob/main/icon-list.md">Icon names</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgIon}
+	title="Ionicons: Svelte-ionicons"
+	href="https://www.npmjs.com/package/svelte-ionicons"
+>
+	<img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" />
+	<p>
+		1330+ SVG icons from the <a href="https://ionic.io/ionicons">Ionicicons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-ionicons/blob/main/icon-list.md">Icon names</a>
+	</p>
+</EcommerceCard>
+
 <EcommerceCard
 	{divClass}
 	{headerClass}
@@ -121,6 +149,21 @@
 		<a href="https://github.com/shinokada/svelte-feathers/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgLucide}
+	title="Lucide: Svelte-Lucide"
+	href="https://www.npmjs.com/package/svelte-lucide"
+>
+	<img src="https://badgen.net/npm/dw/svelte-lucide" alt="weekly download number" />
+	<p>
+		590+ SVG icons from the <a href="https://github.com/lucide-icons/lucide">Lucide icons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-lucide/blob/main/icon-list.md">Icon names</a>
+	</p>
+</EcommerceCard>
+
 <EcommerceCard
 	{divClass}
 	{headerClass}
