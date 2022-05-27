@@ -40,6 +40,14 @@
 		src: '/images/feather.webp',
 		alt: 'Feather icons'
 	};
+	let imgFile = {
+		src: '/images/fileicons.webp',
+		alt: 'File icons'
+	};
+	let imgGoogle = {
+		src: '/images/google-material.webp',
+		alt: 'Google Materialdesign icons'
+	};
 	let divClass = 'm-8 max-w-md bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700';
 	let headerClass = 'text-3xl font-semibold tracking-tight text-gray-900 dark:text-white';
 </script>
@@ -92,6 +100,27 @@
 			>MaterialDesign</a
 		>.<br />
 		<a href="https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md"
+			>Icon names</a
+		>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgGoogle}
+	title="Google Materialdesign: Svelte-google-materialdesign-icons"
+	href="https://www.npmjs.com/package/svelte-google-materialdesign-icons"
+>
+	<img
+		src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons"
+		alt="weekly download number"
+	/>
+	<p>
+		10600+ SVG icons from the <a href="https://github.com/material-icons/material-icons"
+			>Material-Icons</a
+		>.<br />
+		<a href="https://github.com/shinokada/svelte-google-materialdesign-icons/blob/main/icon-list.md"
 			>Icon names</a
 		>
 	</p>
@@ -179,6 +208,20 @@
 	<p>
 		590+ SVG icons from the <a href="https://github.com/lucide-icons/lucide">Lucide icons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-lucide/blob/main/icon-list.md">Icon names</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgFile}
+	title="File icons: Svelte-file-icons"
+	href="https://www.npmjs.com/package/svelte-file-icons"
+>
+	<img src="https://badgen.net/npm/dw/svelte-file-icons" alt="weekly download number" />
+	<p>
+		930+ SVG icons from the <a href="https://github.com/file-icons/icons">File icons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
 
