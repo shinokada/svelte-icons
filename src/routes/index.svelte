@@ -93,7 +93,8 @@
 		1660+ SVG icons from <a href="https://github.com/twbs/icons">Bootstrap icons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/icon-list.md"
 			>Icon names</a
-		>
+		><br />
+		<a href="https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=3.48.0">REPL</a>
 	</p>
 </EcommerceCard>
 
@@ -160,7 +161,9 @@
 	<img src="https://badgen.net/npm/dw/svelte-flag-icons" alt="weekly download number" />
 	<p>
 		260+ SVG icons from <a href="https://github.com/lipis/flag-icons">Flag Icons</a>.<br />
-		<a href="https://github.com/shinokada/svelte-flag-icons/blob/main/icon-list.md">Icon names</a>
+		<a href="https://github.com/shinokada/svelte-flag-icons/blob/main/icon-list.md">Icon names</a
+		><br />
+		<a href="https://svelte.dev/repl/70a4c2d5242f4cfa8dba85529184d7a3?version=3.48.0">REPL</a>
 	</p>
 </EcommerceCard>
 
@@ -175,7 +178,8 @@
 	<p>
 		2270+ SVG icons from the <a href="https://github.com/Remix-Design/RemixIcon">RemixIcon</a>.<br
 		/>
-		<a href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</a>
+		<a href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</a><br />
+		<a href="https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=3.48.0">REPL</a>
 	</p>
 </EcommerceCard>
 
@@ -189,7 +193,9 @@
 	<img src="https://badgen.net/npm/dw/svelte-circle-flags" alt="weekly download number" />
 	<p>
 		330+ SVG icons from <a href="https://github.com/HatScripts/circle-flags">Circle-Flags</a>.<br />
-		<a href="https://github.com/shinokada/svelte-circle-flags/blob/main/icon-list.md">Icon names</a>
+		<a href="https://github.com/shinokada/svelte-circle-flags/blob/main/icon-list.md">Icon names</a
+		><br />
+		<a href="https://svelte.dev/repl/382095078be04da7a5008b7f5e41d5c8?version=3.48.0">REPL</a>
 	</p>
 </EcommerceCard>
 
@@ -261,6 +267,8 @@
 	<p>
 		930+ SVG icons from the <a href="https://github.com/file-icons/icons">File icons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</a>
+		<br />
+		<a href="https://svelte.dev/repl/985ea64e08a942b493afa91538fef9b1?version=3.48.0">REPL</a>
 	</p>
 </EcommerceCard>
 
