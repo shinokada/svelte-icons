@@ -8,6 +8,10 @@
 		src: '/images/awesome.webp',
 		alt: 'Font Awesome icons'
 	};
+	let imgBootstrap = {
+		src: '/images/bootstrap1.webp',
+		alt: 'Bootstrap icons'
+	};
 	let imgHero = {
 		src: '/images/heros.webp',
 		alt: 'Heroicons'
@@ -73,6 +77,22 @@
 			>Font Awesome</a
 		>.<br />
 		<a href="https://github.com/shinokada/svelte-awesome-icons/blob/main/icon-list.md">Icon names</a
+		>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgBootstrap}
+	title="Bootstrap: Svelte-bootstrap-svg-icons"
+	href="https://www.npmjs.com/package/svelte-bootstrap-svg-icons"
+>
+	<img src="https://badgen.net/npm/dw/svelte-bootstrap-svg-icons" alt="weekly download number" />
+	<p>
+		1660+ SVG icons from <a href="https://github.com/twbs/icons">Bootstrap icons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/icon-list.md"
+			>Icon names</a
 		>
 	</p>
 </EcommerceCard>
