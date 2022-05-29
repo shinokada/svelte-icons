@@ -20,6 +20,10 @@
 		src: '/images/flag-icons3.webp',
 		alt: 'Flag Icons'
 	};
+	let imgRemix = {
+		src: '/images/remix1.webp',
+		alt: 'RemixIcon'
+	};
 	let imgCircleFlags = {
 		src: '/images/circle-flags.webp',
 		alt: 'Circle Flags'
@@ -137,6 +141,21 @@
 	<p>
 		260+ SVG icons from <a href="https://github.com/lipis/flag-icons">Flag Icons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-flag-icons/blob/main/icon-list.md">Icon names</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgRemix}
+	title="RemixIcon: Svelte-Remix"
+	href="https://www.npmjs.com/package/svelte-remix"
+>
+	<img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" />
+	<p>
+		2270+ SVG icons from the <a href="https://github.com/Remix-Design/RemixIcon">RemixIcon</a>.<br
+		/>
+		<a href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
 
