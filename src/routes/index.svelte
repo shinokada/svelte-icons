@@ -13,7 +13,7 @@
 		alt: 'Bootstrap icons'
 	};
 	let imgHero = {
-		src: '/images/heros.webp',
+		src: '/images/heros1.webp',
 		alt: 'Heroicons'
 	};
 	let imgMaterial = {
@@ -207,7 +207,7 @@
 	{divClass}
 	{headerClass}
 	img={imgCircleFlags}
-	title="Circle Flagss: Svelte-Circle-Flags"
+	title="Circle Flags: Svelte-Circle-Flags"
 	href="https://www.npmjs.com/package/svelte-circle-flags"
 >
 	<img src="https://badgen.net/npm/dw/svelte-circle-flags" alt="weekly download number" />
