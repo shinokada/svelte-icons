@@ -56,6 +56,10 @@
 		src: '/images/google-material.webp',
 		alt: 'Google Materialdesign icons'
 	};
+	let imgTabler = {
+		src: '/images/tabler1.webp',
+		alt: 'Tabler icons'
+	};
 	let divClass = 'm-8 max-w-md bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700';
 	let headerClass = 'text-3xl font-semibold tracking-tight text-gray-900 dark:text-white';
 </script>
@@ -73,7 +77,7 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" />
 	<p>
-		2000+ SVG icons from the <a href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs"
+		2000+ SVG icons from <a href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs"
 			>Font Awesome</a
 		>.<br />
 		<a href="https://github.com/shinokada/svelte-awesome-icons/blob/main/icon-list.md">Icon names</a
@@ -108,7 +112,7 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" />
 	<p>
-		460+ SVG icons from the <a href="https://heroicons.com/">Heroicons</a>.<br />
+		460+ SVG icons from <a href="https://heroicons.com/">Heroicons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-heros/blob/main/icon-names.md">Icon names</a><br />
 		<a href="https://svelte.dev/repl/48606ee88712441caebd7d09aa62602c?version=3.48.0">REPL</a>
 	</p>
@@ -123,12 +127,27 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-materialdesign-icons" alt="weekly download number" />
 	<p>
-		6980+ SVG icons from the <a href="https://github.com/Templarian/MaterialDesign"
-			>MaterialDesign</a
+		6980+ SVG icons from <a href="https://github.com/Templarian/MaterialDesign">MaterialDesign</a
 		>.<br />
 		<a href="https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md"
 			>Icon names</a
 		>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgTabler}
+	title="Tabler: Svelte-tabler"
+	href="https://www.npmjs.com/package/svelte-tabler"
+>
+	<img src="https://badgen.net/npm/dw/svelte-tabler" alt="weekly download number" />
+	<p>
+		1970+ SVG icons from <a href="https://github.com/tabler/tabler-icons">Tabler Icons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-tabler/blob/main/icon-list.md">Icon names</a><br />
+		<a href="https://svelte.dev/repl/55ccaffe3d414235a6bb554ffd98f4bc?version=3.48.0">REPL 1</a>,
+		<a href="https://svelte.dev/repl/b63ed92a79a047bdb2017fac63624130?version=3.48.0">REPL 2</a>
 	</p>
 </EcommerceCard>
 
@@ -144,7 +163,7 @@
 		alt="weekly download number"
 	/>
 	<p>
-		10600+ SVG icons from the <a href="https://github.com/material-icons/material-icons"
+		10600+ SVG icons from <a href="https://github.com/material-icons/material-icons"
 			>Material-Icons</a
 		>.<br />
 		<a href="https://github.com/shinokada/svelte-google-materialdesign-icons/blob/main/icon-list.md"
@@ -178,8 +197,7 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" />
 	<p>
-		2270+ SVG icons from the <a href="https://github.com/Remix-Design/RemixIcon">RemixIcon</a>.<br
-		/>
+		2270+ SVG icons from <a href="https://github.com/Remix-Design/RemixIcon">RemixIcon</a>.<br />
 		<a href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</a><br />
 		<a href="https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=3.48.0">REPL</a>
 	</p>
@@ -210,7 +228,7 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" />
 	<p>
-		1330+ SVG icons from the <a href="https://ionic.io/ionicons">Ionicicons</a>.<br />
+		1330+ SVG icons from <a href="https://ionic.io/ionicons">Ionicicons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-ionicons/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
@@ -224,7 +242,7 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" />
 	<p>
-		250+ SVG icons from the <a href="https://github.com/hampusborgos/country-flags">Country flags</a
+		250+ SVG icons from <a href="https://github.com/hampusborgos/country-flags">Country flags</a
 		>.<br />
 		<a href="https://github.com/shinokada/svelte-flags/blob/main/flags.md">Icon names</a>
 	</p>
@@ -239,7 +257,7 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-feathers" alt="weekly download number" />
 	<p>
-		280+ SVG icons from the <a href="https://feathericons.com/">Feather-icons</a>.<br />
+		280+ SVG icons from <a href="https://feathericons.com/">Feather-icons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-feathers/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
@@ -253,7 +271,7 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-lucide" alt="weekly download number" />
 	<p>
-		590+ SVG icons from the <a href="https://github.com/lucide-icons/lucide">Lucide icons</a>.<br />
+		590+ SVG icons from <a href="https://github.com/lucide-icons/lucide">Lucide icons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-lucide/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
@@ -267,7 +285,7 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-file-icons" alt="weekly download number" />
 	<p>
-		930+ SVG icons from the <a href="https://github.com/file-icons/icons">File icons</a>.<br />
+		930+ SVG icons from <a href="https://github.com/file-icons/icons">File icons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</a>
 		<br />
 		<a href="https://svelte.dev/repl/985ea64e08a942b493afa91538fef9b1?version=3.48.0">REPL</a>
@@ -283,8 +301,8 @@
 >
 	<img src="https://badgen.net/npm/dw/svelte-simples" alt="weekly download number" />
 	<p>
-		2230+ SVG icons for popular brands from the <a href="https://simpleicons.org/s">Simple-icons</a
-		>.<br />
+		2230+ SVG icons for popular brands from <a href="https://simpleicons.org/s">Simple-icons</a>.<br
+		/>
 		<a href="https://github.com/shinokada/svelte-simples/blob/main/icon-names.md">Icon names</a>
 	</p>
 </EcommerceCard>
