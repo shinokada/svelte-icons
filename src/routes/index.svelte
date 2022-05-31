@@ -64,6 +64,10 @@
 		src: '/images/teeny1.webp',
 		alt: 'Teeny icons'
 	};
+	let imgTwemoji = {
+		src: '/images/twemoji2.webp',
+		alt: 'Twitter emoji'
+	};
 	let divClass = 'm-8 max-w-md bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700';
 	let headerClass = 'text-3xl font-semibold tracking-tight text-gray-900 dark:text-white';
 </script>
@@ -104,6 +108,22 @@
 			>Icon names</a
 		><br />
 		<a href="https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=3.48.0">REPL</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgTwemoji}
+	title="Twitter emoji: Svelte-twitter-emoji"
+	href="https://www.npmjs.com/package/svelte-twitter-emoji"
+>
+	<img src="https://badgen.net/npm/dw/svelte-twitter-emoji" alt="weekly download number" />
+	<p>
+		3600+ Twitter emoji SVG color icons from <a href="https://github.com/twitter/twemoji">Twemoji</a
+		>.<br />
+		<a href="https://github.com/shinokada/svelte-twitter-emoji/blob/main/icon-list.md">Icon names</a
+		><br />
 	</p>
 </EcommerceCard>
 
