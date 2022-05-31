@@ -60,6 +60,10 @@
 		src: '/images/tabler1.webp',
 		alt: 'Tabler icons'
 	};
+	let imgTeeny = {
+		src: '/images/teeny1.webp',
+		alt: 'Teeny icons'
+	};
 	let divClass = 'm-8 max-w-md bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700';
 	let headerClass = 'text-3xl font-semibold tracking-tight text-gray-900 dark:text-white';
 </script>
@@ -289,6 +293,20 @@
 		<a href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</a>
 		<br />
 		<a href="https://svelte.dev/repl/985ea64e08a942b493afa91538fef9b1?version=3.48.0">REPL</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgTeeny}
+	title="Teeny icons: Svelte-Teenyicons"
+	href="https://www.npmjs.com/package/svelte-teenyicons"
+>
+	<img src="https://badgen.net/npm/dw/svelte-teenyicons" alt="weekly download number" />
+	<p>
+		600+ SVG icons from <a href="https://github.com/teenyicons/teenyicons">Teenyicons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-teenyicons/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
 
