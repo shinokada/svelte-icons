@@ -1,5 +1,5 @@
 <script>
-	import { EcommerceCard } from 'flowbite-svelte';
+	import { EcommerceCard, Badge } from 'flowbite-svelte';
 	let imgIon = {
 		src: '/images/ion.webp',
 		alt: 'Ionicons'
@@ -11,6 +11,10 @@
 	let imgBootstrap = {
 		src: '/images/bootstrap1.webp',
 		alt: 'Bootstrap icons'
+	};
+	let imgCrypto = {
+		src: '/images/crypto1.webp',
+		alt: 'Cryptocurrency icons'
 	};
 	let imgHero = {
 		src: '/images/heros1.webp',
@@ -79,6 +83,29 @@
 <EcommerceCard
 	{divClass}
 	{headerClass}
+	img={imgCrypto}
+	title="Cryptocurrency: Svelte-Cryptocurrency-Icons"
+	href="https://www.npmjs.com/package/svelte-cryptocurrency-icons"
+>
+	<div class="flex">
+		<img src="https://badgen.net/npm/dw/svelte-cryptocurrency-icons" alt="weekly download number" />
+		<Badge
+			name="NEW"
+			class="ml-2 font-semibold mr-2 px-2.5 py-0.5 rounded bg-green-100 text-green-800 text-xs dark:bg-green-200 dark:text-green-900"
+		/>
+	</div>
+	<p>
+		470+ SVG icons from
+		<a href="https://github.com/spothq/cryptocurrency-icons">Cryptocurrency icons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/icon-list.md"
+			>Icon names</a
+		>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
 	img={imgAwesome}
 	title="Font Awesome: Svelte-awesome-icons"
 	href="https://www.npmjs.com/package/svelte-awesome-icons"
@@ -114,11 +141,47 @@
 <EcommerceCard
 	{divClass}
 	{headerClass}
+	img={imgFile}
+	title="File icons: Svelte-file-icons"
+	href="https://www.npmjs.com/package/svelte-file-icons"
+>
+	<img src="https://badgen.net/npm/dw/svelte-file-icons" alt="weekly download number" />
+	<p>
+		930+ SVG icons from <a href="https://github.com/file-icons/icons">File icons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</a>
+		<br />
+		<a href="https://svelte.dev/repl/985ea64e08a942b493afa91538fef9b1?version=3.48.0">REPL</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgTeeny}
+	title="Teeny icons: Svelte-Teenyicons"
+	href="https://www.npmjs.com/package/svelte-teenyicons"
+>
+	<img src="https://badgen.net/npm/dw/svelte-teenyicons" alt="weekly download number" />
+	<p>
+		600+ SVG icons from <a href="https://github.com/teenyicons/teenyicons">Teenyicons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-teenyicons/blob/main/icon-list.md">Icon names</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
 	img={imgTwemoji}
 	title="Twitter emoji: Svelte-twitter-emoji"
 	href="https://www.npmjs.com/package/svelte-twitter-emoji"
 >
-	<img src="https://badgen.net/npm/dw/svelte-twitter-emoji" alt="weekly download number" />
+	<div class="flex">
+		<img src="https://badgen.net/npm/dw/svelte-twitter-emoji" alt="weekly download number" />
+		<Badge
+			name="NEW"
+			class="ml-2 font-semibold mr-2 px-2.5 py-0.5 rounded bg-green-100 text-green-800 text-xs dark:bg-green-200 dark:text-green-900"
+		/>
+	</div>
 	<p>
 		3600+ Twitter emoji SVG color icons from <a href="https://github.com/twitter/twemoji">Twemoji</a
 		>.<br />
@@ -178,21 +241,15 @@
 <EcommerceCard
 	{divClass}
 	{headerClass}
-	img={imgGoogle}
-	title="Google Materialdesign: Svelte-google-materialdesign-icons"
-	href="https://www.npmjs.com/package/svelte-google-materialdesign-icons"
+	img={imgRemix}
+	title="RemixIcon: Svelte-Remix"
+	href="https://www.npmjs.com/package/svelte-remix"
 >
-	<img
-		src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons"
-		alt="weekly download number"
-	/>
+	<img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" />
 	<p>
-		10600+ SVG icons from <a href="https://github.com/material-icons/material-icons"
-			>Material-Icons</a
-		>.<br />
-		<a href="https://github.com/shinokada/svelte-google-materialdesign-icons/blob/main/icon-list.md"
-			>Icon names</a
-		>
+		2270+ SVG icons from <a href="https://github.com/Remix-Design/RemixIcon">RemixIcon</a>.<br />
+		<a href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</a><br />
+		<a href="https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=3.48.0">REPL</a>
 	</p>
 </EcommerceCard>
 
@@ -215,15 +272,50 @@
 <EcommerceCard
 	{divClass}
 	{headerClass}
-	img={imgRemix}
-	title="RemixIcon: Svelte-Remix"
-	href="https://www.npmjs.com/package/svelte-remix"
+	img={imgIon}
+	title="Ionicons: Svelte-ionicons"
+	href="https://www.npmjs.com/package/svelte-ionicons"
 >
-	<img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" />
+	<img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" />
 	<p>
-		2270+ SVG icons from <a href="https://github.com/Remix-Design/RemixIcon">RemixIcon</a>.<br />
-		<a href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</a><br />
-		<a href="https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=3.48.0">REPL</a>
+		1330+ SVG icons from <a href="https://ionic.io/ionicons">Ionicicons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-ionicons/blob/main/icon-list.md">Icon names</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgGoogle}
+	title="Google Materialdesign: Svelte-google-materialdesign-icons"
+	href="https://www.npmjs.com/package/svelte-google-materialdesign-icons"
+>
+	<img
+		src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons"
+		alt="weekly download number"
+	/>
+	<p>
+		10600+ SVG icons from <a href="https://github.com/material-icons/material-icons"
+			>Material-Icons</a
+		>.<br />
+		<a href="https://github.com/shinokada/svelte-google-materialdesign-icons/blob/main/icon-list.md"
+			>Icon names</a
+		>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgFlags}
+	title="Country flags: Svelte-Flags"
+	href="https://www.npmjs.com/package/svelte-flags"
+>
+	<img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" />
+	<p>
+		250+ SVG icons from <a href="https://github.com/hampusborgos/country-flags">Country flags</a
+		>.<br />
+		<a href="https://github.com/shinokada/svelte-flags/blob/main/flags.md">Icon names</a>
 	</p>
 </EcommerceCard>
 
@@ -246,49 +338,6 @@
 <EcommerceCard
 	{divClass}
 	{headerClass}
-	img={imgIon}
-	title="Ionicons: Svelte-ionicons"
-	href="https://www.npmjs.com/package/svelte-ionicons"
->
-	<img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" />
-	<p>
-		1330+ SVG icons from <a href="https://ionic.io/ionicons">Ionicicons</a>.<br />
-		<a href="https://github.com/shinokada/svelte-ionicons/blob/main/icon-list.md">Icon names</a>
-	</p>
-</EcommerceCard>
-
-<EcommerceCard
-	{divClass}
-	{headerClass}
-	img={imgFlags}
-	title="Country flags: Svelte-Flags"
-	href="https://www.npmjs.com/package/svelte-flags"
->
-	<img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" />
-	<p>
-		250+ SVG icons from <a href="https://github.com/hampusborgos/country-flags">Country flags</a
-		>.<br />
-		<a href="https://github.com/shinokada/svelte-flags/blob/main/flags.md">Icon names</a>
-	</p>
-</EcommerceCard>
-
-<EcommerceCard
-	{divClass}
-	{headerClass}
-	img={imgFeather}
-	title="Feather icons: Svelte-feathers"
-	href="https://www.npmjs.com/package/svelte-feathers"
->
-	<img src="https://badgen.net/npm/dw/svelte-feathers" alt="weekly download number" />
-	<p>
-		280+ SVG icons from <a href="https://feathericons.com/">Feather-icons</a>.<br />
-		<a href="https://github.com/shinokada/svelte-feathers/blob/main/icon-list.md">Icon names</a>
-	</p>
-</EcommerceCard>
-
-<EcommerceCard
-	{divClass}
-	{headerClass}
 	img={imgLucide}
 	title="Lucide: Svelte-Lucide"
 	href="https://www.npmjs.com/package/svelte-lucide"
@@ -303,30 +352,14 @@
 <EcommerceCard
 	{divClass}
 	{headerClass}
-	img={imgFile}
-	title="File icons: Svelte-file-icons"
-	href="https://www.npmjs.com/package/svelte-file-icons"
+	img={imgFeather}
+	title="Feather icons: Svelte-feathers"
+	href="https://www.npmjs.com/package/svelte-feathers"
 >
-	<img src="https://badgen.net/npm/dw/svelte-file-icons" alt="weekly download number" />
+	<img src="https://badgen.net/npm/dw/svelte-feathers" alt="weekly download number" />
 	<p>
-		930+ SVG icons from <a href="https://github.com/file-icons/icons">File icons</a>.<br />
-		<a href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</a>
-		<br />
-		<a href="https://svelte.dev/repl/985ea64e08a942b493afa91538fef9b1?version=3.48.0">REPL</a>
-	</p>
-</EcommerceCard>
-
-<EcommerceCard
-	{divClass}
-	{headerClass}
-	img={imgTeeny}
-	title="Teeny icons: Svelte-Teenyicons"
-	href="https://www.npmjs.com/package/svelte-teenyicons"
->
-	<img src="https://badgen.net/npm/dw/svelte-teenyicons" alt="weekly download number" />
-	<p>
-		600+ SVG icons from <a href="https://github.com/teenyicons/teenyicons">Teenyicons</a>.<br />
-		<a href="https://github.com/shinokada/svelte-teenyicons/blob/main/icon-list.md">Icon names</a>
+		280+ SVG icons from <a href="https://feathericons.com/">Feather-icons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-feathers/blob/main/icon-list.md">Icon names</a>
 	</p>
 </EcommerceCard>
 
