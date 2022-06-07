@@ -1,9 +1,6 @@
 <script>
 	import { EcommerceCard, Badge } from 'flowbite-svelte';
-	let imgIon = {
-		src: '/images/ion.webp',
-		alt: 'Ionicons'
-	};
+
 	let imgAwesome = {
 		src: '/images/awesome.webp',
 		alt: 'Font Awesome icons'
@@ -16,37 +13,9 @@
 		src: '/images/crypto1.webp',
 		alt: 'Cryptocurrency icons'
 	};
-	let imgHero = {
-		src: '/images/heros1.webp',
-		alt: 'Heroicons'
-	};
-	let imgMaterial = {
-		src: '/images/materialdesign.webp',
-		alt: 'Material Design icons'
-	};
-	let imgFlagIcons = {
-		src: '/images/flag-icons3.webp',
-		alt: 'Flag Icons'
-	};
-	let imgRemix = {
-		src: '/images/remix1.webp',
-		alt: 'RemixIcon'
-	};
 	let imgCircleFlags = {
 		src: '/images/circle-flags.webp',
 		alt: 'Circle Flags'
-	};
-	let imgLucide = {
-		src: '/images/lucide.webp',
-		alt: 'Lucide'
-	};
-	let imgFlags = {
-		src: '/images/flags.webp',
-		alt: 'Flags'
-	};
-	let imgSimple = {
-		src: '/images/simple.webp',
-		alt: 'Simple-icons'
 	};
 	let imgFeather = {
 		src: '/images/feather.webp',
@@ -56,9 +25,41 @@
 		src: '/images/fileicons.webp',
 		alt: 'File icons'
 	};
+	let imgFlagIcons = {
+		src: '/images/flag-icons3.webp',
+		alt: 'Flag Icons'
+	};
+	let imgFlags = {
+		src: '/images/flags.webp',
+		alt: 'Flags'
+	};
 	let imgGoogle = {
 		src: '/images/google-material.webp',
 		alt: 'Google Materialdesign icons'
+	};
+	let imgHero = {
+		src: '/images/heros1.webp',
+		alt: 'Heroicons'
+	};
+	let imgIon = {
+		src: '/images/ion.webp',
+		alt: 'Ionicons'
+	};
+	let imgLucide = {
+		src: '/images/lucide.webp',
+		alt: 'Lucide'
+	};
+	let imgMaterial = {
+		src: '/images/materialdesign.webp',
+		alt: 'Material Design icons'
+	};
+	let imgRemix = {
+		src: '/images/remix1.webp',
+		alt: 'RemixIcon'
+	};
+	let imgSimple = {
+		src: '/images/simple.webp',
+		alt: 'Simple-icons'
 	};
 	let imgTabler = {
 		src: '/images/tabler1.webp',
@@ -71,6 +72,10 @@
 	let imgTwemoji = {
 		src: '/images/twemoji2.webp',
 		alt: 'Twitter emoji'
+	};
+	let imgWeather = {
+		src: '/images/weather1.webp',
+		alt: 'Weather icons'
 	};
 	let divClass = 'm-8 max-w-md bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700';
 	let headerClass = 'text-3xl font-semibold tracking-tight text-gray-900 dark:text-white';
@@ -375,5 +380,28 @@
 		>.<br />
 		<a href="https://github.com/shinokada/svelte-twitter-emoji/blob/main/icon-list.md">Icon names</a
 		><br />
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgWeather}
+	title="Weather icons: Svelte-Weather"
+	href="https://www.npmjs.com/package/svelte-weather"
+>
+	<div class="flex">
+		<img src="https://badgen.net/npm/dw/svelte-weather" alt="weekly download number" />
+		<Badge
+			name="NEW"
+			class="ml-2 font-semibold mr-2 px-2.5 py-0.5 rounded bg-green-100 text-green-800 text-xs dark:bg-green-200 dark:text-green-900"
+		/>
+	</div>
+	<p>
+		210+ Weather SVG icons from <a href="https://github.com/erikflowers/weather-icons"
+			>weather-icons</a
+		>.<br />
+		<a href="https://github.com/shinokada/svelte-weather/blob/main/icon-list.md">Icon names</a><br
+		/>
 	</p>
 </EcommerceCard>
