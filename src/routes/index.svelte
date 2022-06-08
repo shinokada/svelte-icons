@@ -251,7 +251,7 @@
 	<img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" />
 	<p>
 		460+ SVG icons from <a href="https://heroicons.com/">Heroicons</a>.<br />
-		<a href="https://github.com/shinokada/svelte-heros/blob/main/icon-names.md">Icon names</a><br />
+		<a href="https://github.com/shinokada/svelte-heros/blob/main/icon-list.md">Icon names</a><br />
 		<a href="https://svelte.dev/repl/48606ee88712441caebd7d09aa62602c?version=3.48.0">REPL</a>
 	</p>
 </EcommerceCard>
