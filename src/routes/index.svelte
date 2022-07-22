@@ -57,6 +57,10 @@
 		src: '/images/octicons.webp',
 		alt: 'Octicons'
 	};
+	let imgRadix = {
+		src: '/images/radix.webp',
+		alt: 'Radix Icons'
+	};
 	let imgRemix = {
 		src: '/images/remix1.webp',
 		alt: 'RemixIcon'
@@ -316,6 +320,21 @@
 		500+ SVG icons from <a href="https://github.com/primer/octicons">Octicons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-oct/blob/main/icon-list.md">Icon names</a><br />
 		<a href="https://svelte.dev/repl/fccdaf257870448bbb6b924fda6c3a5e?version=3.49.0">REPL</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgRadix}
+	title="Radix icons: Svelte-Radix"
+	href="https://www.npmjs.com/package/svelte-radix"
+>
+	<img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" />
+	<p>
+		310+ SVG icons from <a href="https://github.com/radix-ui/icons">Radix icons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-radix/blob/main/icon-list.md">Icon names</a><br />
+		<a href="https://svelte.dev/repl/fb0def38847240f3a51460a56bf53225?version=3.49.0">REPL</a>
 	</p>
 </EcommerceCard>
 
