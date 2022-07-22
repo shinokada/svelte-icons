@@ -53,6 +53,10 @@
 		src: '/images/materialdesign.webp',
 		alt: 'Material Design icons'
 	};
+	let imgOct = {
+		src: '/images/octicons.webp',
+		alt: 'Octicons'
+	};
 	let imgRemix = {
 		src: '/images/remix1.webp',
 		alt: 'RemixIcon'
@@ -146,7 +150,6 @@
 	<div class="flex">
 		<img src="https://badgen.net/npm/dw/svelte-cryptocurrency-icons" alt="weekly download number" />
 		<Badge
-			name="NEW"
 			class="ml-2 font-semibold mr-2 px-2.5 py-0.5 rounded bg-green-100 text-green-800 text-xs dark:bg-green-200 dark:text-green-900"
 		/>
 	</div>
@@ -304,6 +307,21 @@
 <EcommerceCard
 	{divClass}
 	{headerClass}
+	img={imgOct}
+	title="Octicons: Svelte-Oct"
+	href="https://www.npmjs.com/package/svelte-oct"
+>
+	<img src="https://badgen.net/npm/dw/svelte-oct" alt="weekly download number" />
+	<p>
+		500+ SVG icons from <a href="https://github.com/primer/octicons">Octicons</a>.<br />
+		<a href="https://github.com/shinokada/svelte-oct/blob/main/icon-list.md">Icon names</a><br />
+		<a href="https://svelte.dev/repl/fccdaf257870448bbb6b924fda6c3a5e?version=3.49.0">REPL</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
 	img={imgRemix}
 	title="RemixIcon: Svelte-Remix"
 	href="https://www.npmjs.com/package/svelte-remix"
@@ -371,7 +389,6 @@
 	<div class="flex">
 		<img src="https://badgen.net/npm/dw/svelte-twitter-emoji" alt="weekly download number" />
 		<Badge
-			name="NEW"
 			class="ml-2 font-semibold mr-2 px-2.5 py-0.5 rounded bg-green-100 text-green-800 text-xs dark:bg-green-200 dark:text-green-900"
 		/>
 	</div>
@@ -393,7 +410,6 @@
 	<div class="flex">
 		<img src="https://badgen.net/npm/dw/svelte-weather" alt="weekly download number" />
 		<Badge
-			name="NEW"
 			class="ml-2 font-semibold mr-2 px-2.5 py-0.5 rounded bg-green-100 text-green-800 text-xs dark:bg-green-200 dark:text-green-900"
 		/>
 	</div>
