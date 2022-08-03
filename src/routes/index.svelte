@@ -153,9 +153,6 @@
 >
 	<div class="flex">
 		<img src="https://badgen.net/npm/dw/svelte-cryptocurrency-icons" alt="weekly download number" />
-		<Badge
-			class="ml-2 font-semibold mr-2 px-2.5 py-0.5 rounded bg-green-100 text-green-800 text-xs dark:bg-green-200 dark:text-green-900"
-		/>
 	</div>
 	<p>
 		470+ SVG icons from
@@ -407,9 +404,6 @@
 >
 	<div class="flex">
 		<img src="https://badgen.net/npm/dw/svelte-twitter-emoji" alt="weekly download number" />
-		<Badge
-			class="ml-2 font-semibold mr-2 px-2.5 py-0.5 rounded bg-green-100 text-green-800 text-xs dark:bg-green-200 dark:text-green-900"
-		/>
 	</div>
 	<p>
 		3600+ Twitter emoji SVG color icons from <a href="https://github.com/twitter/twemoji">Twemoji</a
