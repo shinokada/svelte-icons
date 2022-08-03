@@ -422,9 +422,6 @@
 >
 	<div class="flex">
 		<img src="https://badgen.net/npm/dw/svelte-weather" alt="weekly download number" />
-		<Badge
-			class="ml-2 font-semibold mr-2 px-2.5 py-0.5 rounded bg-green-100 text-green-800 text-xs dark:bg-green-200 dark:text-green-900"
-		/>
 	</div>
 	<p>
 		210+ Weather SVG icons from <a href="https://github.com/erikflowers/weather-icons"
