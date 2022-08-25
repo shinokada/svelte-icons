@@ -41,6 +41,10 @@
 		src: '/images/heros1.webp',
 		alt: 'Heroicons'
 	};
+	let imgHero2 = {
+		src: '/images/heros2.webp',
+		alt: 'Heroicons v2'
+	};
 	let imgIon = {
 		src: '/images/ion.webp',
 		alt: 'Ionicons'
@@ -257,6 +261,23 @@
 		460+ SVG icons from <a href="https://heroicons.com/">Heroicons</a>.<br />
 		<a href="https://github.com/shinokada/svelte-heros/blob/main/icon-list.md">Icon names</a><br />
 		<a href="https://svelte.dev/repl/48606ee88712441caebd7d09aa62602c?version=3.48.0">REPL</a>
+	</p>
+</EcommerceCard>
+
+<EcommerceCard
+	{divClass}
+	{headerClass}
+	img={imgHero2}
+	title="Heroicons v2: Svelte-Heros-v2"
+	href="https://www.npmjs.com/package/svelte-heros-v2"
+>
+	<img src="https://badgen.net/npm/dw/svelte-heros-v2" alt="weekly download number" />
+	<p>
+		260+ SVG icons from <a href="https://heroicons.com/">Heroicons v2</a>.<br />
+		<a href="https://github.com/shinokada/svelte-heros-v2/blob/main/icon-list.md">Icon names</a><br
+		/>
+		<a href="https://svelte.dev/repl/1948d7b5157f44709cff380d9783342c?version=3.49.0">REPL 1</a>
+		<a href="https://svelte.dev/repl/e26c4ea516a0493cb64797879b1fe46d?version=3.49.0">REPL 2</a>
 	</p>
 </EcommerceCard>
 
