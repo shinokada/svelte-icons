@@ -2,6 +2,22 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.1.3](https://github.com/shinokada/svelte-icons-website/compare/v0.1.2...v0.1.3) (2022-10-06)
+
+
+### Features
+
+* add radix ([c72451f](https://github.com/shinokada/svelte-icons-website/commit/c72451f76da14ff63a5089f37c17a0f81791bfb4))
+* add svelte-heros-v2 ([5984054](https://github.com/shinokada/svelte-icons-website/commit/5984054bc3aba43dc4639af664f64c1e938a2914))
+* add Svelte-Oct ([c404686](https://github.com/shinokada/svelte-icons-website/commit/c404686ebae66d5532501bb3b06bf17c939b825c))
+
+
+### Bug Fixes
+
+* add total download ([f8a293d](https://github.com/shinokada/svelte-icons-website/commit/f8a293da106d7d4e26ba61d1e49e58ddf6c79a12))
+* remove a badge ([19bfc5d](https://github.com/shinokada/svelte-icons-website/commit/19bfc5d5a949ca1df8bd9a811bf5c022bd6dde30))
+* remove badges ([4710b53](https://github.com/shinokada/svelte-icons-website/commit/4710b53fbdf7328d040c5ae7435408f346f8e4f9))
+
 ### [0.1.2](https://github.com/shinokada/svelte-icons-website/compare/v0.1.1...v0.1.2) (2022-06-07)
 
 
