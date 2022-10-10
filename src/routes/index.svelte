@@ -101,7 +101,7 @@
 
 <h2>Support all CSS frameworks</h2>
 
-<div class="flex flex-wrap justify-center gap-4">
+<div class="flex flex-wrap justify-center">
 	<EcommerceCard
 		{divClass}
 		{headerClass}
@@ -110,13 +110,13 @@
 		href="https://www.npmjs.com/package/svelte-ant-design-icons"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-ant-design-icons"
-			alt="weekly download number"
+			src="https://badgen.net/npm/dt/svelte-ant-design-icons"
+			alt="total download number"
 			class="inline"
 		/>
 		<img
-			src="https://badgen.net/npm/dt/svelte-ant-design-icons"
-			alt="total download number"
+			src="https://badgen.net/npm/dw/svelte-ant-design-icons"
+			alt="weekly download number"
 			class="inline"
 		/>
 		<p>
@@ -139,13 +139,13 @@
 		href="https://www.npmjs.com/package/svelte-awesome-icons"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-awesome-icons"
-			alt="weekly download number"
+			src="https://badgen.net/npm/dt/svelte-awesome-icons"
+			alt="total download number"
 			class="inline"
 		/>
 		<img
-			src="https://badgen.net/npm/dt/svelte-awesome-icons"
-			alt="total download number"
+			src="https://badgen.net/npm/dw/svelte-awesome-icons"
+			alt="weekly download number"
 			class="inline"
 		/>
 		<p>
@@ -167,13 +167,13 @@
 		href="https://www.npmjs.com/package/svelte-bootstrap-svg-icons"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-bootstrap-svg-icons"
-			alt="weekly download number"
+			src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons"
+			alt="total download number"
 			class="inline"
 		/>
 		<img
-			src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons"
-			alt="total download number"
+			src="https://badgen.net/npm/dw/svelte-bootstrap-svg-icons"
+			alt="weekly download number"
 			class="inline"
 		/>
 		<p>
@@ -193,13 +193,13 @@
 		href="https://www.npmjs.com/package/svelte-circle-flags"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-circle-flags"
-			alt="weekly download number"
+			src="https://badgen.net/npm/dt/svelte-circle-flags"
+			alt="total download number"
 			class="inline"
 		/>
 		<img
-			src="https://badgen.net/npm/dt/svelte-circle-flags"
-			alt="total download number"
+			src="https://badgen.net/npm/dw/svelte-circle-flags"
+			alt="weekly download number"
 			class="inline"
 		/>
 		<p>
@@ -220,13 +220,13 @@
 		href="https://www.npmjs.com/package/svelte-cryptocurrency-icons"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-cryptocurrency-icons"
-			alt="weekly download number"
+			src="https://badgen.net/npm/dt/svelte-cryptocurrency-icons"
+			alt="total download number"
 			class="inline"
 		/>
 		<img
-			src="https://badgen.net/npm/dt/svelte-cryptocurrency-icons"
-			alt="total download number"
+			src="https://badgen.net/npm/dw/svelte-cryptocurrency-icons"
+			alt="weekly download number"
 			class="inline"
 		/>
 		<p>
@@ -246,13 +246,13 @@
 		href="https://www.npmjs.com/package/svelte-feathers"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-feathers"
-			alt="weekly download number"
+			src="https://badgen.net/npm/dt/svelte-feathers"
+			alt="total download number"
 			class="inline"
 		/>
 		<img
-			src="https://badgen.net/npm/dt/svelte-feathers"
-			alt="total download number"
+			src="https://badgen.net/npm/dw/svelte-feathers"
+			alt="weekly download number"
 			class="inline"
 		/>
 		<p>
@@ -269,13 +269,13 @@
 		href="https://www.npmjs.com/package/svelte-flag-icons"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-flag-icons"
-			alt="weekly download number"
+			src="https://badgen.net/npm/dt/svelte-flag-icons"
+			alt="total download number"
 			class="inline"
 		/>
 		<img
-			src="https://badgen.net/npm/dt/svelte-flag-icons"
-			alt="total download number"
+			src="https://badgen.net/npm/dw/svelte-flag-icons"
+			alt="weekly download number"
 			class="inline"
 		/>
 		<p>
@@ -293,8 +293,8 @@
 		title="Country Flags: Svelte-Flags"
 		href="https://www.npmjs.com/package/svelte-flags"
 	>
-		<img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
 		<img src="https://badgen.net/npm/dt/svelte-flags" alt="total download number" class="inline" />
+		<img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
 		<p>
 			250+ SVG icons from <a href="https://github.com/hampusborgos/country-flags">Country flags</a
 			>.<br />
@@ -310,15 +310,16 @@
 		href="https://www.npmjs.com/package/svelte-file-icons"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-file-icons"
-			alt="weekly download number"
-			class="inline"
-		/>
-		<img
 			src="https://badgen.net/npm/dt/svelte-file-icons"
 			alt="total download number"
 			class="inline"
 		/>
+		<img
+			src="https://badgen.net/npm/dw/svelte-file-icons"
+			alt="weekly download number"
+			class="inline"
+		/>
+
 		<p>
 			930+ SVG icons from <a href="https://github.com/file-icons/icons">File icons</a>.<br />
 			<a href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</a>
@@ -335,15 +336,16 @@
 		href="https://www.npmjs.com/package/svelte-google-materialdesign-icons"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons"
-			alt="weekly download number"
-			class="inline"
-		/>
-		<img
 			src="https://badgen.net/npm/dt/svelte-google-materialdesign-icons"
 			alt="total download number"
 			class="inline"
 		/>
+		<img
+			src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons"
+			alt="weekly download number"
+			class="inline"
+		/>
+
 		<p>
 			10600+ SVG icons from <a href="https://github.com/material-icons/material-icons"
 				>Material-Icons</a
@@ -362,8 +364,9 @@
 		title="Heroicons: Svelte-Heros"
 		href="https://www.npmjs.com/package/svelte-heros"
 	>
-		<img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" class="inline" />
 		<img src="https://badgen.net/npm/dt/svelte-heros" alt="total download number" class="inline" />
+		<img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" class="inline" />
+
 		<p>
 			460+ SVG icons from <a href="https://heroicons.com/">Heroicons</a>.<br />
 			<a href="https://github.com/shinokada/svelte-heros/blob/main/icon-list.md">Icon names</a><br
@@ -380,15 +383,16 @@
 		href="https://www.npmjs.com/package/svelte-heros-v2"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-heros-v2"
-			alt="weekly download number"
-			class="inline"
-		/>
-		<img
 			src="https://badgen.net/npm/dt/svelte-heros-v2"
 			alt="total download number"
 			class="inline"
 		/>
+		<img
+			src="https://badgen.net/npm/dw/svelte-heros-v2"
+			alt="weekly download number"
+			class="inline"
+		/>
+
 		<p>
 			260+ SVG icons from <a href="https://heroicons.com/">Heroicons v2</a>.<br />
 			<a href="https://github.com/shinokada/svelte-heros-v2/blob/main/icon-list.md">Icon names</a
@@ -406,15 +410,16 @@
 		href="https://www.npmjs.com/package/svelte-ionicons"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-ionicons"
-			alt="weekly download number"
-			class="inline"
-		/>
-		<img
 			src="https://badgen.net/npm/dt/svelte-ionicons"
 			alt="total download number"
 			class="inline"
 		/>
+		<img
+			src="https://badgen.net/npm/dw/svelte-ionicons"
+			alt="weekly download number"
+			class="inline"
+		/>
+
 		<p>
 			1330+ SVG icons from <a href="https://ionic.io/ionicons">Ionicicons</a>.<br />
 			<a href="https://github.com/shinokada/svelte-ionicons/blob/main/icon-list.md">Icon names</a>
@@ -428,12 +433,13 @@
 		title="Lucide: Svelte-Lucide"
 		href="https://www.npmjs.com/package/svelte-lucide"
 	>
+		<img src="https://badgen.net/npm/dt/svelte-lucide" alt="total download number" class="inline" />
 		<img
 			src="https://badgen.net/npm/dw/svelte-lucide"
 			alt="weekly download number"
 			class="inline"
 		/>
-		<img src="https://badgen.net/npm/dt/svelte-lucide" alt="total download number" class="inline" />
+
 		<p>
 			590+ SVG icons from <a href="https://github.com/lucide-icons/lucide">Lucide icons</a>.<br />
 			<a href="https://github.com/shinokada/svelte-lucide/blob/main/icon-list.md">Icon names</a>
@@ -448,15 +454,16 @@
 		href="https://www.npmjs.com/package/svelte-materialdesign-icons"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-materialdesign-icons"
-			alt="weekly download number"
-			class="inline"
-		/>
-		<img
 			src="https://badgen.net/npm/dt/svelte-materialdesign-icons"
 			alt="total download number"
 			class="inline"
 		/>
+		<img
+			src="https://badgen.net/npm/dw/svelte-materialdesign-icons"
+			alt="weekly download number"
+			class="inline"
+		/>
+
 		<p>
 			6980+ SVG icons from <a href="https://github.com/Templarian/MaterialDesign">MaterialDesign</a
 			>.<br />
@@ -473,8 +480,9 @@
 		title="Octicons: Svelte-Oct"
 		href="https://www.npmjs.com/package/svelte-oct"
 	>
-		<img src="https://badgen.net/npm/dw/svelte-oct" alt="weekly download number" class="inline" />
 		<img src="https://badgen.net/npm/dt/svelte-oct" alt="total download number" class="inline" />
+		<img src="https://badgen.net/npm/dw/svelte-oct" alt="weekly download number" class="inline" />
+
 		<p>
 			500+ SVG icons from <a href="https://github.com/primer/octicons">Octicons</a>.<br />
 			<a href="https://github.com/shinokada/svelte-oct/blob/main/icon-list.md">Icon names</a><br />
@@ -489,8 +497,9 @@
 		title="Radix icons: Svelte-Radix"
 		href="https://www.npmjs.com/package/svelte-radix"
 	>
-		<img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
 		<img src="https://badgen.net/npm/dt/svelte-radix" alt="total download number" class="inline" />
+		<img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
+
 		<p>
 			310+ SVG icons from <a href="https://github.com/radix-ui/icons">Radix icons</a>.<br />
 			<a href="https://github.com/shinokada/svelte-radix/blob/main/icon-list.md">Icon names</a><br
@@ -506,8 +515,9 @@
 		title="RemixIcon: Svelte-Remix"
 		href="https://www.npmjs.com/package/svelte-remix"
 	>
-		<img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" class="inline" />
 		<img src="https://badgen.net/npm/dt/svelte-remix" alt="total download number" class="inline" />
+		<img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" class="inline" />
+
 		<p>
 			2270+ SVG icons from <a href="https://github.com/Remix-Design/RemixIcon">RemixIcon</a>.<br />
 			<a href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</a><br
@@ -524,15 +534,16 @@
 		href="https://www.npmjs.com/package/svelte-simples"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-simples"
-			alt="weekly download number"
-			class="inline"
-		/>
-		<img
 			src="https://badgen.net/npm/dt/svelte-simples"
 			alt="total download number"
 			class="inline"
 		/>
+		<img
+			src="https://badgen.net/npm/dw/svelte-simples"
+			alt="weekly download number"
+			class="inline"
+		/>
+
 		<p>
 			2230+ SVG icons for popular brands from <a href="https://simpleicons.org/s">Simple-icons</a
 			>.<br />
@@ -547,12 +558,13 @@
 		title="Tabler: Svelte-Tabler"
 		href="https://www.npmjs.com/package/svelte-tabler"
 	>
+		<img src="https://badgen.net/npm/dt/svelte-tabler" alt="total download number" class="inline" />
 		<img
 			src="https://badgen.net/npm/dw/svelte-tabler"
 			alt="weekly download number"
 			class="inline"
 		/>
-		<img src="https://badgen.net/npm/dt/svelte-tabler" alt="total download number" class="inline" />
+
 		<p>
 			1970+ SVG icons from <a href="https://github.com/tabler/tabler-icons">Tabler Icons</a>.<br />
 			<a href="https://github.com/shinokada/svelte-tabler/blob/main/icon-list.md">Icon names</a><br
@@ -570,15 +582,16 @@
 		href="https://www.npmjs.com/package/svelte-teenyicons"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-teenyicons"
-			alt="weekly download number"
-			class="inline"
-		/>
-		<img
 			src="https://badgen.net/npm/dt/svelte-teenyicons"
 			alt="total download number"
 			class="inline"
 		/>
+		<img
+			src="https://badgen.net/npm/dw/svelte-teenyicons"
+			alt="weekly download number"
+			class="inline"
+		/>
+
 		<p>
 			600+ SVG icons from <a href="https://github.com/teenyicons/teenyicons">Teenyicons</a>.<br />
 			<a href="https://github.com/shinokada/svelte-teenyicons/blob/main/icon-list.md">Icon names</a>
@@ -592,18 +605,17 @@
 		title="Twitter Emoji: Svelte-Twitter-Emoji"
 		href="https://www.npmjs.com/package/svelte-twitter-emoji"
 	>
-		<div class="flex">
-			<img
-				src="https://badgen.net/npm/dw/svelte-twitter-emoji"
-				alt="weekly download number"
-				class="inline"
-			/>
-			<img
-				src="https://badgen.net/npm/dt/svelte-twitter-emoji"
-				alt="total download number"
-				class="inline"
-			/>
-		</div>
+		<img
+			src="https://badgen.net/npm/dt/svelte-twitter-emoji"
+			alt="total download number"
+			class="inline"
+		/>
+		<img
+			src="https://badgen.net/npm/dw/svelte-twitter-emoji"
+			alt="weekly download number"
+			class="inline"
+		/>
+
 		<p>
 			3600+ Twitter emoji SVG color icons from <a href="https://github.com/twitter/twemoji"
 				>Twemoji</a
@@ -622,15 +634,16 @@
 		href="https://www.npmjs.com/package/svelte-weather"
 	>
 		<img
-			src="https://badgen.net/npm/dw/svelte-weather"
-			alt="weekly download number"
-			class="inline"
-		/>
-		<img
 			src="https://badgen.net/npm/dt/svelte-weather"
 			alt="total download number"
 			class="inline"
 		/>
+		<img
+			src="https://badgen.net/npm/dw/svelte-weather"
+			alt="weekly download number"
+			class="inline"
+		/>
+
 		<p>
 			210+ Weather SVG icons from <a href="https://github.com/erikflowers/weather-icons"
 				>weather-icons</a
