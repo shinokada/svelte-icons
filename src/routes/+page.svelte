@@ -98,6 +98,9 @@
 </script>
 
 <MetaTags
+	facebook={{
+		appId: '674328730934834'
+	}}
 	title="Svelte SVG Icon Sets"
 	description="Svelte SVG Icon Sets"
 	openGraph={{
