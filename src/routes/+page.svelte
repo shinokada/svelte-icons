@@ -1,6 +1,6 @@
 <script>
 	import { Card, Badge } from 'flowbite-svelte';
-
+	import { MetaTags } from 'svelte-meta-tags';
 	let imgAnt = {
 		src: '/images/resized/ant.webp',
 		alt: 'Ant Design icons'
@@ -96,6 +96,32 @@
 	let divClass = 'm-8 max-w-md bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700';
 	let headerClass = 'text-3xl font-semibold tracking-tight text-gray-900 dark:text-white';
 </script>
+
+<MetaTags
+	title="Svelte SVG Icon Sets"
+	description="Svelte SVG Icon Sets"
+	openGraph={{
+		title: 'Svelte SVG Icon Sets',
+		description: 'Svelte SVG Icon Sets',
+		images: [
+			{
+				url: 'https://open-graph-vercel.vercel.app/api/svelte-svg-icons',
+				width: 800,
+				height: 600,
+				alt: 'Svelte SVG Icon Sets'
+			}
+		],
+		site_name: 'Flowbite-Svelte'
+	}}
+	twitter={{
+		handle: '@shinokada',
+		cardType: 'summary_large_image',
+		title: 'Svelte SVG Icon Sets',
+		description: 'Svelte SVG Icon Sets',
+		image: 'https://open-graph-vercel.vercel.app/api/svelte-svg-icons',
+		imageAlt: 'Svelte SVG Icon Sets'
+	}}
+/>
 
 <h1>SVG Icon Sets for Svelte</h1>
 
