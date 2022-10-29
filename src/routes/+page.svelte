@@ -101,13 +101,15 @@
 	title="Svelte SVG Icon Sets"
 	description="Svelte SVG Icon Sets"
 	openGraph={{
+		type: 'website',
 		title: 'Svelte SVG Icon Sets',
-		description: 'Svelte SVG Icon Sets',
+		url: 'https://svelte-svg-icons.vercel.app/',
+		description: 'More than 20 Svelte SVG Icon Sets',
 		images: [
 			{
 				url: 'https://open-graph-vercel.vercel.app/api/svelte-svg-icons',
-				width: 800,
-				height: 600,
+				width: 1200,
+				height: 630,
 				alt: 'Svelte SVG Icon Sets'
 			}
 		],
