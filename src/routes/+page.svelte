@@ -111,7 +111,7 @@
 				alt: 'Svelte SVG Icon Sets'
 			}
 		],
-		site_name: 'Flowbite-Svelte'
+		site_name: 'Svelte SVG Icon Sets'
 	}}
 	twitter={{
 		handle: '@shinokada',
