@@ -139,8 +139,7 @@
     {divClass}
     {headerClass}
     img={imgAnt.src}
-    title="Ant Design: Svelte-Ant-Design-Icons"
-    href="https://www.npmjs.com/package/svelte-ant-design-icons"
+    href="https://shinokada.github.io/svelte-ant-design-icons/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-ant-design-icons"
@@ -152,11 +151,14 @@
       alt="weekly download number"
       class="inline"
     />
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Ant-Design-Icons
+    </h5>
     <p>
       780+ SVG icons from <a href="https://github.com/ant-design/ant-design-icons"
         >Ant Design Icons</a
       >.<br />
-      <a href="https://github.com/shinokada/svelte-ant-design-icons/blob/main/icon-list.md"
+      <a href="https://github.com/shinokada/svelte-ant-design-icons/blob/main/docs/icon-list.md"
         >Icon names</a
       ><br />
       <a href="https://svelte.dev/repl/375c734a6ec74f44adfe4aa76b117ab9?version=3.50.1">REPL 1,</a>
@@ -168,8 +170,7 @@
     {divClass}
     {headerClass}
     img={imgAwesome.src}
-    title="Font Awesome: Svelte-Awesome-Icons"
-    href="https://www.npmjs.com/package/svelte-awesome-icons"
+    href="https://shinokada.github.io/svelte-awesome-icons/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-awesome-icons"
@@ -181,11 +182,14 @@
       alt="weekly download number"
       class="inline"
     />
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Awesome-Icons
+    </h5>
     <p>
       2000+ SVG icons from <a href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs"
         >Font Awesome</a
       >.<br />
-      <a href="https://github.com/shinokada/svelte-awesome-icons/blob/main/icon-list.md"
+      <a href="https://github.com/shinokada/svelte-awesome-icons/blob/main/docs/icon-list.md"
         >Icon names</a
       ><br />
       <a href="https://svelte.dev/repl/c0045886b264408fba13f1de70c42932?version=3.48.0">REPL</a>
@@ -196,8 +200,7 @@
     {divClass}
     {headerClass}
     img={imgBootstrap.src}
-    title="Bootstrap: Svelte-Bootstrap-Svg-Icons"
-    href="https://www.npmjs.com/package/svelte-bootstrap-svg-icons"
+    href="https://shinokada.github.io/svelte-bootstrap-svg-icons/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons"
@@ -209,9 +212,12 @@
       alt="weekly download number"
       class="inline"
     />
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Bootstrap-Svg-Icons
+    </h5>
     <p>
       1660+ SVG icons from <a href="https://github.com/twbs/icons">Bootstrap icons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/icon-list.md"
+      <a href="https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/docs/icon-list.md"
         >Icon names</a
       ><br />
       <a href="https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=3.48.0">REPL</a>
@@ -222,8 +228,7 @@
     {divClass}
     {headerClass}
     img={imgCircleFlags.src}
-    title="Circle Flags: Svelte-Circle-Flags"
-    href="https://www.npmjs.com/package/svelte-circle-flags"
+    href="https://shinokada.github.io/svelte-circle-flags/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-circle-flags"
@@ -235,10 +240,13 @@
       alt="weekly download number"
       class="inline"
     />
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Circle-Flags
+    </h5>
     <p>
       330+ SVG icons from <a href="https://github.com/HatScripts/circle-flags">Circle-Flags</a>.<br
       />
-      <a href="https://github.com/shinokada/svelte-circle-flags/blob/main/icon-list.md"
+      <a href="https://github.com/shinokada/svelte-circle-flags/blob/main/docs/icon-list.md"
         >Icon names</a
       ><br />
       <a href="https://svelte.dev/repl/382095078be04da7a5008b7f5e41d5c8?version=3.48.0">REPL</a>
@@ -249,8 +257,7 @@
     {divClass}
     {headerClass}
     img={imgCrypto.src}
-    title="Cryptocurrency: Svelte-Cryptocurrency-Icons"
-    href="https://www.npmjs.com/package/svelte-cryptocurrency-icons"
+    href="https://shinokada.github.io/svelte-cryptocurrency-icons/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-cryptocurrency-icons"
@@ -262,10 +269,13 @@
       alt="weekly download number"
       class="inline"
     />
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Cryptocurrency-Icons
+    </h5>
     <p>
       470+ SVG icons from
       <a href="https://github.com/spothq/cryptocurrency-icons">Cryptocurrency icons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/icon-list.md"
+      <a href="https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/docs/icon-list.md"
         >Icon names</a
       >
     </p>
@@ -275,8 +285,7 @@
     {divClass}
     {headerClass}
     img={imgFeather.src}
-    title="Feather Icons: Svelte-Feathers"
-    href="https://www.npmjs.com/package/svelte-feathers"
+    href="https://shinokada.github.io/svelte-feathers/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-feathers"
@@ -288,9 +297,14 @@
       alt="weekly download number"
       class="inline"
     />
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Feathers
+    </h5>
     <p>
       280+ SVG icons from <a href="https://feathericons.com/">Feather-icons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-feathers/blob/main/icon-list.md">Icon names</a>
+      <a href="https://github.com/shinokada/svelte-feathers/blob/main/docs/icon-list.md"
+        >Icon names</a
+      >
     </p>
   </Card>
 
@@ -298,8 +312,7 @@
     {divClass}
     {headerClass}
     img={imgFlagIcons.src}
-    title="Flag-Icons: Svelte-Flag-Icons"
-    href="https://www.npmjs.com/package/svelte-flag-icons"
+    href="https://shinokada.github.io/svelte-flag-icons/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-flag-icons"
@@ -311,9 +324,13 @@
       alt="weekly download number"
       class="inline"
     />
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Flag-Icons
+    </h5>
     <p>
       260+ SVG icons from <a href="https://github.com/lipis/flag-icons">Flag Icons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-flag-icons/blob/main/icon-list.md">Icon names</a
+      <a href="https://github.com/shinokada/svelte-flag-icons/blob/main/docs/icon-list.md"
+        >Icon names</a
       ><br />
       <a href="https://svelte.dev/repl/70a4c2d5242f4cfa8dba85529184d7a3?version=3.48.0">REPL</a>
     </p>
@@ -323,11 +340,13 @@
     {divClass}
     {headerClass}
     img={imgFlags.src}
-    title="Country Flags: Svelte-Flags"
-    href="https://www.npmjs.com/package/svelte-flags"
+    href="https://shinokada.github.io/svelte-flags/"
   >
     <img src="https://badgen.net/npm/dt/svelte-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Flags
+    </h5>
     <p>
       250+ SVG icons from <a href="https://github.com/hampusborgos/country-flags">Country flags</a
       >.<br />
@@ -339,8 +358,7 @@
     {divClass}
     {headerClass}
     img={imgFile.src}
-    title="File Icons: Svelte-File-Icons"
-    href="https://www.npmjs.com/package/svelte-file-icons"
+    href="https://shinokada.github.io/svelte-file-icons/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-file-icons"
@@ -352,10 +370,14 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-File-Icons
+    </h5>
     <p>
       930+ SVG icons from <a href="https://github.com/file-icons/icons">File icons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</a>
+      <a href="https://github.com/shinokada/svelte-file-icons/blob/main/docs/icon-list.md"
+        >Icon names</a
+      >
       <br />
       <a href="https://svelte.dev/repl/985ea64e08a942b493afa91538fef9b1?version=3.48.0">REPL</a>
     </p>
@@ -365,8 +387,7 @@
     {divClass}
     {headerClass}
     img={imgGoogle.src}
-    title="Google Materialdesign: Svelte-Google-Materialdesign-Icons"
-    href="https://www.npmjs.com/package/svelte-google-materialdesign-icons"
+    href="https://shinokada.github.io/svelte-google-materialdesign-icons/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-google-materialdesign-icons"
@@ -378,32 +399,30 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Google-Materialdesign-Icons
+    </h5>
     <p>
       10600+ SVG icons from <a href="https://github.com/material-icons/material-icons"
         >Material-Icons</a
       >.<br />
       <a
-        href="https://github.com/shinokada/svelte-google-materialdesign-icons/blob/main/icon-list.md"
+        href="https://github.com/shinokada/svelte-google-materialdesign-icons/blob/main/docs/icon-list.md"
         >Icon names</a
       >
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgHero.src}
-    title="Heroicons: Svelte-Heros"
-    href="https://www.npmjs.com/package/svelte-heros"
-  >
+  <Card {divClass} {headerClass} img={imgHero.src} href="https://shinokada.github.io/svelte-heros/">
     <img src="https://badgen.net/npm/dt/svelte-heros" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" class="inline" />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Heros
+    </h5>
     <p>
       460+ SVG icons from <a href="https://heroicons.com/">Heroicons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-heros/blob/main/icon-list.md">Icon names</a><br
-      />
+      <a href="https://github.com/shinokada/svelte-heros/blob/main/docs/icon-list.md">Icon names</a
+      ><br />
       <a href="https://svelte.dev/repl/48606ee88712441caebd7d09aa62602c?version=3.48.0">REPL</a>
     </p>
   </Card>
@@ -412,8 +431,7 @@
     {divClass}
     {headerClass}
     img={imgHero2.src}
-    title="Heroicons v2: Svelte-Heros-v2"
-    href="https://www.npmjs.com/package/svelte-heros-v2"
+    href="https://shinokada.github.io/svelte-heros-v2/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-heros-v2"
@@ -425,10 +443,13 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Heros-v2
+    </h5>
     <p>
       260+ SVG icons from <a href="https://heroicons.com/">Heroicons v2</a>.<br />
-      <a href="https://github.com/shinokada/svelte-heros-v2/blob/main/icon-list.md">Icon names</a
+      <a href="https://github.com/shinokada/svelte-heros-v2/blob/main/docs/icon-list.md"
+        >Icon names</a
       ><br />
       <a href="https://svelte.dev/repl/1948d7b5157f44709cff380d9783342c?version=3.49.0">REPL 1</a>
       <a href="https://svelte.dev/repl/e26c4ea516a0493cb64797879b1fe46d?version=3.49.0">REPL 2</a>
@@ -439,8 +460,7 @@
     {divClass}
     {headerClass}
     img={imgIon.src}
-    title="Ionicons: Svelte-Ionicons"
-    href="https://www.npmjs.com/package/svelte-ionicons"
+    href="https://shinokada.github.io/svelte-ionicons/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-ionicons"
@@ -452,10 +472,14 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Ionicons
+    </h5>
     <p>
       1330+ SVG icons from <a href="https://ionic.io/ionicons">Ionicicons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-ionicons/blob/main/icon-list.md">Icon names</a>
+      <a href="https://github.com/shinokada/svelte-ionicons/blob/main/docs/icon-list.md"
+        >Icon names</a
+      >
     </p>
   </Card>
 
@@ -463,8 +487,7 @@
     {divClass}
     {headerClass}
     img={imgLucide.src}
-    title="Lucide: Svelte-Lucide"
-    href="https://www.npmjs.com/package/svelte-lucide"
+    href="https://shinokada.github.io/svelte-lucide/"
   >
     <img src="https://badgen.net/npm/dt/svelte-lucide" alt="total download number" class="inline" />
     <img
@@ -472,10 +495,13 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Lucide
+    </h5>
     <p>
       590+ SVG icons from <a href="https://github.com/lucide-icons/lucide">Lucide icons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-lucide/blob/main/icon-list.md">Icon names</a>
+      <a href="https://github.com/shinokada/svelte-lucide/blob/main/docs/icon-list.md">Icon names</a
+      >
     </p>
   </Card>
 
@@ -483,8 +509,7 @@
     {divClass}
     {headerClass}
     img={imgMaterial.src}
-    title="Materialdesign: Svelte-Materialdesign-Icons"
-    href="https://www.npmjs.com/package/svelte-materialdesign-icons"
+    href="https://shinokada.github.io/svelte-materialdesign-icons/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-materialdesign-icons"
@@ -496,29 +521,26 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Materialdesign-Icons
+    </h5>
     <p>
       6980+ SVG icons from <a href="https://github.com/Templarian/MaterialDesign">MaterialDesign</a
       >.<br />
-      <a href="https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md"
+      <a href="https://github.com/shinokada/svelte-materialdesign/blob/main/docs/icon-list.md"
         >Icon names</a
       >
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgOct.src}
-    title="Octicons: Svelte-Oct"
-    href="https://www.npmjs.com/package/svelte-oct"
-  >
+  <Card {divClass} {headerClass} img={imgOct.src} href="https://shinokada.github.io/svelte-oct/">
     <img src="https://badgen.net/npm/dt/svelte-oct" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-oct" alt="weekly download number" class="inline" />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte-Oct</h5>
     <p>
       500+ SVG icons from <a href="https://github.com/primer/octicons">Octicons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-oct/blob/main/icon-list.md">Icon names</a><br />
+      <a href="https://github.com/shinokada/svelte-oct/blob/main/docs/icon-list.md">Icon names</a
+      ><br />
       <a href="https://svelte.dev/repl/fccdaf257870448bbb6b924fda6c3a5e?version=3.49.0">REPL</a>
     </p>
   </Card>
@@ -527,16 +549,17 @@
     {divClass}
     {headerClass}
     img={imgRadix.src}
-    title="Radix icons: Svelte-Radix"
-    href="https://www.npmjs.com/package/svelte-radix"
+    href="https://shinokada.github.io/svelte-radix/"
   >
     <img src="https://badgen.net/npm/dt/svelte-radix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Radix
+    </h5>
     <p>
       310+ SVG icons from <a href="https://github.com/radix-ui/icons">Radix icons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-radix/blob/main/icon-list.md">Icon names</a><br
-      />
+      <a href="https://github.com/shinokada/svelte-radix/blob/main/docs/icon-list.md">Icon names</a
+      ><br />
       <a href="https://svelte.dev/repl/fb0def38847240f3a51460a56bf53225?version=3.49.0">REPL</a>
     </p>
   </Card>
@@ -545,16 +568,17 @@
     {divClass}
     {headerClass}
     img={imgRemix.src}
-    title="RemixIcon: Svelte-Remix"
-    href="https://www.npmjs.com/package/svelte-remix"
+    href="https://shinokada.github.io/svelte-remix/"
   >
     <img src="https://badgen.net/npm/dt/svelte-remix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" class="inline" />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Remix
+    </h5>
     <p>
       2270+ SVG icons from <a href="https://github.com/Remix-Design/RemixIcon">RemixIcon</a>.<br />
-      <a href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</a><br
-      />
+      <a href="https://github.com/shinokada/svelte-remix/blob/main/docs/icon-list.md">Icon names</a
+      ><br />
       <a href="https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=3.48.0">REPL</a>
     </p>
   </Card>
@@ -563,8 +587,7 @@
     {divClass}
     {headerClass}
     img={imgSimple.src}
-    title="Simple Icons: Svelte-Simples"
-    href="https://www.npmjs.com/package/svelte-simples"
+    href="https://shinokada.github.io/svelte-simples/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-simples"
@@ -576,7 +599,9 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Simples
+    </h5>
     <p>
       2230+ SVG icons for popular brands from <a href="https://simpleicons.org/s">Simple-icons</a
       >.<br />
@@ -588,8 +613,7 @@
     {divClass}
     {headerClass}
     img={imgTabler.src}
-    title="Tabler: Svelte-Tabler"
-    href="https://www.npmjs.com/package/svelte-tabler"
+    href="https://shinokada.github.io/svelte-tabler/"
   >
     <img src="https://badgen.net/npm/dt/svelte-tabler" alt="total download number" class="inline" />
     <img
@@ -597,11 +621,13 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Tabler
+    </h5>
     <p>
       1970+ SVG icons from <a href="https://github.com/tabler/tabler-icons">Tabler Icons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-tabler/blob/main/icon-list.md">Icon names</a><br
-      />
+      <a href="https://github.com/shinokada/svelte-tabler/blob/main/docs/icon-list.md">Icon names</a
+      ><br />
       <a href="https://svelte.dev/repl/55ccaffe3d414235a6bb554ffd98f4bc?version=3.48.0">REPL 1</a>,
       <a href="https://svelte.dev/repl/b63ed92a79a047bdb2017fac63624130?version=3.48.0">REPL 2</a>
     </p>
@@ -611,8 +637,7 @@
     {divClass}
     {headerClass}
     img={imgTeeny.src}
-    title="Teeny Icons: Svelte-Teenyicons"
-    href="https://www.npmjs.com/package/svelte-teenyicons"
+    href="https://shinokada.github.io/svelte-teenyicons/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-teenyicons"
@@ -624,10 +649,14 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Teenyicons
+    </h5>
     <p>
       600+ SVG icons from <a href="https://github.com/teenyicons/teenyicons">Teenyicons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-teenyicons/blob/main/icon-list.md">Icon names</a>
+      <a href="https://github.com/shinokada/svelte-teenyicons/blob/main/docs/icon-list.md"
+        >Icon names</a
+      >
     </p>
   </Card>
 
@@ -635,8 +664,7 @@
     {divClass}
     {headerClass}
     img={imgTwemoji.src}
-    title="Twitter Emoji: Svelte-Twitter-Emoji"
-    href="https://www.npmjs.com/package/svelte-twitter-emoji"
+    href="https://shinokada.github.io/svelte-twitter-emoji/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-twitter-emoji"
@@ -648,12 +676,14 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Twitter-Emoji
+    </h5>
     <p>
       3600+ Twitter emoji SVG color icons from <a href="https://github.com/twitter/twemoji"
         >Twemoji</a
       >.<br />
-      <a href="https://github.com/shinokada/svelte-twitter-emoji/blob/main/icon-list.md"
+      <a href="https://github.com/shinokada/svelte-twitter-emoji/blob/main/docs/icon-list.md"
         >Icon names</a
       ><br />
     </p>
@@ -663,8 +693,7 @@
     {divClass}
     {headerClass}
     img={imgWeather.src}
-    title="Weather Icons: Svelte-Weather"
-    href="https://www.npmjs.com/package/svelte-weather"
+    href="https://shinokada.github.io/svelte-weather/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-weather"
@@ -676,13 +705,16 @@
       alt="weekly download number"
       class="inline"
     />
-
+    <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
+      Svelte-Weather
+    </h5>
     <p>
       210+ Weather SVG icons from <a href="https://github.com/erikflowers/weather-icons"
         >weather-icons</a
       >.<br />
-      <a href="https://github.com/shinokada/svelte-weather/blob/main/icon-list.md">Icon names</a><br
-      />
+      <a href="https://github.com/shinokada/svelte-weather/blob/main/docs/icon-list.md"
+        >Icon names</a
+      ><br />
     </p>
   </Card>
 </div>
