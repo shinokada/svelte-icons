@@ -139,7 +139,7 @@
     {divClass}
     {headerClass}
     img={imgAnt.src}
-    href="https://shinokada.github.io/svelte-ant-design-icons/"
+    href="https://svelte-ant-design-icons.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-ant-design-icons"
@@ -170,7 +170,7 @@
     {divClass}
     {headerClass}
     img={imgAwesome.src}
-    href="https://shinokada.github.io/svelte-awesome-icons/"
+    href="https://svelte-awesome-icons.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-awesome-icons"
@@ -200,7 +200,7 @@
     {divClass}
     {headerClass}
     img={imgBootstrap.src}
-    href="https://shinokada.github.io/svelte-bootstrap-svg-icons/"
+    href="https://svelte-bootstrap-svg-icons.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons"
@@ -228,7 +228,7 @@
     {divClass}
     {headerClass}
     img={imgCircleFlags.src}
-    href="https://shinokada.github.io/svelte-circle-flags/"
+    href="https://svelte-circle-flags.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-circle-flags"
@@ -257,7 +257,7 @@
     {divClass}
     {headerClass}
     img={imgCrypto.src}
-    href="https://shinokada.github.io/svelte-cryptocurrency-icons/"
+    href="https://svelte-cryptocurrency-icons.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-cryptocurrency-icons"
@@ -285,7 +285,7 @@
     {divClass}
     {headerClass}
     img={imgFeather.src}
-    href="https://shinokada.github.io/svelte-feathers/"
+    href="https://svelte-feathers.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-feathers"
@@ -312,7 +312,7 @@
     {divClass}
     {headerClass}
     img={imgFlagIcons.src}
-    href="https://shinokada.github.io/svelte-flag-icons/"
+    href="https://svelte-flag-icons.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-flag-icons"
@@ -336,12 +336,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgFlags.src}
-    href="https://shinokada.github.io/svelte-flags/"
-  >
+  <Card {divClass} {headerClass} img={imgFlags.src} href="https://svelte-flags.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
     <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -358,7 +353,7 @@
     {divClass}
     {headerClass}
     img={imgFile.src}
-    href="https://shinokada.github.io/svelte-file-icons/"
+    href="https://svelte-file-icons.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-file-icons"
@@ -387,7 +382,7 @@
     {divClass}
     {headerClass}
     img={imgGoogle.src}
-    href="https://shinokada.github.io/svelte-google-materialdesign-icons/"
+    href="https://svelte-google-materialdesign-icons.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-google-materialdesign-icons"
@@ -413,7 +408,7 @@
     </p>
   </Card>
 
-  <Card {divClass} {headerClass} img={imgHero.src} href="https://shinokada.github.io/svelte-heros/">
+  <Card {divClass} {headerClass} img={imgHero.src} href="https://svelte-heros.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-heros" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" class="inline" />
     <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -431,7 +426,7 @@
     {divClass}
     {headerClass}
     img={imgHero2.src}
-    href="https://shinokada.github.io/svelte-heros-v2/"
+    href="https://svelte-heros-v2.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-heros-v2"
@@ -456,12 +451,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgIon.src}
-    href="https://shinokada.github.io/svelte-ionicons/"
-  >
+  <Card {divClass} {headerClass} img={imgIon.src} href="https://svelte-ionicons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-ionicons"
       alt="total download number"
@@ -483,12 +473,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgLucide.src}
-    href="https://shinokada.github.io/svelte-lucide/"
-  >
+  <Card {divClass} {headerClass} img={imgLucide.src} href="https://svelte-lucide.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-lucide" alt="total download number" class="inline" />
     <img
       src="https://badgen.net/npm/dw/svelte-lucide"
@@ -509,7 +494,7 @@
     {divClass}
     {headerClass}
     img={imgMaterial.src}
-    href="https://shinokada.github.io/svelte-materialdesign-icons/"
+    href="https://svelte-materialdesign-icons.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-materialdesign-icons"
@@ -533,7 +518,7 @@
     </p>
   </Card>
 
-  <Card {divClass} {headerClass} img={imgOct.src} href="https://shinokada.github.io/svelte-oct/">
+  <Card {divClass} {headerClass} img={imgOct.src} href="https://svelte-oct.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-oct" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-oct" alt="weekly download number" class="inline" />
     <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte-Oct</h5>
@@ -545,12 +530,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgRadix.src}
-    href="https://shinokada.github.io/svelte-radix/"
-  >
+  <Card {divClass} {headerClass} img={imgRadix.src} href="https://svelte-radix.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-radix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
     <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -564,12 +544,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgRemix.src}
-    href="https://shinokada.github.io/svelte-remix/"
-  >
+  <Card {divClass} {headerClass} img={imgRemix.src} href="https://svelte-remix.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-remix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" class="inline" />
     <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -587,7 +562,7 @@
     {divClass}
     {headerClass}
     img={imgSimple.src}
-    href="https://shinokada.github.io/svelte-simples/"
+    href="https://svelte-simples.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-simples"
@@ -609,12 +584,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgTabler.src}
-    href="https://shinokada.github.io/svelte-tabler/"
-  >
+  <Card {divClass} {headerClass} img={imgTabler.src} href="https://svelte-tabler.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-tabler" alt="total download number" class="inline" />
     <img
       src="https://badgen.net/npm/dw/svelte-tabler"
@@ -637,7 +607,7 @@
     {divClass}
     {headerClass}
     img={imgTeeny.src}
-    href="https://shinokada.github.io/svelte-teenyicons/"
+    href="https://svelte-teenyicons.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-teenyicons"
@@ -664,7 +634,7 @@
     {divClass}
     {headerClass}
     img={imgTwemoji.src}
-    href="https://shinokada.github.io/svelte-twitter-emoji/"
+    href="https://svelte-twitter-emoji.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-twitter-emoji"
@@ -693,7 +663,7 @@
     {divClass}
     {headerClass}
     img={imgWeather.src}
-    href="https://shinokada.github.io/svelte-weather/"
+    href="https://svelte-weather.codewithshin.com/"
   >
     <img
       src="https://badgen.net/npm/dt/svelte-weather"
