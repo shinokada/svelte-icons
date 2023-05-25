@@ -1,6 +1,20 @@
-<script>
+<script lang="ts">
   import { Card, Badge } from 'flowbite-svelte';
   import { MetaTags } from 'svelte-meta-tags';
+  import { page } from '$app/stores';
+  import type { PageData } from '../$types';
+  let data: PageData = $page.data;
+
+  function formatNumber(number: number) {
+    if (number >= 1000000) {
+      return (number / 1000000).toFixed(1) + 'M';
+    } else if (number >= 1000) {
+      return (number / 1000).toFixed(1) + 'K';
+    } else {
+      return number.toString();
+    }
+  }
+
   let imgAnt = {
     src: '/images/resized/ant.webp',
     alt: 'Ant Design icons'
@@ -93,8 +107,6 @@
     src: '/images/resized/weather1.webp',
     alt: 'Weather icons'
   };
-  let divClass = 'm-8 max-w-md bg-white rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700';
-  let headerClass = 'text-3xl font-semibold tracking-tight text-gray-900 dark:text-white';
   let description =
     '20+ Icon sets from Font Awesome, Bootstrap, Flag, Cryptocurrency, Heroicons, File icons, Weather, Twitter emoji, Tabler icons and more.';
 </script>
@@ -134,13 +146,13 @@
 
 <h2>Support all CSS frameworks</h2>
 
+<div class="flex flex-wrap justify-center gap-4 pb-8">
+  <Badge large>Total downloads: {formatNumber(data.totalDownloads)}</Badge>
+  <Badge color="green" large>Weekly downloads: {formatNumber(data.weeklyDownloads)}</Badge>
+</div>
+
 <div class="flex flex-wrap justify-center gap-4">
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgAnt.src}
-    href="https://svelte-ant-design-icons.codewithshin.com/"
-  >
+  <Card img={imgAnt.src} href="https://svelte-ant-design-icons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-ant-design-icons"
       alt="total download number"
@@ -166,12 +178,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgAwesome.src}
-    href="https://svelte-awesome-icons.codewithshin.com/"
-  >
+  <Card img={imgAwesome.src} href="https://svelte-awesome-icons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-awesome-icons"
       alt="total download number"
@@ -196,12 +203,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgBootstrap.src}
-    href="https://svelte-bootstrap-svg-icons.codewithshin.com/"
-  >
+  <Card img={imgBootstrap.src} href="https://svelte-bootstrap-svg-icons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons"
       alt="total download number"
@@ -224,12 +226,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgCircleFlags.src}
-    href="https://svelte-circle-flags.codewithshin.com/"
-  >
+  <Card img={imgCircleFlags.src} href="https://svelte-circle-flags.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-circle-flags"
       alt="total download number"
@@ -253,12 +250,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgCrypto.src}
-    href="https://svelte-cryptocurrency-icons.codewithshin.com/"
-  >
+  <Card img={imgCrypto.src} href="https://svelte-cryptocurrency-icons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-cryptocurrency-icons"
       alt="total download number"
@@ -281,12 +273,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgFeather.src}
-    href="https://svelte-feathers.codewithshin.com/"
-  >
+  <Card img={imgFeather.src} href="https://svelte-feathers.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-feathers"
       alt="total download number"
@@ -308,12 +295,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgFlagIcons.src}
-    href="https://svelte-flag-icons.codewithshin.com/"
-  >
+  <Card img={imgFlagIcons.src} href="https://svelte-flag-icons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-flag-icons"
       alt="total download number"
@@ -336,7 +318,7 @@
     </p>
   </Card>
 
-  <Card {divClass} {headerClass} img={imgFlags.src} href="https://svelte-flags.codewithshin.com/">
+  <Card img={imgFlags.src} href="https://svelte-flags.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
     <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -349,12 +331,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgFile.src}
-    href="https://svelte-file-icons.codewithshin.com/"
-  >
+  <Card img={imgFile.src} href="https://svelte-file-icons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-file-icons"
       alt="total download number"
@@ -378,12 +355,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgGoogle.src}
-    href="https://svelte-google-materialdesign-icons.codewithshin.com/"
-  >
+  <Card img={imgGoogle.src} href="https://svelte-google-materialdesign-icons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-google-materialdesign-icons"
       alt="total download number"
@@ -408,7 +380,7 @@
     </p>
   </Card>
 
-  <Card {divClass} {headerClass} img={imgHero.src} href="https://svelte-heros.codewithshin.com/">
+  <Card img={imgHero.src} href="https://svelte-heros.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-heros" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" class="inline" />
     <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -422,12 +394,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgHero2.src}
-    href="https://svelte-heros-v2.codewithshin.com/"
-  >
+  <Card img={imgHero2.src} href="https://svelte-heros-v2.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-heros-v2"
       alt="total download number"
@@ -451,7 +418,7 @@
     </p>
   </Card>
 
-  <Card {divClass} {headerClass} img={imgIon.src} href="https://svelte-ionicons.codewithshin.com/">
+  <Card img={imgIon.src} href="https://svelte-ionicons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-ionicons"
       alt="total download number"
@@ -473,7 +440,7 @@
     </p>
   </Card>
 
-  <Card {divClass} {headerClass} img={imgLucide.src} href="https://svelte-lucide.codewithshin.com/">
+  <Card img={imgLucide.src} href="https://svelte-lucide.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-lucide" alt="total download number" class="inline" />
     <img
       src="https://badgen.net/npm/dw/svelte-lucide"
@@ -490,12 +457,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgMaterial.src}
-    href="https://svelte-materialdesign-icons.codewithshin.com/"
-  >
+  <Card img={imgMaterial.src} href="https://svelte-materialdesign-icons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-materialdesign-icons"
       alt="total download number"
@@ -518,7 +480,7 @@
     </p>
   </Card>
 
-  <Card {divClass} {headerClass} img={imgOct.src} href="https://svelte-oct.codewithshin.com/">
+  <Card img={imgOct.src} href="https://svelte-oct.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-oct" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-oct" alt="weekly download number" class="inline" />
     <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte-Oct</h5>
@@ -530,7 +492,7 @@
     </p>
   </Card>
 
-  <Card {divClass} {headerClass} img={imgRadix.src} href="https://svelte-radix.codewithshin.com/">
+  <Card img={imgRadix.src} href="https://svelte-radix.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-radix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
     <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -544,7 +506,7 @@
     </p>
   </Card>
 
-  <Card {divClass} {headerClass} img={imgRemix.src} href="https://svelte-remix.codewithshin.com/">
+  <Card img={imgRemix.src} href="https://svelte-remix.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-remix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" class="inline" />
     <h5 class="my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">
@@ -558,12 +520,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgSimple.src}
-    href="https://svelte-simples.codewithshin.com/"
-  >
+  <Card img={imgSimple.src} href="https://svelte-simples.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-simples"
       alt="total download number"
@@ -584,7 +541,7 @@
     </p>
   </Card>
 
-  <Card {divClass} {headerClass} img={imgTabler.src} href="https://svelte-tabler.codewithshin.com/">
+  <Card img={imgTabler.src} href="https://svelte-tabler.codewithshin.com/">
     <img src="https://badgen.net/npm/dt/svelte-tabler" alt="total download number" class="inline" />
     <img
       src="https://badgen.net/npm/dw/svelte-tabler"
@@ -603,12 +560,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgTeeny.src}
-    href="https://svelte-teenyicons.codewithshin.com/"
-  >
+  <Card img={imgTeeny.src} href="https://svelte-teenyicons.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-teenyicons"
       alt="total download number"
@@ -630,12 +582,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgTwemoji.src}
-    href="https://svelte-twitter-emoji.codewithshin.com/"
-  >
+  <Card img={imgTwemoji.src} href="https://svelte-twitter-emoji.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-twitter-emoji"
       alt="total download number"
@@ -659,12 +606,7 @@
     </p>
   </Card>
 
-  <Card
-    {divClass}
-    {headerClass}
-    img={imgWeather.src}
-    href="https://svelte-weather.codewithshin.com/"
-  >
+  <Card img={imgWeather.src} href="https://svelte-weather.codewithshin.com/">
     <img
       src="https://badgen.net/npm/dt/svelte-weather"
       alt="total download number"
