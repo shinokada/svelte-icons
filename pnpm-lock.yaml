@@ -6,8 +6,8 @@ settings:
 
 dependencies:
   '@popperjs/core':
-    specifier: ^2.11.8
-    version: 2.11.8
+    specifier: 2.11.6
+    version: 2.11.6
   classnames:
     specifier: ^2.3.2
     version: 2.3.2
@@ -16,7 +16,7 @@ dependencies:
     version: 1.6.5
   flowbite-svelte:
     specifier: ^0.37.2
-    version: 0.37.2(@popperjs/core@2.11.8)(classnames@2.3.2)(flowbite@1.6.5)(svelte@3.59.1)
+    version: 0.37.2(@popperjs/core@2.11.6)(classnames@2.3.2)(flowbite@1.6.5)(svelte@3.59.1)
 
 devDependencies:
   '@playwright/test':
@@ -436,8 +436,8 @@ packages:
     resolution: {integrity: sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==}
     dev: true
 
-  /@popperjs/core@2.11.8:
-    resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
+  /@popperjs/core@2.11.6:
+    resolution: {integrity: sha512-50/17A98tWUfQ176raKiOGXuYpLyyVMkxxG6oylzL3BPOlA6ADGdK7EYunSa4I064xerltq9TGXs8HmOk5E+vw==}
     dev: false
 
   /@rollup/pluginutils@4.2.1:
@@ -1286,7 +1286,7 @@ packages:
     resolution: {integrity: sha512-5nqDSxl8nn5BSNxyR3n4I6eDmbolI6WT+QqR547RwxQapgjQBmtktdP+HTBb/a/zLsbzERTONyUB5pefh5TtjQ==}
     dev: true
 
-  /flowbite-svelte@0.37.2(@popperjs/core@2.11.8)(classnames@2.3.2)(flowbite@1.6.5)(svelte@3.59.1):
+  /flowbite-svelte@0.37.2(@popperjs/core@2.11.6)(classnames@2.3.2)(flowbite@1.6.5)(svelte@3.59.1):
     resolution: {integrity: sha512-0IAIIfv27KbexuRuCT799OIHZI3R/ZDgvVzhaqt2sC8CbprhcRp6Pg3/FplM/zXcSPblGa5Y8umc4rLb4bBOjA==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
     peerDependencies:
@@ -1295,7 +1295,7 @@ packages:
       flowbite: ^1.6.3
       svelte: ^3.55.1
     dependencies:
-      '@popperjs/core': 2.11.8
+      '@popperjs/core': 2.11.6
       classnames: 2.3.2
       flowbite: 1.6.5
       svelte: 3.59.1
@@ -1304,7 +1304,7 @@ packages:
   /flowbite@1.6.5:
     resolution: {integrity: sha512-eI4h3pIRI9d7grlYq14r0A01KUtw7189sPLLx/O2i7JyPEWpbleScfYuEc48XTeNjk1xxm/JHgZkD9kjyOWAlA==}
     dependencies:
-      '@popperjs/core': 2.11.8
+      '@popperjs/core': 2.11.6
       mini-svg-data-uri: 1.4.4
     dev: false
 
