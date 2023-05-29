@@ -50,7 +50,7 @@ devDependencies:
     specifier: ^2.29.0
     version: 2.29.0(eslint@8.41.0)(svelte@3.59.1)
   postcss:
-    specifier: ^8.4.23
+    specifier: ^8.4.24
     version: 8.4.24
   postcss-load-config:
     specifier: ^4.0.1
@@ -71,10 +71,10 @@ devDependencies:
     specifier: ^2.7.2
     version: 2.7.2(svelte@3.59.1)(typescript@5.0.4)
   svelte-preprocess:
-    specifier: ^5.0.3
+    specifier: ^5.0.4
     version: 5.0.4(postcss-load-config@4.0.1)(postcss@8.4.24)(svelte@3.59.1)(typescript@5.0.4)
   tailwindcss:
-    specifier: ^3.3.1
+    specifier: ^3.3.2
     version: 3.3.2
   tslib:
     specifier: ^2.5.2
