@@ -15,6 +15,8 @@
       return number.toString();
     }
   }
+  console.log('totaldownloads',formatNumber(data.totalDownloads))
+  console.log('weeklydownloads',formatNumber(data.weeklyDownloads))
 
   let imgAnt = {
     src: '/images/resized/ant.webp',
@@ -150,8 +152,6 @@
   <Badge large color="blue">Support CSS frameworks</Badge>
   <Badge large color="purple">Faster compling</Badge>
   <Badge large color="yellow">IDE Support</Badge>
-  <Badge color="dark" large>Total downloads: {formatNumber(data.totalDownloads)}</Badge>
-  <Badge color="green" large>Weekly downloads: {formatNumber(data.weeklyDownloads)}</Badge>
 </div>
 
 <div class="flex flex-wrap justify-center gap-4">
