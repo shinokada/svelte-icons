@@ -1,5 +1,6 @@
 <script lang="ts">
-  import { Card, Badge } from 'flowbite-svelte';
+  import  Card from 'flowbite-svelte/Card.svelte';
+  import  Badge from 'flowbite-svelte/Badge.svelte';
   import { MetaTags } from 'svelte-meta-tags';
   import { page } from '$app/stores';
   import type { PageData } from '../$types';
@@ -144,10 +145,12 @@
 
 <h1>SVG Icon Sets for Svelte</h1>
 
-<h2>Support all CSS frameworks</h2>
-
 <div class="flex flex-wrap justify-center gap-4 pb-8">
-  <Badge large>Total downloads: {formatNumber(data.totalDownloads)}</Badge>
+  <Badge large color="pink">Svelte 3 & 4</Badge>
+  <Badge large color="blue">Support CSS frameworks</Badge>
+  <Badge large color="purple">Faster compling</Badge>
+  <Badge large color="yellow">IDE Support</Badge>
+  <Badge color="dark" large>Total downloads: {formatNumber(data.totalDownloads)}</Badge>
   <Badge color="green" large>Weekly downloads: {formatNumber(data.weeklyDownloads)}</Badge>
 </div>
 
