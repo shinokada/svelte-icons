@@ -4,7 +4,65 @@
   import { MetaTags } from 'svelte-meta-tags';
   import { page } from '$app/stores';
   import type { PageData } from '../$types';
-  let data: PageData = $page.data;
+  // let data: PageData = $page.data;
+  import { onMount } from 'svelte';
+
+let totalDownloads = 0;
+let weeklyDownloads = 0;
+
+onMount(async () => {
+  try {
+    const libs = [
+      'svelte-ant-design-icons',
+      'svelte-awesome-icons',
+      'svelte-bootstrap-svg-icons',
+      'svelte-circle-flags',
+      'svelte-cryptocurrency-icons',
+      'svelte-feathers',
+      'svelte-flag-icons',
+      'svelte-flags',
+      'svelte-file-icons',
+      'svelte-google-materialdesign-icons',
+      'svelte-heros',
+      'svelte-heros-v2',
+      'svelte-ionicons',
+      'svelte-lucide',
+      'svelte-materialdesign-icons',
+      'svelte-oct',
+      'svelte-radix',
+      'svelte-remix',
+      'svelte-simples',
+      'svelte-tabler',
+      'svelte-teenyicons',
+      'svelte-twitter-emoji',
+      'svelte-weather'
+    ];
+    
+    const today = new Date();
+    const todayString = today.toISOString().slice(0, 10);
+    const oneWeekAgo = new Date(today);
+    oneWeekAgo.setDate(today.getDate() - 7);
+    const oneWeekAgoString = oneWeekAgo.toISOString().slice(0, 10);
+    
+    for (const lib of libs) {
+      const weeklyResponse = await fetch(
+        `https://api.npmjs.org/downloads/point/${oneWeekAgoString}:${todayString}/${lib}`
+      );
+      const weeklyData = await weeklyResponse.json();
+      weeklyDownloads += weeklyData.downloads;
+      
+      const totalResponse = await fetch(
+        `https://api.npmjs.org/downloads/point/2020-01-01:${todayString}/${lib}`
+      );
+      const totalData = await totalResponse.json();
+      totalDownloads += totalData.downloads;
+    }
+    // console.log('totaldownloads',formatNumber(totalDownloads))
+    // console.log('weeklydownloads',formatNumber(weeklyDownloads))
+  } catch (error) {
+    console.error(`Error in onMount: ${error}`);
+  }
+});
 
   function formatNumber(number: number) {
     if (number >= 1000000) {
@@ -15,8 +73,7 @@
       return number.toString();
     }
   }
-  console.log('totaldownloads',formatNumber(data.totalDownloads))
-  console.log('weeklydownloads',formatNumber(data.weeklyDownloads))
+
 
   let imgAnt = {
     src: '/images/resized/ant.webp',
@@ -152,6 +209,8 @@
   <Badge large color="blue">Support CSS frameworks</Badge>
   <Badge large color="purple">Faster compling</Badge>
   <Badge large color="yellow">IDE Support</Badge>
+  <Badge color="dark" large>Total downloads: {formatNumber(totalDownloads)}</Badge>
+  <Badge color="green" large>Weekly downloads: {formatNumber(weeklyDownloads)}</Badge>
 </div>
 
 <div class="flex flex-wrap justify-center gap-4">
