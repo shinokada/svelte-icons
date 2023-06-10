@@ -202,7 +202,7 @@ onMount(async () => {
   }}
 />
 
-<h1>SVG Icon Sets for Svelte</h1>
+<h1>Svelte SVG Icon Sets</h1>
 
 <div class="flex flex-wrap justify-center gap-4 pb-8">
   <Badge large color="pink">Svelte 3 & 4</Badge>
