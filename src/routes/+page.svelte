@@ -44,25 +44,30 @@ onMount(async () => {
     oneWeekAgo.setDate(today.getDate() - 7);
     const oneWeekAgoString = oneWeekAgo.toISOString().slice(0, 10);
     
-    for (const lib of libs) {
-      const weeklyResponse = await fetch(
+    const weeklyPromises = libs.map(lib => fetch(
         `https://api.npmjs.org/downloads/point/${oneWeekAgoString}:${todayString}/${lib}`
-      );
-      const weeklyData = await weeklyResponse.json();
-      weeklyDownloads += weeklyData.downloads;
-      
-      const totalResponse = await fetch(
+    ));
+    const totalPromises = libs.map(lib => fetch(
         `https://api.npmjs.org/downloads/point/2020-01-01:${todayString}/${lib}`
-      );
-      const totalData = await totalResponse.json();
-      totalDownloads += totalData.downloads;
+    ));
+    
+    const weeklyResponses = await Promise.all(weeklyPromises);
+    const totalResponses = await Promise.all(totalPromises);
+    
+    for (const response of weeklyResponses) {
+        const data = await response.json();
+        weeklyDownloads += data.downloads;
     }
-    // console.log('totaldownloads',formatNumber(totalDownloads))
-    // console.log('weeklydownloads',formatNumber(weeklyDownloads))
+    
+    for (const response of totalResponses) {
+        const data = await response.json();
+        totalDownloads += data.downloads;
+    }
   } catch (error) {
     console.error(`Error in onMount: ${error}`);
   }
 });
+
 
   function formatNumber(number: number) {
     if (number >= 1000000) {
