@@ -300,7 +300,17 @@ onMount(async () => {
   </Card>
 
   <Card img={imgBoxicons.src}>
-    <Badge large color="pink">New</Badge>
+    <Badge large color="purple" class="text-white dark:text-white px-4">New</Badge>
+    <img
+    src="https://badgen.net/npm/dt/svelte-boxicons"
+    alt="total download number"
+    class="inline"
+  />
+  <img
+    src="https://badgen.net/npm/dw/svelte-boxicons"
+    alt="weekly download number"
+    class="inline"
+  />
    <h5 class="{hFiveClass}">
       <a href="https://shinokada.github.io/svelte-boxicons/" target="_blank">Svelte-Boxicons</a>
     </h5>
