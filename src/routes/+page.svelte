@@ -16,6 +16,7 @@ onMount(async () => {
       'svelte-ant-design-icons',
       'svelte-awesome-icons',
       'svelte-bootstrap-svg-icons',
+      // 'svelte-boxicons',
       'svelte-circle-flags',
       'svelte-cryptocurrency-icons',
       'svelte-feathers',
@@ -92,8 +93,12 @@ onMount(async () => {
     src: '/images/resized/bootstrap1.webp',
     alt: 'Bootstrap icons'
   };
+  let imgBoxicons = {
+    src: '/images/resized/boxicons.webp',
+    alt: 'Boxicons'
+  };
   let imgCrypto = {
-    src: '/images/resized/crypto1.webp',
+    src: '/images/resized/crypto.webp',
     alt: 'Cryptocurrency icons'
   };
   let imgCircleFlags = {
@@ -169,7 +174,7 @@ onMount(async () => {
     alt: 'Twitter emoji'
   };
   let imgWeather = {
-    src: '/images/resized/weather1.webp',
+    src: '/images/resized/weather.webp',
     alt: 'Weather icons'
   };
   let description =
@@ -291,6 +296,19 @@ onMount(async () => {
         >Icon names</a
       ><br />
       <a href="https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=3.48.0">REPL</a>
+    </p>
+  </Card>
+
+  <Card img={imgBoxicons.src}>
+    <Badge large color="pink">New</Badge>
+   <h5 class="{hFiveClass}">
+      <a href="https://shinokada.github.io/svelte-boxicons/" target="_blank">Svelte-Boxicons</a>
+    </h5>
+    <p>
+      1500+ SVG icons from <a href="https://github.com/atisawd/boxicons/">Boxicons</a>.<br />
+      <a href="https://github.com/shinokada/svelte-boxicons/blob/main/icon-list.md"
+        >Icon names</a
+      >
     </p>
   </Card>
 
