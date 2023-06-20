@@ -300,7 +300,7 @@ onMount(async () => {
   </Card>
 
   <Card img={imgBoxicons.src}>
-    <Badge large color="purple" class="text-white dark:text-white px-4">New</Badge>
+    <Badge large color="red" class="dark:text-white px-4">New</Badge>
     <img
     src="https://badgen.net/npm/dt/svelte-boxicons"
     alt="total download number"
