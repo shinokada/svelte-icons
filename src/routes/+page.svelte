@@ -234,7 +234,7 @@ onMount(async () => {
       <a href="https://github.com/themesberg/flowbite-svelte-icons" target="_blank">Flowbite-Svelte-Icons</a>
     </h5>
     <p>
-      450+ SVG icons from <a href="https://github.com/themesberg/flowbite-icons"
+      450+ mono and color SVG icons from <a href="https://github.com/themesberg/flowbite-icons"
         >Flowbite Icons</a
       >.<br />
       <a href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-list.md"
