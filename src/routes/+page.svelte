@@ -13,6 +13,7 @@ let weeklyDownloads = 0;
 onMount(async () => {
   try {
     const libs = [
+      // 'flowbite-svelte-icons',
       'svelte-ant-design-icons',
       'svelte-awesome-icons',
       'svelte-bootstrap-svg-icons',
@@ -80,18 +81,21 @@ onMount(async () => {
     }
   }
 
-
+  let imgFlowbite = {
+    src: '/images/resized/flowbite.webp',
+    alt: 'Flowbite Svelte Icons'
+  };
   let imgAnt = {
     src: '/images/resized/ant.webp',
-    alt: 'Ant Design icons'
+    alt: 'Ant Design Icons'
   };
   let imgAwesome = {
     src: '/images/resized/awesome.webp',
-    alt: 'Font Awesome icons'
+    alt: 'Font Awesome Icons'
   };
   let imgBootstrap = {
     src: '/images/resized/bootstrap1.webp',
-    alt: 'Bootstrap icons'
+    alt: 'Bootstrap Icons'
   };
   let imgBoxicons = {
     src: '/images/resized/boxicons.webp',
@@ -99,7 +103,7 @@ onMount(async () => {
   };
   let imgCrypto = {
     src: '/images/resized/crypto.webp',
-    alt: 'Cryptocurrency icons'
+    alt: 'Cryptocurrency Icons'
   };
   let imgCircleFlags = {
     src: '/images/resized/circle-flags.webp',
@@ -107,11 +111,11 @@ onMount(async () => {
   };
   let imgFeather = {
     src: '/images/resized/feather.webp',
-    alt: 'Feather icons'
+    alt: 'Feather Icons'
   };
   let imgFile = {
     src: '/images/resized/fileicons.webp',
-    alt: 'File icons'
+    alt: 'File Icons'
   };
   let imgFlagIcons = {
     src: '/images/resized/flag-icons3.webp',
@@ -123,7 +127,7 @@ onMount(async () => {
   };
   let imgGoogle = {
     src: '/images/resized/google-material.webp',
-    alt: 'Google Materialdesign icons'
+    alt: 'Google Materialdesign Icons'
   };
   let imgHero = {
     src: '/images/resized/heros1.webp',
@@ -143,7 +147,7 @@ onMount(async () => {
   };
   let imgMaterial = {
     src: '/images/resized/materialdesign.webp',
-    alt: 'Material Design icons'
+    alt: 'Material Design Icons'
   };
   let imgOct = {
     src: '/images/resized/octicons.webp',
@@ -163,11 +167,11 @@ onMount(async () => {
   };
   let imgTabler = {
     src: '/images/resized/tabler1.webp',
-    alt: 'Tabler icons'
+    alt: 'Tabler Icons'
   };
   let imgTeeny = {
     src: '/images/resized/teeny1.webp',
-    alt: 'Teeny icons'
+    alt: 'Teeny Icons'
   };
   let imgTwemoji = {
     src: '/images/resized/twemoji2.webp',
@@ -175,7 +179,7 @@ onMount(async () => {
   };
   let imgWeather = {
     src: '/images/resized/weather.webp',
-    alt: 'Weather icons'
+    alt: 'Weather Icons'
   };
   let description =
     '20+ Icon sets from Font Awesome, Bootstrap, Flag, Cryptocurrency, Heroicons, File icons, Weather, Twitter emoji, Tabler icons and more.';
@@ -225,6 +229,20 @@ onMount(async () => {
 </div>
 
 <div class="flex flex-wrap justify-center gap-4">
+  <Card img={imgFlowbite.src}>
+    <h5 class="{hFiveClass}">
+      <a href="https://github.com/themesberg/flowbite-svelte-icons" target="_blank">Flowbite-Svelte-Icons</a>
+    </h5>
+    <p>
+      450+ SVG icons from <a href="https://github.com/themesberg/flowbite-icons"
+        >Flowbite Icons</a
+      >.<br />
+      <a href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-list.md"
+        >Icon names</a
+      ><br />
+      <a href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-images.md">Icon images</a>
+    </p>
+  </Card>
   <Card img={imgAnt.src}>
     <img
       src="https://badgen.net/npm/dt/svelte-ant-design-icons"
