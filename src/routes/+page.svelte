@@ -13,11 +13,11 @@ let weeklyDownloads = 0;
 onMount(async () => {
   try {
     const libs = [
-      // 'flowbite-svelte-icons',
+      'flowbite-svelte-icons',
       'svelte-ant-design-icons',
       'svelte-awesome-icons',
       'svelte-bootstrap-svg-icons',
-      // 'svelte-boxicons',
+      'svelte-boxicons',
       'svelte-circle-flags',
       'svelte-cryptocurrency-icons',
       'svelte-feathers',
@@ -35,6 +35,7 @@ onMount(async () => {
       'svelte-remix',
       'svelte-simples',
       'svelte-tabler',
+      // 'svelte-supertiny',
       'svelte-teenyicons',
       'svelte-twitter-emoji',
       'svelte-weather'
@@ -165,6 +166,10 @@ onMount(async () => {
     src: '/images/resized/simple.webp',
     alt: 'Simple-icons'
   };
+  let imgSupertiny = {
+    src: '/images/resized/supertiny.webp',
+    alt: 'Supertinyicons'
+  };
   let imgTabler = {
     src: '/images/resized/tabler1.webp',
     alt: 'Tabler Icons'
@@ -229,7 +234,30 @@ onMount(async () => {
 </div>
 
 <div class="flex flex-wrap justify-center gap-4">
+  <Card img={imgSupertiny.src}>
+    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <h5 class="{hFiveClass}">
+      <a href="https://shinokada.github.io/svelte-supertiny" target="_blank">Svelte-Supertiny</a>
+    </h5>
+    <p>
+      340+ SVG logos for popular brands from <a href="https://github.com/edent/SuperTinyIcons">SuperTinyIcons</a
+      >.<br />
+      <a href="https://github.com/shinokada/svelte-supertiny/blob/main/icon-list.md">Icon names</a>, <a href="https://github.com/shinokada/svelte-supertiny/blob/main//icon-images.md">Icon images</a><br />
+      <a href="https://svelte.dev/repl/45dbe3eda1614eb9a5ce20dd1884a505?version=4.0.1">REPL</a>
+    </p>
+  </Card>
   <Card img={imgFlowbite.src}>
+    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <img
+      src="https://badgen.net/npm/dt/flowbite-svelte-icons"
+      alt="total download number"
+      class="inline"
+    />
+    <img
+      src="https://badgen.net/npm/dw/flowbite-svelte-icons"
+      alt="weekly download number"
+      class="inline"
+    />
     <h5 class="{hFiveClass}">
       <a href="https://github.com/themesberg/flowbite-svelte-icons" target="_blank">Flowbite-Svelte-Icons</a>
     </h5>
@@ -241,6 +269,29 @@ onMount(async () => {
         >Icon names</a
       ><br />
       <a href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-images.md">Icon images</a>
+    </p>
+  </Card>
+
+  <Card img={imgBoxicons.src}>
+    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <img
+    src="https://badgen.net/npm/dt/svelte-boxicons"
+    alt="total download number"
+    class="inline"
+  />
+  <img
+    src="https://badgen.net/npm/dw/svelte-boxicons"
+    alt="weekly download number"
+    class="inline"
+  />
+   <h5 class="{hFiveClass}">
+      <a href="https://shinokada.github.io/svelte-boxicons/" target="_blank">Svelte-Boxicons</a>
+    </h5>
+    <p>
+      1500+ SVG icons from <a href="https://github.com/atisawd/boxicons/">Boxicons</a>.<br />
+      <a href="https://github.com/shinokada/svelte-boxicons/blob/main/icon-list.md"
+        >Icon names</a
+      >
     </p>
   </Card>
   <Card img={imgAnt.src}>
@@ -314,29 +365,6 @@ onMount(async () => {
         >Icon names</a
       ><br />
       <a href="https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=3.48.0">REPL</a>
-    </p>
-  </Card>
-
-  <Card img={imgBoxicons.src}>
-    <Badge large color="red" class="dark:text-white px-4">New</Badge>
-    <img
-    src="https://badgen.net/npm/dt/svelte-boxicons"
-    alt="total download number"
-    class="inline"
-  />
-  <img
-    src="https://badgen.net/npm/dw/svelte-boxicons"
-    alt="weekly download number"
-    class="inline"
-  />
-   <h5 class="{hFiveClass}">
-      <a href="https://shinokada.github.io/svelte-boxicons/" target="_blank">Svelte-Boxicons</a>
-    </h5>
-    <p>
-      1500+ SVG icons from <a href="https://github.com/atisawd/boxicons/">Boxicons</a>.<br />
-      <a href="https://github.com/shinokada/svelte-boxicons/blob/main/icon-list.md"
-        >Icon names</a
-      >
     </p>
   </Card>
 
