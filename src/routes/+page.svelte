@@ -267,8 +267,9 @@ onMount(async () => {
       >.<br />
       <a href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-list.md"
         >Icon names</a
-      ><br />
-      <a href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-images.md">Icon images</a>
+      >,
+      <a href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-images.md">Icon images</a><br />
+      <a href="https://svelte.dev/repl/affd729b38e341e69ff0fe8dc23c40eb?version=4.0.1">REPL</a>
     </p>
   </Card>
 
