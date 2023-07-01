@@ -346,8 +346,8 @@ onMount(async () => {
       <Li>780+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/ant-design/ant-design-icons">Ant Design Icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-ant-design-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/375c734a6ec74f44adfe4aa76b117ab9?version=3.50.1">1</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/38a6fcd635c14255b7a30c1a7d4b05c2?version=3.50.1">2</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/375c734a6ec74f44adfe4aa76b117ab9?version=4.0.1">Color</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/38a6fcd635c14255b7a30c1a7d4b05c2?version=4.0.1">2</A></Li>
     </List>
   </Card>
 
@@ -369,7 +369,7 @@ onMount(async () => {
       <Li>2000+ SVG icons</Li>
       <Li><A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>  
       <Li><A href="https://github.com/shinokada/svelte-awesome-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/c0045886b264408fba13f1de70c42932?version=3.48.0">REPL</A></Li>
+      <Li><A href="https://svelte.dev/repl/c0045886b264408fba13f1de70c42932?version=4.0.1">REPL</A></Li>
     </List>
   </Card>
 
@@ -391,7 +391,7 @@ onMount(async () => {
       <Li>1660+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/twbs/icons">Bootstrap icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=3.48.0">REPL</A></Li>
+      <Li><A href="https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=4.0.1">REPL</A></Li>
     </List>
   </Card>
 
@@ -413,7 +413,7 @@ onMount(async () => {
       <Li>330+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/HatScripts/circle-flags">Circle-Flags</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-circle-flags/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/382095078be04da7a5008b7f5e41d5c8?version=3.48.0">REPL</A></Li>
+      <Li><A href="https://svelte.dev/repl/382095078be04da7a5008b7f5e41d5c8?version=4.0.1">REPL</A></Li>
     </List>
   </Card>
 
@@ -477,7 +477,7 @@ onMount(async () => {
       <Li>260+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/lipis/flag-icons">Flag Icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-flag-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/70a4c2d5242f4cfa8dba85529184d7a3?version=3.48.0">REPL</A></Li>
+      <Li><A href="https://svelte.dev/repl/70a4c2d5242f4cfa8dba85529184d7a3?version=4.0.1">REPL</A></Li>
     </List>
   </Card>
 
@@ -512,7 +512,7 @@ onMount(async () => {
       <Li>930+ SVG icons</Li>
       <Li><A href="https://github.com/file-icons/icons">File icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/985ea64e08a942b493afa91538fef9b1?version=3.48.0">REPL</A></Li>
+      <Li><A href="https://svelte.dev/repl/985ea64e08a942b493afa91538fef9b1?version=4.0.1">REPL</A></Li>
     </List>
   </Card>
 
@@ -547,7 +547,7 @@ onMount(async () => {
       <Li>460+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-heros/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/48606ee88712441caebd7d09aa62602c?version=3.48.0">REPL</A></Li>
+      <Li><A href="https://svelte.dev/repl/48606ee88712441caebd7d09aa62602c?version=4.0.1">REPL</A></Li>
     </List>
   </Card>
 
@@ -569,8 +569,8 @@ onMount(async () => {
       <Li>260+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons v2</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-heros-v2/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/1948d7b5157f44709cff380d9783342c?version=3.49.0">REPL 1</A></Li>
-      <Li><A href="https://svelte.dev/repl/e26c4ea516a0493cb64797879b1fe46d?version=3.49.0">REPL 2</A></Li>
+      <Li><A href="https://svelte.dev/repl/1948d7b5157f44709cff380d9783342c?version=4.0.1">REPL 1</A></Li>
+      <Li><A href="https://svelte.dev/repl/e26c4ea516a0493cb64797879b1fe46d?version=4.0.1">REPL 2</A></Li>
     </List>
   </Card>
 
@@ -643,7 +643,7 @@ onMount(async () => {
       <Li>500+ SVG icons</Li>
       <Li><A href="https://github.com/primer/octicons">Octicons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-oct/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/fccdaf257870448bbb6b924fda6c3a5e?version=3.49.0">REPL</A></Li>
+      <Li><A href="https://svelte.dev/repl/fccdaf257870448bbb6b924fda6c3a5e?version=4.0.1">REPL</A></Li>
     </List>
   </Card>
 
@@ -657,7 +657,7 @@ onMount(async () => {
       <Li>310+ SVG icons</Li> 
       <Li>Source: <A href="https://github.com/radix-ui/icons">Radix icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-radix/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/fb0def38847240f3a51460a56bf53225?version=3.49.0">REPL</A></Li>
+      <Li><A href="https://svelte.dev/repl/fb0def38847240f3a51460a56bf53225?version=4.0.1">REPL</A></Li>
     </List>
   </Card>
 
@@ -671,7 +671,7 @@ onMount(async () => {
       <Li>2270+ SVG icons</Li>
       <Li><A href="https://github.com/Remix-Design/RemixIcon">RemixIcon</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=3.48.0">REPL</A></Li>
+      <Li><A href="https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=4.0.1">REPL</A></Li>
     </List>
   </Card>
 
@@ -710,8 +710,8 @@ onMount(async () => {
       <Li>1970+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/tabler/tabler-icons">Tabler Icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-tabler/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/55ccaffe3d414235a6bb554ffd98f4bc?version=3.48.0">REPL 1</A></Li>
-      <Li><A href="https://svelte.dev/repl/b63ed92a79a047bdb2017fac63624130?version=3.48.0">REPL 2</A></Li>
+      <Li><A href="https://svelte.dev/repl/55ccaffe3d414235a6bb554ffd98f4bc?version=4.0.1">REPL 1</A></Li>
+      <Li><A href="https://svelte.dev/repl/b63ed92a79a047bdb2017fac63624130?version=4.0.1">REPL 2</A></Li>
     </List>
   </Card>
 
@@ -733,6 +733,9 @@ onMount(async () => {
       <Li>600+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/teenyicons/teenyicons">Teenyicons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-teenyicons/blob/main/icon-list.md">Icon names</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/c838152600e545059576d02fb5585854?version=4.0.1">Outline color</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/0b530e93f8db4568919b255cde5771be?version=4.0.1">Outline mono</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/5a741191c04b42e9b2d56ec5e03b7b86?version=4.0.1">Solid color</A></Li>
     </List>
   </Card>
 
@@ -775,6 +778,8 @@ onMount(async () => {
       <Li>210+ Weather SVG icons</Li>
       <Li>Source: <A href="https://github.com/erikflowers/weather-icons">weather-icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-weather/blob/main/icon-list.md">Icon names</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/2f6f61d9ec894fb2a87ecbedd376f7ec?version=4.0.1">Color</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/b13216be1b934741bf46f3553ec7ad77?version=4.0.1">Mono</A></Li>
     </List>
   </Card>
 </div>
