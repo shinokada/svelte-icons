@@ -193,7 +193,7 @@ onMount(async () => {
   };
   let description =
     '20+ Icon sets from Font Awesome, Bootstrap, Flag, Cryptocurrency, Heroicons, File icons, Weather, Twitter emoji, Tabler icons and more.';
-  const hFiveClass = 'my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white underline'
+  const hFiveClass = 'my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white '
 </script>
 
 <MetaTags
@@ -367,7 +367,7 @@ onMount(async () => {
     </h5>
     <List>
       <Li>2000+ SVG icons</Li>
-      <Li><A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>  
+      <Li>Rource: <A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>  
       <Li><A href="https://github.com/shinokada/svelte-awesome-icons/blob/main/icon-list.md">Icon names</A></Li>
       <Li><A href="https://svelte.dev/repl/c0045886b264408fba13f1de70c42932?version=4.0.1">REPL</A></Li>
     </List>
@@ -510,7 +510,7 @@ onMount(async () => {
     </h5>
     <List>
       <Li>930+ SVG icons</Li>
-      <Li><A href="https://github.com/file-icons/icons">File icons</A></Li>
+      <Li>Source: <A href="https://github.com/file-icons/icons">File icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</A></Li>
       <Li><A href="https://svelte.dev/repl/985ea64e08a942b493afa91538fef9b1?version=4.0.1">REPL</A></Li>
     </List>
@@ -628,7 +628,7 @@ onMount(async () => {
     </h5>
     <List>
       <Li>6980+ SVG icons</Li>
-      <Li><A href="https://github.com/Templarian/MaterialDesign">MaterialDesign</A></Li>
+      <Li>Source: <A href="https://github.com/Templarian/MaterialDesign">MaterialDesign</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md">Icon names</A></Li>
     </List>
   </Card>
@@ -641,7 +641,7 @@ onMount(async () => {
     </h5>
     <List>
       <Li>500+ SVG icons</Li>
-      <Li><A href="https://github.com/primer/octicons">Octicons</A></Li>
+      <Li>Source: <A href="https://github.com/primer/octicons">Octicons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-oct/blob/main/icon-list.md">Icon names</A></Li>
       <Li><A href="https://svelte.dev/repl/fccdaf257870448bbb6b924fda6c3a5e?version=4.0.1">REPL</A></Li>
     </List>
@@ -669,7 +669,7 @@ onMount(async () => {
     </h5>
     <List>
       <Li>2270+ SVG icons</Li>
-      <Li><A href="https://github.com/Remix-Design/RemixIcon">RemixIcon</A></Li>
+      <Li>Source: <A href="https://github.com/Remix-Design/RemixIcon">RemixIcon</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</A></Li>
       <Li><A href="https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=4.0.1">REPL</A></Li>
     </List>
