@@ -19,8 +19,10 @@ onMount(async () => {
       'svelte-bootstrap-svg-icons',
       'svelte-boxicons',
       'svelte-circle-flags',
+      // 'svelte-coreui-icons',
       // 'svelte-cssgg-icons',
       'svelte-cryptocurrency-icons',
+      // 'svelte-evil-icons',
       'svelte-feathers',
       'svelte-flag-icons',
       'svelte-flags',
@@ -111,9 +113,17 @@ onMount(async () => {
     src: '/images/resized/circle-flags.webp',
     alt: 'Circle Flags'
   };
+  let imgCoreui = {
+    src: '/images/resized/coreui.webp',
+    alt: 'Coreui Icons'
+  };
   let imgCssgg = {
     src: '/images/resized/cssgg.webp',
     alt: 'css.gg Icons'
+  };
+  let imgEvil = {
+    src: '/images/resized/evil.webp',
+    alt: 'Evil Icons'
   };
   let imgFeather = {
     src: '/images/resized/feather.webp',
@@ -239,6 +249,37 @@ onMount(async () => {
 </div>
 
 <div class="flex flex-wrap justify-center gap-4">
+  <Card img={imgCoreui.src}>
+    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <h5 class="{hFiveClass}">
+      <A href="https://shinokada.github.io/svelte-coreui-icons" target="_blank">Svelte-Coreui-Icons</A>
+    </h5>
+    <List>
+      <Li>1500+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/coreui/coreui-icons">CoreUI Icons</A></Li>
+      <Li><A href="https://github.com/shinokada/svelte-coreui-icons/blob/main/icon-list.md">Icon names</A></Li>
+      <Li><A href="https://github.com/shinokada/svelte-coreui-icons/blob/main/icon-images.md">Icon images</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/ac949cb9d7724e1880ba3eedbb6451d3?version=4.0.1">Brand color</A></Li> 
+      <Li>REPL: <A href="https://svelte.dev/repl/3184ec4ba05949d2be244dada275ef19?version=4.0.1">Brand mono</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/7577675a430342d9a8e45767fec9240e?version=4.0.1">Flag</A></Li> 
+      <Li>REPL: <A href="https://svelte.dev/repl/377e91aa08364ea79d0c2831ae27ea9d?version=4.0.1">Free color</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/83d5b74b88a6413786750e7ae1418d8b?version=4.0.1">Free mono</A></Li>
+    </List>
+  </Card>
+  <Card img={imgEvil.src}>
+    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <h5 class="{hFiveClass}">
+      <A href="https://shinokada.github.io/svelte-evil-icons" target="_blank">Svelte-Evil-Icons</A>
+    </h5>
+    <List>
+      <Li>70+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/evil-icons/evil-icons">Evil Icons</A></Li>
+      <Li><A href="https://github.com/shinokada/svelte-evil-icons/blob/main/icon-list.md">Icon names</A></Li>
+      <Li><A href="https://github.com/shinokada/svelte-evil-icons/blob/main/icon-images.md">Icon images</A></Li>
+      <Li>REPL: <A href="https://svelte.dev/repl/5e0a2987d009425f8e737dcc391d5e13?version=4.0.1">Color</A></Li> 
+      <Li>REPL: <A href="https://svelte.dev/repl/5a3f33a075dd47baaf9f708f713259c5?version=4.0.1">Mono</A></Li>
+    </List>
+  </Card>
   <Card img={imgCssgg.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
     <h5 class="{hFiveClass}">
