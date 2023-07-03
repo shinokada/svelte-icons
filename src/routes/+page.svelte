@@ -19,10 +19,10 @@ onMount(async () => {
       'svelte-bootstrap-svg-icons',
       'svelte-boxicons',
       'svelte-circle-flags',
-      // 'svelte-coreui-icons',
-      // 'svelte-cssgg-icons',
+      'svelte-coreui-icons',
+      'svelte-cssgg-icons',
       'svelte-cryptocurrency-icons',
-      // 'svelte-evil-icons',
+      'svelte-evil-icons',
       'svelte-feathers',
       'svelte-flag-icons',
       'svelte-flags',
@@ -251,6 +251,16 @@ onMount(async () => {
 <div class="flex flex-wrap justify-center gap-4">
   <Card img={imgCoreui.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <img
+    src="https://badgen.net/npm/dt/svelte-coreui-icons"
+    alt="total download number"
+    class="inline"
+    />
+    <img
+      src="https://badgen.net/npm/dw/svelte-coreui-icons"
+      alt="weekly download number"
+      class="inline"
+    />
     <h5 class="{hFiveClass}">
       <A href="https://shinokada.github.io/svelte-coreui-icons" target="_blank">Svelte-Coreui-Icons</A>
     </h5>
@@ -268,6 +278,16 @@ onMount(async () => {
   </Card>
   <Card img={imgEvil.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <img
+    src="https://badgen.net/npm/dt/svelte-evil-icons"
+    alt="total download number"
+    class="inline"
+    />
+    <img
+      src="https://badgen.net/npm/dw/svelte-evil-icons"
+      alt="weekly download number"
+      class="inline"
+    />
     <h5 class="{hFiveClass}">
       <A href="https://shinokada.github.io/svelte-evil-icons" target="_blank">Svelte-Evil-Icons</A>
     </h5>
@@ -282,6 +302,16 @@ onMount(async () => {
   </Card>
   <Card img={imgCssgg.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <img
+    src="https://badgen.net/npm/dt/svelte-cssgg-icons"
+    alt="total download number"
+    class="inline"
+    />
+    <img
+      src="https://badgen.net/npm/dw/svelte-cssgg-icons"
+      alt="weekly download number"
+      class="inline"
+    />
     <h5 class="{hFiveClass}">
       <A href="https://shinokada.github.io/svelte-cssgg-icons" target="_blank">Svelte-Cssgg-Icons</A>
     </h5>
@@ -300,12 +330,12 @@ onMount(async () => {
     src="https://badgen.net/npm/dt/svelte-supertiny"
     alt="total download number"
     class="inline"
-  />
-  <img
-    src="https://badgen.net/npm/dw/svelte-supertiny"
-    alt="weekly download number"
-    class="inline"
-  />
+    />
+    <img
+      src="https://badgen.net/npm/dw/svelte-supertiny"
+      alt="weekly download number"
+      class="inline"
+    />
     <h5 class="{hFiveClass}">
       <A href="https://shinokada.github.io/svelte-supertiny" target="_blank">Svelte-Supertiny</A>
     </h5>
