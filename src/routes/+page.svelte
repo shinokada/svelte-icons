@@ -417,6 +417,7 @@ onMount(async () => {
       <Li>780+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/ant-design/ant-design-icons">Ant Design Icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-ant-design-icons/blob/main/icon-list.md">Icon names</A></Li>
+      <Li><A href="https://github.com/shinokada/svelte-ant-design-icons/blob/main/icon-images.md">Icon images</A></Li>
       <Li>REPL: <A href="https://svelte.dev/repl/375c734a6ec74f44adfe4aa76b117ab9?version=4.0.1">Color</A></Li>
       <Li>REPL: <A href="https://svelte.dev/repl/38a6fcd635c14255b7a30c1a7d4b05c2?version=4.0.1">2</A></Li>
     </List>
