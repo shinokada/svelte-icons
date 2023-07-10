@@ -6,7 +6,8 @@
 		return '#' + n.slice(0, 6);
 	};
 </script>
-
+<a href="/" class="hover:underline"><h1>Svelte SVG Icon Sets</h1></a>
+<h2>Svelte-Heros-v2</h2>
 <Tabs style="pill" class="flex justify-center">
   <TabItem open>
     <span class="text-xl" slot="title">Mono</span>
