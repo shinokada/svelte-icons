@@ -640,7 +640,7 @@ onMount(async () => {
     <List>
       <Li>260+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons v2</A></Li>
-      <Li><A href="https://svelte.dev/repl/68258cc21f7a4c9891bcb950dc3631b8?version=4.0.5">Icon and names</A></Li>
+      <Li><A href="https://svelte.dev/repl/68258cc21f7a4c9891bcb950dc3631b8?version=4.0.5">Icons and names</A></Li>
       <Li><A href="https://svelte.dev/repl/1948d7b5157f44709cff380d9783342c?version=4.0.1">REPL 1</A></Li>
       <Li><A href="https://svelte.dev/repl/e26c4ea516a0493cb64797879b1fe46d?version=4.0.1">REPL 2</A></Li>
     </List>
