@@ -321,8 +321,6 @@
       <Li>Source: <A href="https://github.com/themesberg/flowbite-icons">Flowbite Icons</A></Li>
       <Li><A href="https://flowbite-svelte-icons.vercel.app/">Demo</A></Li>
       <Li><A href="https://shinokada.github.io/flowbite-svelte-icons/">Docs</A></Li>
-      <Li><A href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-images.md">Icon images</A></Li>
     </List>
   </Card>
 
