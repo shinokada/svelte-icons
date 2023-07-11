@@ -1,79 +1,74 @@
 <script lang="ts">
-  import  Card from 'flowbite-svelte/Card.svelte';
-  import List from 'flowbite-svelte/List.svelte'
-  import Li from 'flowbite-svelte/Li.svelte'
-  import A from 'flowbite-svelte/A.svelte'
-  import  Badge from 'flowbite-svelte/Badge.svelte';
+  import Card from 'flowbite-svelte/Card.svelte';
+  import List from 'flowbite-svelte/List.svelte';
+  import Li from 'flowbite-svelte/Li.svelte';
+  import A from 'flowbite-svelte/A.svelte';
+  import Badge from 'flowbite-svelte/Badge.svelte';
   import { MetaTags } from 'svelte-meta-tags';
   import { onMount } from 'svelte';
 
-let totalDownloads = 0;
-let weeklyDownloads = 0;
+  let totalDownloads = 0;
+  let weeklyDownloads = 0;
 
-onMount(async () => {
-  try {
-    const libs = [
-      'flowbite-svelte-icons',
-      'svelte-ant-design-icons',
-      'svelte-awesome-icons',
-      'svelte-bootstrap-svg-icons',
-      'svelte-boxicons',
-      'svelte-circle-flags',
-      'svelte-coreui-icons',
-      'svelte-cssgg-icons',
-      'svelte-cryptocurrency-icons',
-      'svelte-evil-icons',
-      'svelte-feathers',
-      'svelte-flag-icons',
-      'svelte-flags',
-      'svelte-file-icons',
-      'svelte-google-materialdesign-icons',
-      'svelte-heros',
-      'svelte-heros-v2',
-      'svelte-ionicons',
-      'svelte-lucide',
-      'svelte-materialdesign-icons',
-      'svelte-oct',
-      'svelte-radix',
-      'svelte-remix',
-      'svelte-simples',
-      'svelte-tabler',
-      'svelte-supertiny',
-      'svelte-teenyicons',
-      'svelte-twitter-emoji',
-      'svelte-weather'
-    ];
-    
-    const today = new Date();
-    const todayString = today.toISOString().slice(0, 10);
-    const oneWeekAgo = new Date(today);
-    oneWeekAgo.setDate(today.getDate() - 7);
-    const oneWeekAgoString = oneWeekAgo.toISOString().slice(0, 10);
-    
-    const weeklyPromises = libs.map(lib => fetch(
-        `https://api.npmjs.org/downloads/point/${oneWeekAgoString}:${todayString}/${lib}`
-    ));
-    const totalPromises = libs.map(lib => fetch(
-        `https://api.npmjs.org/downloads/point/2020-01-01:${todayString}/${lib}`
-    ));
-    
-    const weeklyResponses = await Promise.all(weeklyPromises);
-    const totalResponses = await Promise.all(totalPromises);
-    
-    for (const response of weeklyResponses) {
+  onMount(async () => {
+    try {
+      const libs = [
+        'flowbite-svelte-icons',
+        'svelte-ant-design-icons',
+        'svelte-awesome-icons',
+        'svelte-bootstrap-svg-icons',
+        'svelte-boxicons',
+        'svelte-circle-flags',
+        'svelte-coreui-icons',
+        'svelte-cssgg-icons',
+        'svelte-cryptocurrency-icons',
+        'svelte-evil-icons',
+        'svelte-feathers',
+        'svelte-flag-icons',
+        'svelte-flags',
+        'svelte-file-icons',
+        'svelte-google-materialdesign-icons',
+        'svelte-heros',
+        'svelte-heros-v2',
+        'svelte-ionicons',
+        'svelte-lucide',
+        'svelte-materialdesign-icons',
+        'svelte-oct',
+        'svelte-radix',
+        'svelte-remix',
+        'svelte-simples',
+        'svelte-tabler',
+        'svelte-supertiny',
+        'svelte-teenyicons',
+        'svelte-twitter-emoji',
+        'svelte-weather'
+      ];
+
+      const today = new Date();
+      const todayString = today.toISOString().slice(0, 10);
+      const oneWeekAgo = new Date(today);
+      oneWeekAgo.setDate(today.getDate() - 7);
+      const oneWeekAgoString = oneWeekAgo.toISOString().slice(0, 10);
+
+      const weeklyPromises = libs.map((lib) => fetch(`https://api.npmjs.org/downloads/point/${oneWeekAgoString}:${todayString}/${lib}`));
+      const totalPromises = libs.map((lib) => fetch(`https://api.npmjs.org/downloads/point/2020-01-01:${todayString}/${lib}`));
+
+      const weeklyResponses = await Promise.all(weeklyPromises);
+      const totalResponses = await Promise.all(totalPromises);
+
+      for (const response of weeklyResponses) {
         const data = await response.json();
         weeklyDownloads += data.downloads;
-    }
-    
-    for (const response of totalResponses) {
+      }
+
+      for (const response of totalResponses) {
         const data = await response.json();
         totalDownloads += data.downloads;
+      }
+    } catch (error) {
+      console.error(`Error in onMount: ${error}`);
     }
-  } catch (error) {
-    console.error(`Error in onMount: ${error}`);
-  }
-});
-
+  });
 
   function formatNumber(number: number) {
     if (number >= 1000000) {
@@ -201,9 +196,8 @@ onMount(async () => {
     src: '/images/resized/weather.webp',
     alt: 'Weather Icons'
   };
-  let description =
-    '20+ Icon sets from Font Awesome, Bootstrap, Flag, Cryptocurrency, Heroicons, File icons, Weather, Twitter emoji, Tabler icons and more.';
-  const hFiveClass = 'my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white '
+  let description = '20+ Icon sets from Font Awesome, Bootstrap, Flag, Cryptocurrency, Heroicons, File icons, Weather, Twitter emoji, Tabler icons and more.';
+  const hFiveClass = 'my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ';
 </script>
 
 <MetaTags
@@ -251,17 +245,9 @@ onMount(async () => {
 <div class="flex flex-wrap justify-center gap-4">
   <Card img={imgCoreui.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img
-    src="https://badgen.net/npm/dt/svelte-coreui-icons"
-    alt="total download number"
-    class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-coreui-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-    <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-coreui-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-coreui-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://shinokada.github.io/svelte-coreui-icons" target="_blank">Svelte-Coreui-Icons</A>
     </h5>
     <List>
@@ -269,26 +255,18 @@ onMount(async () => {
       <Li>Source: <A href="https://github.com/coreui/coreui-icons">CoreUI Icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-coreui-icons/blob/main/icon-list.md">Icon names</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-coreui-icons/blob/main/icon-images.md">Icon images</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/ac949cb9d7724e1880ba3eedbb6451d3?version=4.0.1">Brand color</A></Li> 
+      <Li>REPL: <A href="https://svelte.dev/repl/ac949cb9d7724e1880ba3eedbb6451d3?version=4.0.1">Brand color</A></Li>
       <Li>REPL: <A href="https://svelte.dev/repl/3184ec4ba05949d2be244dada275ef19?version=4.0.1">Brand mono</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/7577675a430342d9a8e45767fec9240e?version=4.0.1">Flag</A></Li> 
+      <Li>REPL: <A href="https://svelte.dev/repl/7577675a430342d9a8e45767fec9240e?version=4.0.1">Flag</A></Li>
       <Li>REPL: <A href="https://svelte.dev/repl/377e91aa08364ea79d0c2831ae27ea9d?version=4.0.1">Free color</A></Li>
       <Li>REPL: <A href="https://svelte.dev/repl/83d5b74b88a6413786750e7ae1418d8b?version=4.0.1">Free mono</A></Li>
     </List>
   </Card>
   <Card img={imgEvil.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img
-    src="https://badgen.net/npm/dt/svelte-evil-icons"
-    alt="total download number"
-    class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-evil-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-    <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-evil-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-evil-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://shinokada.github.io/svelte-evil-icons" target="_blank">Svelte-Evil-Icons</A>
     </h5>
     <List>
@@ -296,23 +274,15 @@ onMount(async () => {
       <Li>Source: <A href="https://github.com/evil-icons/evil-icons">Evil Icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-evil-icons/blob/main/icon-list.md">Icon names</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-evil-icons/blob/main/icon-images.md">Icon images</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/5e0a2987d009425f8e737dcc391d5e13?version=4.0.1">Color</A></Li> 
+      <Li>REPL: <A href="https://svelte.dev/repl/5e0a2987d009425f8e737dcc391d5e13?version=4.0.1">Color</A></Li>
       <Li>REPL: <A href="https://svelte.dev/repl/5a3f33a075dd47baaf9f708f713259c5?version=4.0.1">Mono</A></Li>
     </List>
   </Card>
   <Card img={imgCssgg.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img
-    src="https://badgen.net/npm/dt/svelte-cssgg-icons"
-    alt="total download number"
-    class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-cssgg-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-    <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-cssgg-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-cssgg-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://shinokada.github.io/svelte-cssgg-icons" target="_blank">Svelte-Cssgg-Icons</A>
     </h5>
     <List>
@@ -320,23 +290,15 @@ onMount(async () => {
       <Li>Source: <A href="https://github.com/astrit/css.gg">css.gg</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-cssgg-icons/blob/main/icon-list.md">Icon names</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-cssgg-icons/blob/main/icon-images.md">Icon images</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/36584bc35f364444893640b660723f80?version=4.0.1">Color</A></Li> 
+      <Li>REPL: <A href="https://svelte.dev/repl/36584bc35f364444893640b660723f80?version=4.0.1">Color</A></Li>
       <Li>REPL: <A href="https://svelte.dev/repl/77dd916fe61a42f2a01b84d9e89033a4?version=4.0.1">Mono</A></Li>
     </List>
   </Card>
   <Card img={imgSupertiny.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img
-    src="https://badgen.net/npm/dt/svelte-supertiny"
-    alt="total download number"
-    class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-supertiny"
-      alt="weekly download number"
-      class="inline"
-    />
-    <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-supertiny" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-supertiny" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://shinokada.github.io/svelte-supertiny" target="_blank">Svelte-Supertiny</A>
     </h5>
     <List>
@@ -349,45 +311,26 @@ onMount(async () => {
   </Card>
   <Card img={imgFlowbite.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img
-      src="https://badgen.net/npm/dt/flowbite-svelte-icons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/flowbite-svelte-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-    <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/flowbite-svelte-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/flowbite-svelte-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://shinokada.github.io/flowbite-svelte-icons/" target="_blank">Flowbite-Svelte-Icons</A>
     </h5>
     <List>
       <Li>450+ mono and color SVG icons</Li>
-      <Li>Source: <A href="https://github.com/themesberg/flowbite-icons"
-        >Flowbite Icons</A></Li>
+      <Li>Source: <A href="https://github.com/themesberg/flowbite-icons">Flowbite Icons</A></Li>
+      <Li><A href="https://flowbite-svelte-icons.vercel.app/">Demo</A></Li>
+      <Li><A href="https://shinokada.github.io/flowbite-svelte-icons/">Docs</A></Li>
       <Li><A href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-list.md">Icon names</A></Li>
       <Li><A href="https://github.com/themesberg/flowbite-svelte-icons/blob/main/icon-images.md">Icon images</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/eb42ed113d7a47ebaa90b851b6e1f2cb?version=4.0.1">Outline mono</A></Li> 
-      <Li>REPL: <A href="https://svelte.dev/repl/affd729b38e341e69ff0fe8dc23c40eb?version=4.0.1">Outline color</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/5f291b71416d470c86d07c133724458f?version=4.0.1">Solid color</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/54972bb41fb9459ea301a01c4df6df49?version=4.0.1">Solid mono</A></Li>
     </List>
   </Card>
 
   <Card img={imgBoxicons.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img
-    src="https://badgen.net/npm/dt/svelte-boxicons"
-    alt="total download number"
-    class="inline"
-  />
-  <img
-    src="https://badgen.net/npm/dw/svelte-boxicons"
-    alt="weekly download number"
-    class="inline"
-  />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-boxicons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-boxicons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://shinokada.github.io/svelte-boxicons/" target="_blank">Svelte-Boxicons</A>
     </h5>
     <List>
@@ -400,17 +343,9 @@ onMount(async () => {
     </List>
   </Card>
   <Card img={imgAnt.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-ant-design-icons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-ant-design-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-    <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-ant-design-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-ant-design-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-ant-design-icons.codewithshin.com/" target="_blank">Svelte-Ant-Design-Icons</A>
     </h5>
     <List>
@@ -424,39 +359,23 @@ onMount(async () => {
   </Card>
 
   <Card img={imgAwesome.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-awesome-icons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-awesome-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-awesome-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-awesome-icons.codewithshin.com/" target="_blank">Svelte-Awesome-Icons</A>
     </h5>
     <List>
       <Li>2000+ SVG icons</Li>
-      <Li>Rource: <A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>  
+      <Li>Rource: <A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-awesome-icons/blob/main/icon-list.md">Icon names</A></Li>
       <Li><A href="https://svelte.dev/repl/c0045886b264408fba13f1de70c42932?version=4.0.1">REPL</A></Li>
     </List>
   </Card>
 
   <Card img={imgBootstrap.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-bootstrap-svg-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-bootstrap-svg-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-bootstrap-svg-icons.codewithshin.com/" target="_blank">Svelte-Bootstrap-Svg-Icons</A>
     </h5>
     <List>
@@ -468,17 +387,9 @@ onMount(async () => {
   </Card>
 
   <Card img={imgCircleFlags.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-circle-flags"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-circle-flags"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-circle-flags" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-circle-flags" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-circle-flags.codewithshin.com/" target="_blank">Svelte-Circle-Flags</A>
     </h5>
     <List>
@@ -490,17 +401,9 @@ onMount(async () => {
   </Card>
 
   <Card img={imgCrypto.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-cryptocurrency-icons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-cryptocurrency-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-cryptocurrency-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-cryptocurrency-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-cryptocurrency-icons.codewithshin.com/" target="_blank">Svelte-Cryptocurrency-Icons</A>
     </h5>
     <List>
@@ -511,17 +414,9 @@ onMount(async () => {
   </Card>
 
   <Card img={imgFeather.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-feathers"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-feathers"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-feathers" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-feathers" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-feathers.codewithshin.com/" target="_blank">Svelte-Feathers</A>
     </h5>
     <List>
@@ -532,17 +427,9 @@ onMount(async () => {
   </Card>
 
   <Card img={imgFlagIcons.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-flag-icons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-flag-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-flag-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-flag-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-flag-icons.codewithshin.com/" target="_blank">Svelte-Flag-Icons</A>
     </h5>
     <List>
@@ -556,7 +443,7 @@ onMount(async () => {
   <Card img={imgFlags.src}>
     <img src="https://badgen.net/npm/dt/svelte-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
-   <h5 class="{hFiveClass}">
+    <h5 class={hFiveClass}>
       <A href="https://svelte-flags.codewithshin.com/" target="_blank">Svelte-Flags</A>
     </h5>
     <List>
@@ -567,17 +454,9 @@ onMount(async () => {
   </Card>
 
   <Card img={imgFile.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-file-icons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-file-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-file-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-file-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-file-icons.codewithshin.com/" target="_blank">Svelte-File-Icons</A>
     </h5>
     <List>
@@ -589,21 +468,13 @@ onMount(async () => {
   </Card>
 
   <Card img={imgGoogle.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-google-materialdesign-icons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-google-materialdesign-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-google-materialdesign-icons.codewithshin.com/" target="_blank">Svelte-Google-Materialdesign-Icons</A>
     </h5>
     <List>
-      <Li>10600+ SVG icons</Li> 
+      <Li>10600+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/material-icons/material-icons">Material-Icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-google-materialdesign-icons/blob/main/icon-list.md">Icon names</A></Li>
     </List>
@@ -612,7 +483,7 @@ onMount(async () => {
   <Card img={imgHero.src}>
     <img src="https://badgen.net/npm/dt/svelte-heros" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" class="inline" />
-   <h5 class="{hFiveClass}">
+    <h5 class={hFiveClass}>
       <A href="https://svelte-heros.codewithshin.com/" target="_blank">Svelte-Heros</A>
     </h5>
     <List>
@@ -624,17 +495,9 @@ onMount(async () => {
   </Card>
 
   <Card img={imgHero2.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-heros-v2"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-heros-v2"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-heros-v2" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-heros-v2" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-heros-v2.codewithshin.com/" target="_blank">Svelte-Heros-v2</A>
     </h5>
     <List>
@@ -647,17 +510,9 @@ onMount(async () => {
   </Card>
 
   <Card img={imgIon.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-ionicons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-ionicons"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-ionicons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-ionicons.codewithshin.com/" target="_blank">Svelte-Ionicons</A>
     </h5>
     <List>
@@ -669,12 +524,8 @@ onMount(async () => {
 
   <Card img={imgLucide.src}>
     <img src="https://badgen.net/npm/dt/svelte-lucide" alt="total download number" class="inline" />
-    <img
-      src="https://badgen.net/npm/dw/svelte-lucide"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dw/svelte-lucide" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-lucide.codewithshin.com/" target="_blank">Svelte-Lucide</A>
     </h5>
     <List>
@@ -685,17 +536,9 @@ onMount(async () => {
   </Card>
 
   <Card img={imgMaterial.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-materialdesign-icons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-materialdesign-icons"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-materialdesign-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-materialdesign-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-materialdesign-icons.codewithshin.com/" target="_blank">Svelte-Materialdesign-Icons</A>
     </h5>
     <List>
@@ -708,7 +551,7 @@ onMount(async () => {
   <Card img={imgOct.src}>
     <img src="https://badgen.net/npm/dt/svelte-oct" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-oct" alt="weekly download number" class="inline" />
-   <h5 class="{hFiveClass}">
+    <h5 class={hFiveClass}>
       <A href="https://svelte-oct.codewithshin.com/" target="_blank">Svelte-Oct</A>
     </h5>
     <List>
@@ -722,11 +565,11 @@ onMount(async () => {
   <Card img={imgRadix.src}>
     <img src="https://badgen.net/npm/dt/svelte-radix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
-   <h5 class="{hFiveClass}">
+    <h5 class={hFiveClass}>
       <A href="https://svelte-radix.codewithshin.com/" target="_blank">Svelte-Radix</A>
     </h5>
     <List>
-      <Li>310+ SVG icons</Li> 
+      <Li>310+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/radix-ui/icons">Radix icons</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-radix/blob/main/icon-list.md">Icon names</A></Li>
       <Li><A href="https://svelte.dev/repl/fb0def38847240f3a51460a56bf53225?version=4.0.1">REPL</A></Li>
@@ -736,7 +579,7 @@ onMount(async () => {
   <Card img={imgRemix.src}>
     <img src="https://badgen.net/npm/dt/svelte-remix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" class="inline" />
-   <h5 class="{hFiveClass}">
+    <h5 class={hFiveClass}>
       <A href="https://svelte-remix.codewithshin.com/" target="_blank">Svelte-Remix</A>
     </h5>
     <List>
@@ -748,17 +591,9 @@ onMount(async () => {
   </Card>
 
   <Card img={imgSimple.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-simples"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-simples"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-simples" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-simples" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-simples.codewithshin.com/" target="_blank">Svelte-Simples</A>
     </h5>
     <List>
@@ -770,12 +605,8 @@ onMount(async () => {
 
   <Card img={imgTabler.src}>
     <img src="https://badgen.net/npm/dt/svelte-tabler" alt="total download number" class="inline" />
-    <img
-      src="https://badgen.net/npm/dw/svelte-tabler"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dw/svelte-tabler" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-tabler.codewithshin.com/" target="_blank">Svelte-Tabler</A>
     </h5>
     <List>
@@ -788,17 +619,9 @@ onMount(async () => {
   </Card>
 
   <Card img={imgTeeny.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-teenyicons"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-teenyicons"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-teenyicons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-teenyicons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-teenyicons.codewithshin.com/" target="_blank">Svelte-Teenyicons</A>
     </h5>
     <List>
@@ -812,38 +635,22 @@ onMount(async () => {
   </Card>
 
   <Card img={imgTwemoji.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-twitter-emoji"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-twitter-emoji"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-twitter-emoji" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-twitter-emoji" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-twitter-emoji.codewithshin.com/" target="_blank">Svelte-Twitter-Emoji</A>
     </h5>
     <List>
-      <Li>3600+ Twitter emoji SVG color icons</Li> 
+      <Li>3600+ Twitter emoji SVG color icons</Li>
       <Li>Source: <A href="https://github.com/twitter/twemoji">Twemoji</A></Li>
       <Li><A href="https://github.com/shinokada/svelte-twitter-emoji/blob/main/icon-list.md">Icon names</A></Li>
     </List>
   </Card>
 
   <Card img={imgWeather.src}>
-    <img
-      src="https://badgen.net/npm/dt/svelte-weather"
-      alt="total download number"
-      class="inline"
-    />
-    <img
-      src="https://badgen.net/npm/dw/svelte-weather"
-      alt="weekly download number"
-      class="inline"
-    />
-   <h5 class="{hFiveClass}">
+    <img src="https://badgen.net/npm/dt/svelte-weather" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-weather" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
       <A href="https://svelte-weather.codewithshin.com/" target="_blank">Svelte-Weather</A>
     </h5>
     <List>
