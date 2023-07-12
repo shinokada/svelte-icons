@@ -266,10 +266,7 @@
     <List>
       <Li>70+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/evil-icons/evil-icons">Evil Icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-evil-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-evil-icons/blob/main/icon-images.md">Icon images</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/5e0a2987d009425f8e737dcc391d5e13?version=4.0.1">Color</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/5a3f33a075dd47baaf9f708f713259c5?version=4.0.1">Mono</A></Li>
+      <Li><A href="https://svelte-evil-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgCssgg.src}>
