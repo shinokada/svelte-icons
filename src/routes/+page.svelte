@@ -279,10 +279,7 @@
     <List>
       <Li>700+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/astrit/css.gg">css.gg</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-cssgg-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-cssgg-icons/blob/main/icon-images.md">Icon images</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/36584bc35f364444893640b660723f80?version=4.0.1">Color</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/77dd916fe61a42f2a01b84d9e89033a4?version=4.0.1">Mono</A></Li>
+      <Li><A href="https://svelte-cssgg-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgSupertiny.src}>
