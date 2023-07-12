@@ -300,7 +300,7 @@
     <img src="https://badgen.net/npm/dt/flowbite-svelte-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/flowbite-svelte-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://shinokada.github.io/flowbite-svelte-icons/" target="_blank">Flowbite-Svelte-Icons</A>
+      <A href="https://flowbite-svelte-icons.vercel.app/" target="_blank">Flowbite-Svelte-Icons</A>
     </h5>
     <List>
       <Li>450+ mono and color SVG icons</Li>
@@ -314,15 +314,12 @@
     <img src="https://badgen.net/npm/dt/svelte-boxicons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-boxicons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://shinokada.github.io/svelte-boxicons/" target="_blank">Svelte-Boxicons</A>
+      <A href="svelte-boxicons.vercel.app" target="_blank">Svelte-Boxicons</A>
     </h5>
     <List>
       <Li>1500+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/atisawd/boxicons/">Boxicons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-boxicons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-boxicons/blob/main/icon-images.md">Icon images</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/924e767ea0cd419ab61de2ff4fad2075?version=4.0.1">Color</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/675bf16a9517410eac0fefa11228901b?version=4.0.1">Mono</A></Li>
+      <Li><A href="https://svelte-boxicons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgAnt.src}>
