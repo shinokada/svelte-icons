@@ -319,8 +319,7 @@
     <List>
       <Li>450+ mono and color SVG icons</Li>
       <Li>Source: <A href="https://github.com/themesberg/flowbite-icons">Flowbite Icons</A></Li>
-      <Li><A href="https://flowbite-svelte-icons.vercel.app/">Icons</A></Li>
-      <Li><A href="https://shinokada.github.io/flowbite-svelte-icons/">Docs</A></Li>
+      <Li><A href="https://flowbite-svelte-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
 
