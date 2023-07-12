@@ -292,9 +292,7 @@
     <List>
       <Li>340+ SVG logos for popular brands</Li>
       <Li>Source: <A href="https://github.com/edent/SuperTinyIcons">SuperTinyIcons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-supertiny/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-supertiny/blob/main/icon-images.md">Icon images</A></Li>
-      <Li><A href="https://svelte.dev/repl/45dbe3eda1614eb9a5ce20dd1884a505?version=4.0.1">REPL</A></Li>
+      <Li><A href="https://svelte-supertiny.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgFlowbite.src}>
