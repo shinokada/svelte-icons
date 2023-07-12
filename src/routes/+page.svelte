@@ -248,7 +248,7 @@
     <img src="https://badgen.net/npm/dt/svelte-coreui-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-coreui-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://shinokada.github.io/svelte-coreui-icons" target="_blank">Svelte-Coreui-Icons</A>
+      <A href="https://svelte-coreui-icons.vercel.app" target="_blank">Svelte-Coreui-Icons</A>
     </h5>
     <List>
       <Li>1500+ SVG icons</Li>
@@ -261,7 +261,7 @@
     <img src="https://badgen.net/npm/dt/svelte-evil-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-evil-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://shinokada.github.io/svelte-evil-icons" target="_blank">Svelte-Evil-Icons</A>
+      <A href="https://svelte-evil-icons.vercel.app" target="_blank">Svelte-Evil-Icons</A>
     </h5>
     <List>
       <Li>70+ SVG icons</Li>
@@ -274,7 +274,7 @@
     <img src="https://badgen.net/npm/dt/svelte-cssgg-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-cssgg-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://shinokada.github.io/svelte-cssgg-icons" target="_blank">Svelte-Cssgg-Icons</A>
+      <A href="https://svelte-cssgg-icons.vercel.app" target="_blank">Svelte-Cssgg-Icons</A>
     </h5>
     <List>
       <Li>700+ SVG icons</Li>
@@ -287,7 +287,7 @@
     <img src="https://badgen.net/npm/dt/svelte-supertiny" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-supertiny" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://shinokada.github.io/svelte-supertiny" target="_blank">Svelte-Supertiny</A>
+      <A href="https://svelte-supertiny.vercel.app" target="_blank">Svelte-Supertiny</A>
     </h5>
     <List>
       <Li>340+ SVG logos for popular brands</Li>
