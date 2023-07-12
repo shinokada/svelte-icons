@@ -326,15 +326,12 @@
     <img src="https://badgen.net/npm/dt/svelte-ant-design-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-ant-design-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-ant-design-icons.codewithshin.com/" target="_blank">Svelte-Ant-Design-Icons</A>
+      <A href="https://svelte-ant-design-icons.vercel.app" target="_blank">Svelte-Ant-Design-Icons</A>
     </h5>
     <List>
       <Li>780+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/ant-design/ant-design-icons">Ant Design Icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-ant-design-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-ant-design-icons/blob/main/icon-images.md">Icon images</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/375c734a6ec74f44adfe4aa76b117ab9?version=4.0.1">Color</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/38a6fcd635c14255b7a30c1a7d4b05c2?version=4.0.1">2</A></Li>
+      <Li><A href="https://svelte-ant-design-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
