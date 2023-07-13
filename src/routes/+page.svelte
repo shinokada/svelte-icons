@@ -308,7 +308,6 @@
       <Li><A href="https://flowbite-svelte-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
-
   <Card img={imgBoxicons.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
     <img src="https://badgen.net/npm/dt/svelte-boxicons" alt="total download number" class="inline" />
@@ -334,7 +333,6 @@
       <Li><A href="https://svelte-ant-design-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
-
   <Card img={imgAwesome.src}>
     <img src="https://badgen.net/npm/dt/svelte-awesome-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" class="inline" />
@@ -344,8 +342,7 @@
     <List>
       <Li>2000+ SVG icons</Li>
       <Li>Rource: <A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-awesome-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/c0045886b264408fba13f1de70c42932?version=4.0.1">REPL</A></Li>
+      <Li><A href="https://svelte-awesome-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
 
