@@ -362,13 +362,12 @@
     <img src="https://badgen.net/npm/dt/svelte-circle-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-circle-flags" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-circle-flags.codewithshin.com/" target="_blank">Svelte-Circle-Flags</A>
+      <A href="https://svelte-circle-flags/vercel.app" target="_blank">Svelte-Circle-Flags</A>
     </h5>
     <List>
       <Li>330+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/HatScripts/circle-flags">Circle-Flags</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-circle-flags/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/382095078be04da7a5008b7f5e41d5c8?version=4.0.1">REPL</A></Li>
+      <Li><A href="https://svelte-circle-flags/vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
