@@ -345,7 +345,6 @@
       <Li><A href="https://svelte-awesome-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
-
   <Card img={imgBootstrap.src}>
     <img src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-bootstrap-svg-icons" alt="weekly download number" class="inline" />
@@ -355,8 +354,7 @@
     <List>
       <Li>1660+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/twbs/icons">Bootstrap icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-bootstrap-svg-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/1613cc34aef7417783284b74e250c8e8?version=4.0.1">REPL</A></Li>
+      <Li><A href="https://svelte-bootstrap-svg-icons/vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
