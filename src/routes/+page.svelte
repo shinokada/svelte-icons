@@ -337,7 +337,7 @@
     <img src="https://badgen.net/npm/dt/svelte-awesome-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-awesome-icons.codewithshin.com/" target="_blank">Svelte-Awesome-Icons</A>
+      <A href="https://svelte-awesome-icons.vercel.app/" target="_blank">Svelte-Awesome-Icons</A>
     </h5>
     <List>
       <Li>2000+ SVG icons</Li>
