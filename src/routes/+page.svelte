@@ -349,7 +349,7 @@
     <img src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-bootstrap-svg-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-bootstrap-svg-icons.codewithshin.com/" target="_blank">Svelte-Bootstrap-Svg-Icons</A>
+      <A href="https://svelte-bootstrap-svg-icons.vercel.app/" target="_blank">Svelte-Bootstrap-Svg-Icons</A>
     </h5>
     <List>
       <Li>1660+ SVG icons</Li>
