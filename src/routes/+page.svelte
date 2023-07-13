@@ -313,7 +313,7 @@
     <img src="https://badgen.net/npm/dt/svelte-boxicons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-boxicons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="svelte-boxicons.vercel.app" target="_blank">Svelte-Boxicons</A>
+      <A href="https://svelte-boxicons.vercel.app" target="_blank">Svelte-Boxicons</A>
     </h5>
     <List>
       <Li>1500+ SVG icons</Li>
