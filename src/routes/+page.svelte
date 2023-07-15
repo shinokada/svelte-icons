@@ -362,7 +362,7 @@
     <img src="https://badgen.net/npm/dt/svelte-circle-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-circle-flags" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-circle-flags/vercel.app" target="_blank">Svelte-Circle-Flags</A>
+      <A href="https://svelte-circle-flags.vercel.app" target="_blank">Svelte-Circle-Flags</A>
     </h5>
     <List>
       <Li>330+ SVG icons</Li>
@@ -370,12 +370,11 @@
       <Li><A href="https://svelte-circle-flags/vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
-
   <Card img={imgCrypto.src}>
     <img src="https://badgen.net/npm/dt/svelte-cryptocurrency-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-cryptocurrency-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-cryptocurrency-icons.codewithshin.com/" target="_blank">Svelte-Cryptocurrency-Icons</A>
+      <A href="https://svelte-cryptocurrency-icons.vercel.app/" target="_blank">Svelte-Cryptocurrency-Icons</A>
     </h5>
     <List>
       <Li>470+ SVG icons</Li>
