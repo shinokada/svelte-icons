@@ -395,7 +395,18 @@
       <Li><A href="https://svelte-feathers.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
-
+  <Card img={imgFile.src}>
+    <img src="https://badgen.net/npm/dt/svelte-file-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-file-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-file-icons.vercel.app" target="_blank">Svelte-File-Icons</A>
+    </h5>
+    <List>
+      <Li>930+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/file-icons/icons">File icons</A></Li>
+      <Li><A href="https://svelte-file-icons.vercel.app">Icons and Docs</A></Li>
+    </List>
+  </Card>
   <Card img={imgFlagIcons.src}>
     <img src="https://badgen.net/npm/dt/svelte-flag-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-flag-icons" alt="weekly download number" class="inline" />
@@ -408,34 +419,19 @@
       <Li><A href="https://svelte-flag-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
-
   <Card img={imgFlags.src}>
     <img src="https://badgen.net/npm/dt/svelte-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-flags.codewithshin.com/" target="_blank">Svelte-Flags</A>
+      <A href="https://svelte-flags.vercel.app/" target="_blank">Svelte-Flags</A>
     </h5>
     <List>
       <Li>250+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/hampusborgos/country-flags">Country flags</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-flags/blob/main/flags.md">Icon names</A></Li>
+      <Li><A href="https://svelte-flags.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
-
-  <Card img={imgFile.src}>
-    <img src="https://badgen.net/npm/dt/svelte-file-icons" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-file-icons" alt="weekly download number" class="inline" />
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-file-icons.codewithshin.com/" target="_blank">Svelte-File-Icons</A>
-    </h5>
-    <List>
-      <Li>930+ SVG icons</Li>
-      <Li>Source: <A href="https://github.com/file-icons/icons">File icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-file-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/985ea64e08a942b493afa91538fef9b1?version=4.0.1">REPL</A></Li>
-    </List>
-  </Card>
-
+  
   <Card img={imgGoogle.src}>
     <img src="https://badgen.net/npm/dt/svelte-google-materialdesign-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons" alt="weekly download number" class="inline" />
