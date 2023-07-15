@@ -357,7 +357,6 @@
       <Li><A href="https://svelte-bootstrap-svg-icons/vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
-
   <Card img={imgCircleFlags.src}>
     <img src="https://badgen.net/npm/dt/svelte-circle-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-circle-flags" alt="weekly download number" class="inline" />
@@ -431,17 +430,17 @@
       <Li><A href="https://svelte-flags.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
-  
+
   <Card img={imgGoogle.src}>
     <img src="https://badgen.net/npm/dt/svelte-google-materialdesign-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-google-materialdesign-icons.codewithshin.com/" target="_blank">Svelte-Google-Materialdesign-Icons</A>
+      <A href="https://svelte-google-materialdesign-icons.vercel.app/" target="_blank">Svelte-Google-Materialdesign-Icons</A>
     </h5>
     <List>
       <Li>10600+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/material-icons/material-icons">Material-Icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-google-materialdesign-icons/blob/main/icon-list.md">Icon names</A></Li>
+      <Li><A href="https://svelte-google-materialdesign-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
 
