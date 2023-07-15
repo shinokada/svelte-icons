@@ -400,13 +400,12 @@
     <img src="https://badgen.net/npm/dt/svelte-flag-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-flag-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-flag-icons.codewithshin.com/" target="_blank">Svelte-Flag-Icons</A>
+      <A href="svelte-flag-icons.vercel.app" target="_blank">Svelte-Flag-Icons</A>
     </h5>
     <List>
       <Li>260+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/lipis/flag-icons">Flag Icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-flag-icons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/70a4c2d5242f4cfa8dba85529184d7a3?version=4.0.1">REPL</A></Li>
+      <Li><A href="https://svelte-flag-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
