@@ -379,7 +379,7 @@
     <List>
       <Li>470+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/spothq/cryptocurrency-icons">Cryptocurrency icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-cryptocurrency-icons/blob/main/icon-list.md">Icon names</A></Li>
+      <Li><A href="https://svelte-cryptocurrency-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -387,12 +387,12 @@
     <img src="https://badgen.net/npm/dt/svelte-feathers" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-feathers" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-feathers.codewithshin.com/" target="_blank">Svelte-Feathers</A>
+      <A href="https://svelte-feathers.vercel.app/" target="_blank">Svelte-Feathers</A>
     </h5>
     <List>
       <Li>280+ SVG icons</Li>
       <Li>Source: <A href="https://feathericons.com/">Feather-icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-feathers/blob/main/icon-list.md">Icon names</A></Li>
+      <Li><A href="https://svelte-feathers.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
