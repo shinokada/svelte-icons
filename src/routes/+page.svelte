@@ -455,19 +455,16 @@
       <Li><A href="https://svelte-heros.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
-
   <Card img={imgHero2.src}>
     <img src="https://badgen.net/npm/dt/svelte-heros-v2" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-heros-v2" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-heros-v2.codewithshin.com/" target="_blank">Svelte-Heros-v2</A>
+      <A href="https://svelte-heros-v2.vercel.app/" target="_blank">Svelte-Heros-v2</A>
     </h5>
     <List>
       <Li>260+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons v2</A></Li>
-      <Li><A href="/svelte-heros-v2">Icons and names</A></Li>
-      <Li><A href="https://svelte.dev/repl/1948d7b5157f44709cff380d9783342c?version=4.0.1">REPL 1</A></Li>
-      <Li><A href="https://svelte.dev/repl/e26c4ea516a0493cb64797879b1fe46d?version=4.0.1">REPL 2</A></Li>
+      <Li><A href="https://svelte-heros-v2.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
 
