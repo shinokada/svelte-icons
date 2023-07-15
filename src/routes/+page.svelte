@@ -443,18 +443,16 @@
       <Li><A href="https://svelte-google-materialdesign-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
-
   <Card img={imgHero.src}>
     <img src="https://badgen.net/npm/dt/svelte-heros" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-heros.codewithshin.com/" target="_blank">Svelte-Heros</A>
+      <A href="https://svelte-heros.vercel.app/" target="_blank">Svelte-Heros</A>
     </h5>
     <List>
       <Li>460+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-heros/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/48606ee88712441caebd7d09aa62602c?version=4.0.1">REPL</A></Li>
+      <Li><A href="https://svelte-heros.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
