@@ -498,12 +498,12 @@
     <img src="https://badgen.net/npm/dt/svelte-materialdesign-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-materialdesign-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-materialdesign.vercel.app" target="_blank">Svelte-Materialdesign-Icons</A>
+      <A href="https://svelte-materialdesign-icons.vercel.app" target="_blank">Svelte-Materialdesign-Icons</A>
     </h5>
     <List>
       <Li>6980+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/Templarian/MaterialDesign">MaterialDesign</A></Li>
-      <Li><A href="https://svelte-materialdesign.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-materialdesign-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -511,13 +511,12 @@
     <img src="https://badgen.net/npm/dt/svelte-oct" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-oct" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-oct.codewithshin.com/" target="_blank">Svelte-Oct</A>
+      <A href="https://svelte-oct.vercel.app/" target="_blank">Svelte-Oct</A>
     </h5>
     <List>
       <Li>500+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/primer/octicons">Octicons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-oct/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/fccdaf257870448bbb6b924fda6c3a5e?version=4.0.1">REPL</A></Li>
+      <Li><A href="https://svelte-oct.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -525,13 +524,12 @@
     <img src="https://badgen.net/npm/dt/svelte-radix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-radix.codewithshin.com/" target="_blank">Svelte-Radix</A>
+      <A href="https://svelte-radix.vercel.app/" target="_blank">Svelte-Radix</A>
     </h5>
     <List>
       <Li>310+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/radix-ui/icons">Radix icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-radix/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/fb0def38847240f3a51460a56bf53225?version=4.0.1">REPL</A></Li>
+      <Li><A href="https://svelte-radix.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
