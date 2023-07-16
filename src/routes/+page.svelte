@@ -602,12 +602,12 @@
     <img src="https://badgen.net/npm/dt/svelte-weather" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-weather" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-weather.vercel.app/" target="_blank">Svelte-Weather</A>
+      <A href="https://svelte-weather-icons.vercel.app/" target="_blank">Svelte-Weather</A>
     </h5>
     <List>
       <Li>210+ Weather SVG icons</Li>
       <Li>Source: <A href="https://github.com/erikflowers/weather-icons">weather-icons</A></Li>
-      <Li><A href="https://svelte-weather.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-weather-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 </div>
