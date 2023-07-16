@@ -438,7 +438,7 @@
       <A href="https://svelte-google-materialdesign-icons.vercel.app/" target="_blank">Svelte-Google-Materialdesign-Icons</A>
     </h5>
     <List>
-      <Li>10600+ SVG icons</Li>
+      <Li>2120+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/material-icons/material-icons">Material-Icons</A></Li>
       <Li><A href="https://svelte-google-materialdesign-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
@@ -537,13 +537,12 @@
     <img src="https://badgen.net/npm/dt/svelte-remix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-remix.codewithshin.com/" target="_blank">Svelte-Remix</A>
+      <A href="https://svelte-remix.vercel.app/" target="_blank">Svelte-Remix</A>
     </h5>
     <List>
       <Li>2270+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/Remix-Design/RemixIcon">RemixIcon</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-remix/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/60e7000b54004872aa4006535fcef7fd?version=4.0.1">REPL</A></Li>
+      <Li><A href="https://svelte-remix.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -551,12 +550,12 @@
     <img src="https://badgen.net/npm/dt/svelte-simples" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-simples" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-simples.codewithshin.com/" target="_blank">Svelte-Simples</A>
+      <A href="https://svelte-simples.vercel.app/" target="_blank">Svelte-Simples</A>
     </h5>
     <List>
       <Li>2230+ SVG icons for popular brands</Li>
-      <Li>Source: <A href="https://simpleicons.org/s">Simple-icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-simples/blob/main/icon-names.md">Icon names</A></Li>
+      <Li>Source: <A href="https://github.com/simple-icons/simple-icons/">Simple-icons</A></Li>
+      <Li><A href="https://svelte-simples.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -564,14 +563,12 @@
     <img src="https://badgen.net/npm/dt/svelte-tabler" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-tabler" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-tabler.codewithshin.com/" target="_blank">Svelte-Tabler</A>
+      <A href="https://svelte-tabler.vercel.app/" target="_blank">Svelte-Tabler</A>
     </h5>
     <List>
       <Li>1970+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/tabler/tabler-icons">Tabler Icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-tabler/blob/main/icon-list.md">Icon names</A></Li>
-      <Li><A href="https://svelte.dev/repl/55ccaffe3d414235a6bb554ffd98f4bc?version=4.0.1">REPL 1</A></Li>
-      <Li><A href="https://svelte.dev/repl/b63ed92a79a047bdb2017fac63624130?version=4.0.1">REPL 2</A></Li>
+      <Li><A href="https://svelte-tabler.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -579,15 +576,12 @@
     <img src="https://badgen.net/npm/dt/svelte-teenyicons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-teenyicons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-teenyicons.codewithshin.com/" target="_blank">Svelte-Teenyicons</A>
+      <A href="https://svelte-teenyicons.vercel.app/" target="_blank">Svelte-Teenyicons</A>
     </h5>
     <List>
       <Li>600+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/teenyicons/teenyicons">Teenyicons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-teenyicons/blob/main/icon-list.md">Icon names</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/c838152600e545059576d02fb5585854?version=4.0.1">Outline color</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/0b530e93f8db4568919b255cde5771be?version=4.0.1">Outline mono</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/5a741191c04b42e9b2d56ec5e03b7b86?version=4.0.1">Solid color</A></Li>
+      <Li><A href="https://svelte-teenyicons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -595,12 +589,12 @@
     <img src="https://badgen.net/npm/dt/svelte-twitter-emoji" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-twitter-emoji" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-twitter-emoji.codewithshin.com/" target="_blank">Svelte-Twitter-Emoji</A>
+      <A href="https://svelte-twitter-emoji.vercel.app/" target="_blank">Svelte-Twitter-Emoji</A>
     </h5>
     <List>
       <Li>3600+ Twitter emoji SVG color icons</Li>
       <Li>Source: <A href="https://github.com/twitter/twemoji">Twemoji</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-twitter-emoji/blob/main/icon-list.md">Icon names</A></Li>
+      <Li><A href="https://svelte-twitter-emoji.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -608,14 +602,12 @@
     <img src="https://badgen.net/npm/dt/svelte-weather" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-weather" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-weather.codewithshin.com/" target="_blank">Svelte-Weather</A>
+      <A href="https://svelte-weather.vercel.app/" target="_blank">Svelte-Weather</A>
     </h5>
     <List>
       <Li>210+ Weather SVG icons</Li>
       <Li>Source: <A href="https://github.com/erikflowers/weather-icons">weather-icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-weather/blob/main/icon-list.md">Icon names</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/2f6f61d9ec894fb2a87ecbedd376f7ec?version=4.0.1">Color</A></Li>
-      <Li>REPL: <A href="https://svelte.dev/repl/b13216be1b934741bf46f3553ec7ad77?version=4.0.1">Mono</A></Li>
+      <Li><A href="https://svelte-weather.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 </div>
