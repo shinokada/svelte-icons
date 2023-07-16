@@ -472,12 +472,12 @@
     <img src="https://badgen.net/npm/dt/svelte-ionicons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-ionicons.codewithshin.com/" target="_blank">Svelte-Ionicons</A>
+      <A href="https://svelte-ionicons.vercel.app" target="_blank">Svelte-Ionicons</A>
     </h5>
     <List>
       <Li>1330+ SVG icons</Li>
       <Li>Source: <A href="https://ionic.io/ionicons">Ionicicons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-ionicons/blob/main/icon-list.md">Icon names</A></Li>
+      <Li><A href="https://svelte-ionicons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -485,12 +485,12 @@
     <img src="https://badgen.net/npm/dt/svelte-lucide" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-lucide" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-lucide.codewithshin.com/" target="_blank">Svelte-Lucide</A>
+      <A href="https://svelte-lucide.vercel.app/" target="_blank">Svelte-Lucide</A>
     </h5>
     <List>
       <Li>590+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/lucide-icons/lucide">Lucide icons</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-lucide/blob/main/icon-list.md">Icon names</A></Li>
+      <Li><A href="https://svelte-lucide.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -498,12 +498,12 @@
     <img src="https://badgen.net/npm/dt/svelte-materialdesign-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-materialdesign-icons" alt="weekly download number" class="inline" />
     <h5 class={hFiveClass}>
-      <A href="https://svelte-materialdesign-icons.codewithshin.com/" target="_blank">Svelte-Materialdesign-Icons</A>
+      <A href="https://svelte-materialdesign.vercel.app" target="_blank">Svelte-Materialdesign-Icons</A>
     </h5>
     <List>
       <Li>6980+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/Templarian/MaterialDesign">MaterialDesign</A></Li>
-      <Li><A href="https://github.com/shinokada/svelte-materialdesign/blob/main/icon-list.md">Icon names</A></Li>
+      <Li><A href="https://svelte-materialdesign.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
 
