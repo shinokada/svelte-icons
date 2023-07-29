@@ -7,6 +7,7 @@ export const load = async ({ fetch }) => {
       'svelte-cssgg-icons',
       'svelte-circle-flags',
       'svelte-feathers',
+      'svelte-file-icons',
       'svelte-bootstrap-svg-icons',
       'svelte-ionicons'
     ];
