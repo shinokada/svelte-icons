@@ -11,7 +11,7 @@
   let totalDownloads = 0;
   let weeklyDownloads = 0;
   export let data: PageData;
-  console.log(data['svelte-supertiny'])
+  
   onMount(async () => {
     try {
       const libs = [
