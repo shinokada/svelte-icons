@@ -14,7 +14,8 @@ export const load = async ({ fetch }) => {
       'svelte-materialdesign-icons',
       'svelte-oct',
       'svelte-radix',
-      'svelte-simples'
+      'svelte-simples',
+      'svelte-tabler'
     ];
 
     const data: { [key: string]: number } = {}; // Explicitly define the type of 'data'
