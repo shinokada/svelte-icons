@@ -9,7 +9,8 @@ export const load = async ({ fetch }) => {
       'svelte-feathers',
       'svelte-file-icons',
       'svelte-bootstrap-svg-icons',
-      'svelte-ionicons'
+      'svelte-ionicons',
+      'svelte-lucide'
     ];
 
     const data: { [key: string]: number } = {}; // Explicitly define the type of 'data'
