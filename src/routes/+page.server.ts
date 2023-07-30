@@ -9,6 +9,7 @@ export const load = async ({ fetch }) => {
       'svelte-feathers',
       'svelte-file-icons',
       'svelte-heros',
+      'svelte-heros-v2',
       'svelte-ionicons',
       'svelte-lucide',
       'svelte-materialdesign-icons',
