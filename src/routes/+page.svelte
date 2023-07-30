@@ -378,7 +378,7 @@
       <A href="https://svelte-bootstrap-svg-icons.vercel.app/" target="_blank">Svelte-Bootstrap-Svg-Icons</A>
     </h5>
     <List>
-      <Li>1660+ SVG icons</Li>
+      <Li>1950+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/twbs/icons">Bootstrap icons</A></Li>
       {#if data['svelte-bootstrap-svg-icons']}
       <Li>{Math.round(data['svelte-bootstrap-svg-icons'])} kB</Li>
@@ -393,7 +393,7 @@
       <A href="https://svelte-circle-flags.vercel.app" target="_blank">Svelte-Circle-Flags</A>
     </h5>
     <List>
-      <Li>330+ SVG icons</Li>
+      <Li>380+ SVG Circle Flag icons</Li>
       <Li>Source: <A href="https://github.com/HatScripts/circle-flags">Circle-Flags</A></Li>
       {#if data['svelte-circle-flags']}
       <Li>{Math.round(data['svelte-circle-flags'])} kB</Li>
@@ -547,7 +547,7 @@
       <A href="https://svelte-lucide.vercel.app/" target="_blank">Svelte-Lucide</A>
     </h5>
     <List>
-      <Li>590+ SVG icons</Li>
+      <Li>1210+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/lucide-icons/lucide">Lucide icons</A></Li>
       {#if data['svelte-lucide']}
       <Li>{Math.round(data['svelte-lucide'])} kB</Li>
@@ -563,7 +563,7 @@
       <A href="https://svelte-materialdesign-icons.vercel.app" target="_blank">Svelte-Materialdesign-Icons</A>
     </h5>
     <List>
-      <Li>6980+ SVG icons</Li>
+      <Li>7330+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/Templarian/MaterialDesign">MaterialDesign</A></Li>
       {#if data['svelte-materialdesign-icons']}
       <Li>{Math.round(data['svelte-materialdesign-icons'])} kB</Li>
@@ -579,7 +579,7 @@
       <A href="https://svelte-oct.vercel.app/" target="_blank">Svelte-Oct</A>
     </h5>
     <List>
-      <Li>500+ SVG icons</Li>
+      <Li>270+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/primer/octicons">Octicons</A></Li>
       {#if data['svelte-oct']}
       <Li>{Math.round(data['svelte-oct'])} kB</Li>
@@ -627,7 +627,7 @@
       <A href="https://svelte-simples.vercel.app/" target="_blank">Svelte-Simples</A>
     </h5>
     <List>
-      <Li>2230+ SVG icons for popular brands</Li>
+      <Li>2620+ SVG icons for popular brands</Li>
       <Li>Source: <A href="https://github.com/simple-icons/simple-icons/">Simple-icons</A></Li>
       {#if data['svelte-simples']}
       <Li>{Math.round(data['svelte-simples'])} kB</Li>
@@ -643,7 +643,7 @@
       <A href="https://svelte-tabler.vercel.app/" target="_blank">Svelte-Tabler</A>
     </h5>
     <List>
-      <Li>1970+ SVG icons</Li>
+      <Li>4600+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/tabler/tabler-icons">Tabler Icons</A></Li>
       {#if data['svelte-tabler']}
       <Li>{Math.round(data['svelte-tabler'])} kB</Li>
