@@ -15,7 +15,8 @@ export const load = async ({ fetch }) => {
       'svelte-oct',
       'svelte-radix',
       'svelte-simples',
-      'svelte-tabler'
+      'svelte-tabler',
+      'svelte-weather'
     ];
 
     const data: { [key: string]: number } = {}; // Explicitly define the type of 'data'
