@@ -11,7 +11,7 @@
   let totalDownloads = 0;
   let weeklyDownloads = 0;
   export let data: PageData;
-  
+
   onMount(async () => {
     try {
       const libs = [
@@ -500,7 +500,7 @@
       <A href="https://svelte-heros.vercel.app/" target="_blank">Svelte-Heros</A>
     </h5>
     <List>
-      <Li>460+ SVG icons</Li>
+      <Li>580+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons</A></Li>
       {#if data['svelte-heros']}
       <Li>{Math.round(data['svelte-heros'])} kB</Li>
@@ -515,7 +515,7 @@
       <A href="https://svelte-heros-v2.vercel.app/" target="_blank">Svelte-Heros-v2</A>
     </h5>
     <List>
-      <Li>260+ SVG icons</Li>
+      <Li>870+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons v2</A></Li>
       {#if data['svelte-heros-v2']}
       <Li>{Math.round(data['svelte-heros-v2'])} kB</Li>
