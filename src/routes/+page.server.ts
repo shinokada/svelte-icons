@@ -2,19 +2,20 @@
 export const load = async ({ fetch }) => {
   try {
     const packageNames = [
-      'svelte-supertiny',
+      'svelte-bootstrap-svg-icons',
       'svelte-evil-icons',
       'svelte-cssgg-icons',
       'svelte-circle-flags',
       'svelte-feathers',
       'svelte-file-icons',
-      'svelte-bootstrap-svg-icons',
+      'svelte-heros',
       'svelte-ionicons',
       'svelte-lucide',
       'svelte-materialdesign-icons',
       'svelte-oct',
       'svelte-radix',
       'svelte-simples',
+      'svelte-supertiny',
       'svelte-tabler',
       'svelte-weather'
     ];
