@@ -317,7 +317,7 @@
       <A href="https://flowbite-svelte-icons.vercel.app/" target="_blank">Flowbite-Svelte-Icons</A>
     </h5>
     <List>
-      <Li>450+ mono and color SVG icons</Li>
+      <Li>510+ mono and color SVG icons</Li>
       <Li>Source: <A href="https://github.com/themesberg/flowbite-icons">Flowbite Icons</A></Li>
       {#if data['flowbite-svelte-icons']}
       <Li>{Math.round(data['flowbite-svelte-icons'])} kB</Li>
