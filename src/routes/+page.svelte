@@ -245,70 +245,10 @@
 </div>
 
 <div class="flex flex-wrap justify-center gap-4">
-  <Card img={imgCoreui.src}>
-    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img src="https://badgen.net/npm/dt/svelte-coreui-icons" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-coreui-icons" alt="weekly download number" class="inline" />
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-coreui-icons.vercel.app" target="_blank">Svelte-Coreui-Icons</A>
-    </h5>
-    <List>
-      <Li>1500+ SVG icons</Li>
-      <Li>Source: <A href="https://github.com/coreui/coreui-icons">CoreUI Icons</A></Li>
-      {#if data['svelte-coreui-icons']}
-      <Li>{Math.round(data['svelte-coreui-icons'])} kB</Li>
-      {/if}
-      <Li><A href="https://svelte-coreui-icons.vercel.app/">Icons and Docs</A></Li>
-    </List>
-  </Card>
-  <Card img={imgEvil.src}>
-    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img src="https://badgen.net/npm/dt/svelte-evil-icons" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-evil-icons" alt="weekly download number" class="inline" />
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-evil-icons.vercel.app" target="_blank">Svelte-Evil-Icons</A>
-    </h5>
-    <List>
-      <Li>70+ SVG icons</Li>
-      <Li>Source: <A href="https://github.com/evil-icons/evil-icons">Evil Icons</A></Li>
-      {#if data['svelte-evil-icons']}
-      <Li>{Math.round(data['svelte-evil-icons'])} kB</Li>
-      {/if}
-      <Li><A href="https://svelte-evil-icons.vercel.app">Icons and Docs</A></Li>
-    </List>
-  </Card>
-  <Card img={imgCssgg.src}>
-    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img src="https://badgen.net/npm/dt/svelte-cssgg-icons" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-cssgg-icons" alt="weekly download number" class="inline" />
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-cssgg-icons.vercel.app" target="_blank">Svelte-Cssgg-Icons</A>
-    </h5>
-    <List>
-      <Li>700+ SVG icons</Li>
-      <Li>Source: <A href="https://github.com/astrit/css.gg">css.gg</A></Li>
-      {#if data['svelte-cssgg-icons']}
-      <Li>{Math.round(data['svelte-cssgg-icons'])} kB</Li>
-      {/if}
-      <Li><A href="https://svelte-cssgg-icons.vercel.app">Icons and Docs</A></Li>
-    </List>
-  </Card>
-  <Card img={imgSupertiny.src}>
-    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img src="https://badgen.net/npm/dt/svelte-supertiny" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-supertiny" alt="weekly download number" class="inline" />
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-supertiny.vercel.app" target="_blank">Svelte-Supertiny</A>
-    </h5>
-    <List>
-      <Li>340+ SVG logos for popular brands</Li>
-      <Li>Source: <A href="https://github.com/edent/SuperTinyIcons">SuperTinyIcons</A></Li>
-      {#if data['svelte-supertiny']}
-      <Li>{Math.round(data['svelte-supertiny'])} kB</Li>
-      {/if}
-      <Li><A href="https://svelte-supertiny.vercel.app/">Icons and Docs</A></Li>
-    </List>
-  </Card>
+  
+  
+  
+  
   <Card img={imgFlowbite.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
     <img src="https://badgen.net/npm/dt/flowbite-svelte-icons" alt="total download number" class="inline" />
@@ -323,22 +263,6 @@
       <Li>{Math.round(data['flowbite-svelte-icons'])} kB</Li>
       {/if}
       <Li><A href="https://flowbite-svelte-icons.vercel.app/">Icons and Docs</A></Li>
-    </List>
-  </Card>
-  <Card img={imgBoxicons.src}>
-    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
-    <img src="https://badgen.net/npm/dt/svelte-boxicons" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-boxicons" alt="weekly download number" class="inline" />
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-boxicons.vercel.app" target="_blank">Svelte-Boxicons</A>
-    </h5>
-    <List>
-      <Li>1500+ SVG icons</Li>
-      <Li>Source: <A href="https://github.com/atisawd/boxicons/">Boxicons</A></Li>
-      {#if data['svelte-boxicons']}
-      <Li>{Math.round(data['svelte-boxicons'])} kB</Li>
-      {/if}
-      <Li><A href="https://svelte-boxicons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgAnt.src}>
@@ -386,6 +310,22 @@
       <Li><A href="https://svelte-bootstrap-svg-icons/vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
+  <Card img={imgBoxicons.src}>
+    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <img src="https://badgen.net/npm/dt/svelte-boxicons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-boxicons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-boxicons.vercel.app" target="_blank">Svelte-Boxicons</A>
+    </h5>
+    <List>
+      <Li>1500+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/atisawd/boxicons/">Boxicons</A></Li>
+      {#if data['svelte-boxicons']}
+      <Li>{Math.round(data['svelte-boxicons'])} kB</Li>
+      {/if}
+      <Li><A href="https://svelte-boxicons.vercel.app">Icons and Docs</A></Li>
+    </List>
+  </Card>
   <Card img={imgCircleFlags.src}>
     <img src="https://badgen.net/npm/dt/svelte-circle-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-circle-flags" alt="weekly download number" class="inline" />
@@ -399,6 +339,22 @@
       <Li>{Math.round(data['svelte-circle-flags'])} kB</Li>
       {/if}
       <Li><A href="https://svelte-circle-flags/vercel.app">Icons and Docs</A></Li>
+    </List>
+  </Card>
+  <Card img={imgCoreui.src}>
+    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <img src="https://badgen.net/npm/dt/svelte-coreui-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-coreui-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-coreui-icons.vercel.app" target="_blank">Svelte-Coreui-Icons</A>
+    </h5>
+    <List>
+      <Li>1500+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/coreui/coreui-icons">CoreUI Icons</A></Li>
+      {#if data['svelte-coreui-icons']}
+      <Li>{Math.round(data['svelte-coreui-icons'])} kB</Li>
+      {/if}
+      <Li><A href="https://svelte-coreui-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgCrypto.src}>
@@ -416,7 +372,38 @@
       <Li><A href="https://svelte-cryptocurrency-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
-
+  <Card img={imgCssgg.src}>
+    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <img src="https://badgen.net/npm/dt/svelte-cssgg-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-cssgg-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-cssgg-icons.vercel.app" target="_blank">Svelte-Cssgg-Icons</A>
+    </h5>
+    <List>
+      <Li>700+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/astrit/css.gg">css.gg</A></Li>
+      {#if data['svelte-cssgg-icons']}
+      <Li>{Math.round(data['svelte-cssgg-icons'])} kB</Li>
+      {/if}
+      <Li><A href="https://svelte-cssgg-icons.vercel.app">Icons and Docs</A></Li>
+    </List>
+  </Card>
+  <Card img={imgEvil.src}>
+    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <img src="https://badgen.net/npm/dt/svelte-evil-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-evil-icons" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-evil-icons.vercel.app" target="_blank">Svelte-Evil-Icons</A>
+    </h5>
+    <List>
+      <Li>70+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/evil-icons/evil-icons">Evil Icons</A></Li>
+      {#if data['svelte-evil-icons']}
+      <Li>{Math.round(data['svelte-evil-icons'])} kB</Li>
+      {/if}
+      <Li><A href="https://svelte-evil-icons.vercel.app">Icons and Docs</A></Li>
+    </List>
+  </Card>
   <Card img={imgFeather.src}>
     <img src="https://badgen.net/npm/dt/svelte-feathers" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-feathers" alt="weekly download number" class="inline" />
@@ -635,7 +622,22 @@
       <Li><A href="https://svelte-simples.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
-
+  <Card img={imgSupertiny.src}>
+    <Badge large color="purple" class="dark:text-white px-4">New</Badge>
+    <img src="https://badgen.net/npm/dt/svelte-supertiny" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-supertiny" alt="weekly download number" class="inline" />
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-supertiny.vercel.app" target="_blank">Svelte-Supertiny</A>
+    </h5>
+    <List>
+      <Li>340+ SVG logos for popular brands</Li>
+      <Li>Source: <A href="https://github.com/edent/SuperTinyIcons">SuperTinyIcons</A></Li>
+      {#if data['svelte-supertiny']}
+      <Li>{Math.round(data['svelte-supertiny'])} kB</Li>
+      {/if}
+      <Li><A href="https://svelte-supertiny.vercel.app/">Icons and Docs</A></Li>
+    </List>
+  </Card>
   <Card img={imgTabler.src}>
     <img src="https://badgen.net/npm/dt/svelte-tabler" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-tabler" alt="weekly download number" class="inline" />
