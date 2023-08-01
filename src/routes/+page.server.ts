@@ -3,6 +3,7 @@ export const load = async ({ fetch }) => {
   try {
     const packageNames = [
       'flowbite-svelte-icons',
+      'svelte-ant-design-icons',
       'svelte-bootstrap-svg-icons',
       'svelte-evil-icons',
       'svelte-cssgg-icons',
