@@ -71,6 +71,7 @@
       const packageNames = [
       'flowbite-svelte-icons',
       'svelte-awesome-icons',
+      'svelte-boxicons',
       'svelte-ant-design-icons',
       'svelte-bootstrap-svg-icons',
       'svelte-evil-icons',
