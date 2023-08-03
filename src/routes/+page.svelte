@@ -74,6 +74,7 @@
       'svelte-boxicons',
       'svelte-ant-design-icons',
       'svelte-bootstrap-svg-icons',
+      'svelte-coreui-icons',
       'svelte-evil-icons',
       'svelte-cssgg-icons',
       'svelte-circle-flags',
