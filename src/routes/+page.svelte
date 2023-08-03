@@ -89,6 +89,7 @@
       'svelte-materialdesign-icons',
       'svelte-oct',
       'svelte-radix',
+      'svelte-remix',
       'svelte-simples',
       'svelte-supertiny',
       'svelte-tabler',
