@@ -80,6 +80,7 @@
       'svelte-circle-flags',
       'svelte-feathers',
       'svelte-file-icons',
+      'svelte-flag-icons',
       'svelte-heros',
       'svelte-heros-v2',
       'svelte-ionicons',
