@@ -93,6 +93,7 @@
       'svelte-simples',
       'svelte-supertiny',
       'svelte-tabler',
+      'svelte-teenyicons',
       'svelte-weather'
     ];
 
