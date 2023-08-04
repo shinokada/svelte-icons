@@ -96,6 +96,7 @@
       'svelte-supertiny',
       'svelte-tabler',
       'svelte-teenyicons',
+      'svelte-twitter-emoji',
       'svelte-weather'
     ];
 
