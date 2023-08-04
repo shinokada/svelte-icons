@@ -83,6 +83,7 @@
       'svelte-file-icons',
       'svelte-flag-icons',
       'svelte-flags',
+      'svelte-google-materialdesign-icons',
       'svelte-heros',
       'svelte-heros-v2',
       'svelte-ionicons',
@@ -527,7 +528,7 @@
     </h5>
     <List>
       <Li>2120+ SVG icons</Li>
-      <Li>Source: <A href="https://github.com/material-icons/material-icons">Material-Icons</A></Li>
+      <Li>Source: <A href="https://github.com/marella/material-design-icons/tree/main/svg">Material-Design-Icons</A></Li>
       {#if sizes['svelte-google-materialdesign-icons']}
       <Li>{Math.round(sizes['svelte-google-materialdesign-icons'])} kB</Li>
       {/if}
