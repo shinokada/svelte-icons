@@ -1,5 +1,4 @@
 <script lang="ts">
-  import type { PageData } from './$types';
   import Card from 'flowbite-svelte/Card.svelte';
   import List from 'flowbite-svelte/List.svelte';
   import Li from 'flowbite-svelte/Li.svelte';
@@ -9,9 +8,6 @@
   import { onMount } from 'svelte';
 
   let totalDownloads = 0;
-  let weeklyDownloads = 0;
-  const sizes: { [key: string]: number } = {}; // Explicitly define the type of 'data'
-  // export let data: PageData;
 
   onMount(async () => {
     try {
@@ -49,79 +45,15 @@
 
       const today = new Date();
       const todayString = today.toISOString().slice(0, 10);
-      const oneWeekAgo = new Date(today);
-      oneWeekAgo.setDate(today.getDate() - 7);
-      const oneWeekAgoString = oneWeekAgo.toISOString().slice(0, 10);
-
-      const weeklyPromises = libs.map((lib) => fetch(`https://api.npmjs.org/downloads/point/${oneWeekAgoString}:${todayString}/${lib}`));
+      
       const totalPromises = libs.map((lib) => fetch(`https://api.npmjs.org/downloads/point/2020-01-01:${todayString}/${lib}`));
 
-      const weeklyResponses = await Promise.all(weeklyPromises);
       const totalResponses = await Promise.all(totalPromises);
-
-      for (const response of weeklyResponses) {
-        const data = await response.json();
-        weeklyDownloads += data.downloads;
-      }
 
       for (const response of totalResponses) {
         const data = await response.json();
         totalDownloads += data.downloads;
       }
-      const packageNames = [
-      'flowbite-svelte-icons',
-      'svelte-awesome-icons',
-      'svelte-boxicons',
-      'svelte-ant-design-icons',
-      'svelte-bootstrap-svg-icons',
-      'svelte-coreui-icons',
-      'svelte-cryptocurrency-icons',
-      'svelte-evil-icons',
-      'svelte-cssgg-icons',
-      'svelte-circle-flags',
-      'svelte-feathers',
-      'svelte-file-icons',
-      'svelte-flag-icons',
-      'svelte-flags',
-      'svelte-google-materialdesign-icons',
-      'svelte-heros',
-      'svelte-heros-v2',
-      'svelte-ionicons',
-      'svelte-lucide',
-      'svelte-materialdesign-icons',
-      'svelte-oct',
-      'svelte-radix',
-      'svelte-remix',
-      'svelte-simples',
-      'svelte-supertiny',
-      'svelte-tabler',
-      'svelte-teenyicons',
-      'svelte-twitter-emoji',
-      'svelte-weather'
-    ];
-
-   
-
-    // Create an array of promises for each fetch request
-    const fetchPromises = packageNames.map(async (packageName) => {
-      const response = await fetch(`https://bundlephobia.com/api/size?package=${packageName}`);
-      const packageData = await response.json();
-
-      // Extracting the unpacked size from the response and convert to kB
-      const packageSizeInBytes = packageData.size;
-      const packageSizeInKB = packageSizeInBytes / 1024;
-
-      // Return the package size and the package name for later mapping
-      return { packageName, packageSizeInKB };
-    });
-
-    // Wait for all the fetch requests to complete concurrently
-    const results = await Promise.all(fetchPromises);
-
-    // Map the results back to the 'data' object
-    results.forEach(({ packageName, packageSizeInKB }) => {
-      sizes[packageName] = packageSizeInKB;
-    });
       
     } catch (error) {
       console.error(`Error in onMount: ${error}`);
@@ -297,14 +229,9 @@
   <Badge large color="purple">Faster compling</Badge>
   <Badge large color="yellow">IDE Support</Badge>
   <Badge color="dark" large>Total downloads: {formatNumber(totalDownloads)}</Badge>
-  <Badge color="green" large>Weekly downloads: {formatNumber(weeklyDownloads)}</Badge>
 </div>
 
 <div class="flex flex-wrap justify-center gap-4">
-  
-  
-  
-  
   <Card img={imgFlowbite.src}>
     <Badge large color="purple" class="dark:text-white px-4">New</Badge>
     <img src="https://badgen.net/npm/dt/flowbite-svelte-icons" alt="total download number" class="inline" />
@@ -315,9 +242,6 @@
     <List>
       <Li>510+ mono and color SVG icons</Li>
       <Li>Source: <A href="https://github.com/themesberg/flowbite-icons">Flowbite Icons</A></Li>
-      {#if sizes['flowbite-svelte-icons']}
-      <Li>{Math.round(sizes['flowbite-svelte-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://flowbite-svelte-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -330,9 +254,6 @@
     <List>
       <Li>780+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/ant-design/ant-design-icons">Ant Design Icons</A></Li>
-      {#if sizes['svelte-ant-design-icons']}
-      <Li>{Math.round(sizes['svelte-ant-design-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-ant-design-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -345,9 +266,6 @@
     <List>
       <Li>2000+ SVG icons</Li>
       <Li>Rource: <A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>
-      {#if sizes['svelte-awesome-icons']}
-      <Li>{Math.round(sizes['svelte-awesome-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-awesome-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -360,9 +278,6 @@
     <List>
       <Li>1950+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/twbs/icons">Bootstrap icons</A></Li>
-      {#if sizes['svelte-bootstrap-svg-icons']}
-      <Li>{Math.round(sizes['svelte-bootstrap-svg-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-bootstrap-svg-icons/vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -376,9 +291,6 @@
     <List>
       <Li>1500+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/atisawd/boxicons/">Boxicons</A></Li>
-      {#if sizes['svelte-boxicons']}
-      <Li>{Math.round(sizes['svelte-boxicons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-boxicons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -391,9 +303,6 @@
     <List>
       <Li>380+ SVG Circle Flag icons</Li>
       <Li>Source: <A href="https://github.com/HatScripts/circle-flags">Circle-Flags</A></Li>
-      {#if sizes['svelte-circle-flags']}
-      <Li>{Math.round(sizes['svelte-circle-flags'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-circle-flags/vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -407,9 +316,6 @@
     <List>
       <Li>1500+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/coreui/coreui-icons">CoreUI Icons</A></Li>
-      {#if sizes['svelte-coreui-icons']}
-      <Li>{Math.round(sizes['svelte-coreui-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-coreui-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -422,9 +328,6 @@
     <List>
       <Li>470+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/spothq/cryptocurrency-icons">Cryptocurrency icons</A></Li>
-      {#if sizes['svelte-cryptocurrency-icons']}
-      <Li>{Math.round(sizes['svelte-cryptocurrency-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-cryptocurrency-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -438,9 +341,6 @@
     <List>
       <Li>700+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/astrit/css.gg">css.gg</A></Li>
-      {#if sizes['svelte-cssgg-icons']}
-      <Li>{Math.round(sizes['svelte-cssgg-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-cssgg-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -454,9 +354,6 @@
     <List>
       <Li>70+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/evil-icons/evil-icons">Evil Icons</A></Li>
-      {#if sizes['svelte-evil-icons']}
-      <Li>{Math.round(sizes['svelte-evil-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-evil-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -469,9 +366,6 @@
     <List>
       <Li>280+ SVG icons</Li>
       <Li>Source: <A href="https://feathericons.com/">Feather-icons</A></Li>
-      {#if sizes['svelte-feathers']}
-      <Li>{Math.round(sizes['svelte-feathers'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-feathers.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -484,9 +378,6 @@
     <List>
       <Li>930+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/file-icons/icons">File icons</A></Li>
-      {#if sizes['svelte-file-icons']}
-      <Li>{Math.round(sizes['svelte-file-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-file-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -499,9 +390,6 @@
     <List>
       <Li>260+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/lipis/flag-icons">Flag Icons</A></Li>
-      {#if sizes['svelte-flag-icons']}
-      <Li>{Math.round(sizes['svelte-flag-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-flag-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -514,9 +402,6 @@
     <List>
       <Li>250+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/hampusborgos/country-flags">Country flags</A></Li>
-      {#if sizes['svelte-flags']}
-      <Li>{Math.round(sizes['svelte-flags'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-flags.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -530,9 +415,6 @@
     <List>
       <Li>2120+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/marella/material-design-icons/tree/main/svg">Material-Design-Icons</A></Li>
-      {#if sizes['svelte-google-materialdesign-icons']}
-      <Li>{Math.round(sizes['svelte-google-materialdesign-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-google-materialdesign-icons.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -545,9 +427,6 @@
     <List>
       <Li>580+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons</A></Li>
-      {#if sizes['svelte-heros']}
-      <Li>{Math.round(sizes['svelte-heros'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-heros.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -560,9 +439,6 @@
     <List>
       <Li>870+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons v2</A></Li>
-      {#if sizes['svelte-heros-v2']}
-      <Li>{Math.round(sizes['svelte-heros-v2'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-heros-v2.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -576,9 +452,6 @@
     <List>
       <Li>1330+ SVG icons</Li>
       <Li>Source: <A href="https://ionic.io/ionicons">Ionicicons</A></Li>
-      {#if sizes['svelte-ionicons']}
-      <Li>{Math.round(sizes['svelte-ionicons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-ionicons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -592,9 +465,6 @@
     <List>
       <Li>1210+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/lucide-icons/lucide">Lucide icons</A></Li>
-      {#if sizes['svelte-lucide']}
-      <Li>{Math.round(sizes['svelte-lucide'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-lucide.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -608,9 +478,6 @@
     <List>
       <Li>7330+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/Templarian/MaterialDesign">MaterialDesign</A></Li>
-      {#if sizes['svelte-materialdesign-icons']}
-      <Li>{Math.round(sizes['svelte-materialdesign-icons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-materialdesign-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -624,9 +491,6 @@
     <List>
       <Li>270+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/primer/octicons">Octicons</A></Li>
-      {#if sizes['svelte-oct']}
-      <Li>{Math.round(sizes['svelte-oct'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-oct.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -640,9 +504,6 @@
     <List>
       <Li>310+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/radix-ui/icons">Radix icons</A></Li>
-      {#if sizes['svelte-radix']}
-      <Li>{Math.round(sizes['svelte-radix'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-radix.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -656,9 +517,6 @@
     <List>
       <Li>2270+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/Remix-Design/RemixIcon">RemixIcon</A></Li>
-      {#if sizes['svelte-remix']}
-      <Li>{Math.round(sizes['svelte-remix'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-remix.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -672,9 +530,6 @@
     <List>
       <Li>2620+ SVG icons for popular brands</Li>
       <Li>Source: <A href="https://github.com/simple-icons/simple-icons/">Simple-icons</A></Li>
-      {#if sizes['svelte-simples']}
-      <Li>{Math.round(sizes['svelte-simples'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-simples.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -688,9 +543,6 @@
     <List>
       <Li>340+ SVG logos for popular brands</Li>
       <Li>Source: <A href="https://github.com/edent/SuperTinyIcons">SuperTinyIcons</A></Li>
-      {#if sizes['svelte-supertiny']}
-      <Li>{Math.round(sizes['svelte-supertiny'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-supertiny.vercel.app/">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -703,9 +555,6 @@
     <List>
       <Li>4600+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/tabler/tabler-icons">Tabler Icons</A></Li>
-      {#if sizes['svelte-tabler']}
-      <Li>{Math.round(sizes['svelte-tabler'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-tabler.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -719,9 +568,6 @@
     <List>
       <Li>600+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/teenyicons/teenyicons">Teenyicons</A></Li>
-      {#if sizes['svelte-teenyicons']}
-      <Li>{Math.round(sizes['svelte-teenyicons'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-teenyicons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -735,9 +581,6 @@
     <List>
       <Li>3600+ Twitter emoji SVG color icons</Li>
       <Li>Source: <A href="https://github.com/twitter/twemoji">Twemoji</A></Li>
-      {#if sizes['svelte-twitter-emoji']}
-      <Li>{Math.round(sizes['svelte-twitter-emoji'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-twitter-emoji.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
@@ -751,9 +594,6 @@
     <List>
       <Li>210+ Weather SVG icons</Li>
       <Li>Source: <A href="https://github.com/erikflowers/weather-icons">weather-icons</A></Li>
-      {#if sizes['svelte-weather']}
-      <Li>{Math.round(sizes['svelte-weather'])} kB</Li>
-      {/if}
       <Li><A href="https://svelte-weather-icons.vercel.app">Icons and Docs</A></Li>
     </List>
   </Card>
