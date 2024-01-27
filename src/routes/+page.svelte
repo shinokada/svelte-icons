@@ -52,6 +52,7 @@
 
       for (const response of totalResponses) {
         const data = await response.json();
+        // console.log('data', data.downloads)
         totalDownloads += data.downloads;
       }
       
@@ -224,7 +225,7 @@
 <h1>Svelte SVG Icon Sets</h1>
 
 <div class="flex flex-wrap justify-center gap-4 pb-8">
-  <Badge large color="pink">Svelte 3 & 4</Badge>
+  <Badge large color="pink">Svelte 3, 4, and 5</Badge>
   <Badge large color="blue">Support CSS frameworks</Badge>
   <Badge large color="purple">Faster compling</Badge>
   <Badge large color="yellow">IDE Support</Badge>
