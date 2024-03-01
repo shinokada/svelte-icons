@@ -615,12 +615,12 @@
     <img src="https://badgen.net/npm/dw/svelte-weather" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-weather-icons.codewithshin.com/" target="_blank">Svelte-Weather</A>
+      <A href="https://svelte-weather.codewithshin.com/" target="_blank">Svelte-Weather</A>
     </h5>
     <List>
       <Li>210+ Weather SVG icons</Li>
       <Li>Source: <A href="https://github.com/erikflowers/weather-icons">weather-icons</A></Li>
-      <Li><A href="https://svelte-weather-icons.codewithshin.com">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-weather.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 </div>
