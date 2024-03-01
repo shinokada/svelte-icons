@@ -262,7 +262,7 @@
   <Card img={imgAwesome.src}>
     <img src="https://badgen.net/npm/dt/svelte-awesome-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5/Runes</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-awesome-icons.codewithshin.com/" target="_blank">Svelte-Awesome-Icons</A>
     </h5>
