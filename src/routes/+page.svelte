@@ -238,12 +238,12 @@
     <img src="https://badgen.net/npm/dw/flowbite-svelte-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5/Runes</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://flowbite-svelte-icons.vercel.app/" target="_blank">Flowbite-Svelte-Icons</A>
+      <A href="https://flowbite-svelte-icons.codewithshin.com/" target="_blank">Flowbite-Svelte-Icons</A>
     </h5>
     <List>
       <Li>510+ mono and color SVG icons</Li>
       <Li>Source: <A href="https://github.com/themesberg/flowbite-icons">Flowbite Icons</A></Li>
-      <Li><A href="https://flowbite-svelte-icons.vercel.app/">Icons and Docs</A></Li>
+      <Li><A href="https://flowbite-svelte-icons.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgAnt.src}>
@@ -251,12 +251,12 @@
     <img src="https://badgen.net/npm/dw/svelte-ant-design-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-ant-design-icons.vercel.app" target="_blank">Svelte-Ant-Design-Icons</A>
+      <A href="https://svelte-ant-design-icons.codewithshin.com" target="_blank">Svelte-Ant-Design-Icons</A>
     </h5>
     <List>
       <Li>780+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/ant-design/ant-design-icons">Ant Design Icons</A></Li>
-      <Li><A href="https://svelte-ant-design-icons.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-ant-design-icons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgAwesome.src}>
@@ -264,12 +264,12 @@
     <img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-awesome-icons.vercel.app/" target="_blank">Svelte-Awesome-Icons</A>
+      <A href="https://svelte-awesome-icons.codewithshin.com/" target="_blank">Svelte-Awesome-Icons</A>
     </h5>
     <List>
       <Li>2000+ SVG icons</Li>
       <Li>Rource: <A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>
-      <Li><A href="https://svelte-awesome-icons.vercel.app/">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-awesome-icons.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgBootstrap.src}>
@@ -277,12 +277,12 @@
     <img src="https://badgen.net/npm/dw/svelte-bootstrap-svg-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-bootstrap-svg-icons.vercel.app/" target="_blank">Svelte-Bootstrap-Svg-Icons</A>
+      <A href="https://svelte-bootstrap-svg-icons.codewithshin.com/" target="_blank">Svelte-Bootstrap-Svg-Icons</A>
     </h5>
     <List>
       <Li>1950+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/twbs/icons">Bootstrap icons</A></Li>
-      <Li><A href="https://svelte-bootstrap-svg-icons/vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-bootstrap-svg-icons/codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgBoxicons.src}>
@@ -290,12 +290,12 @@
     <img src="https://badgen.net/npm/dw/svelte-boxicons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-boxicons.vercel.app" target="_blank">Svelte-Boxicons</A>
+      <A href="https://svelte-boxicons.codewithshin.com" target="_blank">Svelte-Boxicons</A>
     </h5>
     <List>
       <Li>1500+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/atisawd/boxicons/">Boxicons</A></Li>
-      <Li><A href="https://svelte-boxicons.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-boxicons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgCircleFlags.src}>
@@ -303,12 +303,12 @@
     <img src="https://badgen.net/npm/dw/svelte-circle-flags" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-circle-flags.vercel.app" target="_blank">Svelte-Circle-Flags</A>
+      <A href="https://svelte-circle-flags.codewithshin.com" target="_blank">Svelte-Circle-Flags</A>
     </h5>
     <List>
       <Li>380+ SVG Circle Flag icons</Li>
       <Li>Source: <A href="https://github.com/HatScripts/circle-flags">Circle-Flags</A></Li>
-      <Li><A href="https://svelte-circle-flags/vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-circle-flags/codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgCoreui.src}>
@@ -316,12 +316,12 @@
     <img src="https://badgen.net/npm/dw/svelte-coreui-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-coreui-icons.vercel.app" target="_blank">Svelte-Coreui-Icons</A>
+      <A href="https://svelte-coreui-icons.codewithshin.com" target="_blank">Svelte-Coreui-Icons</A>
     </h5>
     <List>
       <Li>1500+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/coreui/coreui-icons">CoreUI Icons</A></Li>
-      <Li><A href="https://svelte-coreui-icons.vercel.app/">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-coreui-icons.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgCrypto.src}>
@@ -329,12 +329,12 @@
     <img src="https://badgen.net/npm/dw/svelte-cryptocurrency-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-cryptocurrency-icons.vercel.app/" target="_blank">Svelte-Cryptocurrency-Icons</A>
+      <A href="https://svelte-cryptocurrency-icons.codewithshin.com/" target="_blank">Svelte-Cryptocurrency-Icons</A>
     </h5>
     <List>
       <Li>470+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/spothq/cryptocurrency-icons">Cryptocurrency icons</A></Li>
-      <Li><A href="https://svelte-cryptocurrency-icons.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-cryptocurrency-icons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgCssgg.src}>
@@ -342,12 +342,12 @@
     <img src="https://badgen.net/npm/dw/svelte-cssgg-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-cssgg-icons.vercel.app" target="_blank">Svelte-Cssgg-Icons</A>
+      <A href="https://svelte-cssgg-icons.codewithshin.com" target="_blank">Svelte-Cssgg-Icons</A>
     </h5>
     <List>
       <Li>700+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/astrit/css.gg">css.gg</A></Li>
-      <Li><A href="https://svelte-cssgg-icons.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-cssgg-icons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgEvil.src}>
@@ -355,12 +355,12 @@
     <img src="https://badgen.net/npm/dw/svelte-evil-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-evil-icons.vercel.app" target="_blank">Svelte-Evil-Icons</A>
+      <A href="https://svelte-evil-icons.codewithshin.com" target="_blank">Svelte-Evil-Icons</A>
     </h5>
     <List>
       <Li>70+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/evil-icons/evil-icons">Evil Icons</A></Li>
-      <Li><A href="https://svelte-evil-icons.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-evil-icons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgFeather.src}>
@@ -368,12 +368,12 @@
     <img src="https://badgen.net/npm/dw/svelte-feathers" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-feathers.vercel.app/" target="_blank">Svelte-Feathers</A>
+      <A href="https://svelte-feathers.codewithshin.com/" target="_blank">Svelte-Feathers</A>
     </h5>
     <List>
       <Li>280+ SVG icons</Li>
       <Li>Source: <A href="https://feathericons.com/">Feather-icons</A></Li>
-      <Li><A href="https://svelte-feathers.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-feathers.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgFile.src}>
@@ -381,12 +381,12 @@
     <img src="https://badgen.net/npm/dw/svelte-file-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-file-icons.vercel.app" target="_blank">Svelte-File-Icons</A>
+      <A href="https://svelte-file-icons.codewithshin.com" target="_blank">Svelte-File-Icons</A>
     </h5>
     <List>
       <Li>930+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/file-icons/icons">File icons</A></Li>
-      <Li><A href="https://svelte-file-icons.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-file-icons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgFlagIcons.src}>
@@ -394,12 +394,12 @@
     <img src="https://badgen.net/npm/dw/svelte-flag-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-flag-icons.vercel.app/" target="_blank">Svelte-Flag-Icons</A>
+      <A href="https://svelte-flag-icons.codewithshin.com/" target="_blank">Svelte-Flag-Icons</A>
     </h5>
     <List>
       <Li>260+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/lipis/flag-icons">Flag Icons</A></Li>
-      <Li><A href="https://svelte-flag-icons.vercel.app/">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-flag-icons.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgFlags.src}>
@@ -407,12 +407,12 @@
     <img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-flags.vercel.app/" target="_blank">Svelte-Flags</A>
+      <A href="https://svelte-flags.codewithshin.com/" target="_blank">Svelte-Flags</A>
     </h5>
     <List>
       <Li>250+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/hampusborgos/country-flags">Country flags</A></Li>
-      <Li><A href="https://svelte-flags.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-flags.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -421,12 +421,12 @@
     <img src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-google-materialdesign-icons.vercel.app/" target="_blank">Svelte-Google-Materialdesign-Icons</A>
+      <A href="https://svelte-google-materialdesign-icons.codewithshin.com/" target="_blank">Svelte-Google-Materialdesign-Icons</A>
     </h5>
     <List>
       <Li>2120+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/marella/material-design-icons/tree/main/svg">Material-Design-Icons</A></Li>
-      <Li><A href="https://svelte-google-materialdesign-icons.vercel.app/">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-google-materialdesign-icons.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgHero.src}>
@@ -434,12 +434,12 @@
     <img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-heros.vercel.app/" target="_blank">Svelte-Heros</A>
+      <A href="https://svelte-heros.codewithshin.com/" target="_blank">Svelte-Heros</A>
     </h5>
     <List>
       <Li>580+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons</A></Li>
-      <Li><A href="https://svelte-heros.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-heros.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgHero2.src}>
@@ -447,12 +447,12 @@
     <img src="https://badgen.net/npm/dw/svelte-heros-v2" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-heros-v2.vercel.app/" target="_blank">Svelte-Heros-v2</A>
+      <A href="https://svelte-heros-v2.codewithshin.com/" target="_blank">Svelte-Heros-v2</A>
     </h5>
     <List>
       <Li>870+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons v2</A></Li>
-      <Li><A href="https://svelte-heros-v2.vercel.app/">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-heros-v2.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -461,12 +461,12 @@
     <img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-ionicons.vercel.app" target="_blank">Svelte-Ionicons</A>
+      <A href="https://svelte-ionicons.codewithshin.com" target="_blank">Svelte-Ionicons</A>
     </h5>
     <List>
       <Li>1330+ SVG icons</Li>
       <Li>Source: <A href="https://ionic.io/ionicons">Ionicicons</A></Li>
-      <Li><A href="https://svelte-ionicons.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-ionicons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -475,12 +475,12 @@
     <img src="https://badgen.net/npm/dw/svelte-lucide" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-lucide.vercel.app/" target="_blank">Svelte-Lucide</A>
+      <A href="https://svelte-lucide.codewithshin.com/" target="_blank">Svelte-Lucide</A>
     </h5>
     <List>
       <Li>1210+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/lucide-icons/lucide">Lucide icons</A></Li>
-      <Li><A href="https://svelte-lucide.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-lucide.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -489,12 +489,12 @@
     <img src="https://badgen.net/npm/dw/svelte-materialdesign-icons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-materialdesign-icons.vercel.app" target="_blank">Svelte-Materialdesign-Icons</A>
+      <A href="https://svelte-materialdesign-icons.codewithshin.com" target="_blank">Svelte-Materialdesign-Icons</A>
     </h5>
     <List>
       <Li>7330+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/Templarian/MaterialDesign">MaterialDesign</A></Li>
-      <Li><A href="https://svelte-materialdesign-icons.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-materialdesign-icons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -503,12 +503,12 @@
     <img src="https://badgen.net/npm/dw/svelte-oct" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-oct.vercel.app/" target="_blank">Svelte-Oct</A>
+      <A href="https://svelte-oct.codewithshin.com/" target="_blank">Svelte-Oct</A>
     </h5>
     <List>
       <Li>270+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/primer/octicons">Octicons</A></Li>
-      <Li><A href="https://svelte-oct.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-oct.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -517,12 +517,12 @@
     <img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-radix.vercel.app/" target="_blank">Svelte-Radix</A>
+      <A href="https://svelte-radix.codewithshin.com/" target="_blank">Svelte-Radix</A>
     </h5>
     <List>
       <Li>310+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/radix-ui/icons">Radix icons</A></Li>
-      <Li><A href="https://svelte-radix.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-radix.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -531,12 +531,12 @@
     <img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-remix.vercel.app/" target="_blank">Svelte-Remix</A>
+      <A href="https://svelte-remix.codewithshin.com/" target="_blank">Svelte-Remix</A>
     </h5>
     <List>
       <Li>2270+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/Remix-Design/RemixIcon">RemixIcon</A></Li>
-      <Li><A href="https://svelte-remix.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-remix.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -545,12 +545,12 @@
     <img src="https://badgen.net/npm/dw/svelte-simples" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-simples.vercel.app/" target="_blank">Svelte-Simples</A>
+      <A href="https://svelte-simples.codewithshin.com/" target="_blank">Svelte-Simples</A>
     </h5>
     <List>
       <Li>2620+ SVG icons for popular brands</Li>
       <Li>Source: <A href="https://github.com/simple-icons/simple-icons/">Simple-icons</A></Li>
-      <Li><A href="https://svelte-simples.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-simples.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -559,12 +559,12 @@
     <img src="https://badgen.net/npm/dw/svelte-supertiny" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-supertiny.vercel.app" target="_blank">Svelte-Supertiny</A>
+      <A href="https://svelte-supertiny.codewithshin.com" target="_blank">Svelte-Supertiny</A>
     </h5>
     <List>
       <Li>340+ SVG logos for popular brands</Li>
       <Li>Source: <A href="https://github.com/edent/SuperTinyIcons">SuperTinyIcons</A></Li>
-      <Li><A href="https://svelte-supertiny.vercel.app/">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-supertiny.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -573,12 +573,12 @@
     <img src="https://badgen.net/npm/dw/svelte-tabler" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-tabler.vercel.app/" target="_blank">Svelte-Tabler</A>
+      <A href="https://svelte-tabler.codewithshin.com/" target="_blank">Svelte-Tabler</A>
     </h5>
     <List>
       <Li>4600+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/tabler/tabler-icons">Tabler Icons</A></Li>
-      <Li><A href="https://svelte-tabler.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-tabler.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -587,12 +587,12 @@
     <img src="https://badgen.net/npm/dw/svelte-teenyicons" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-teenyicons.vercel.app/" target="_blank">Svelte-Teenyicons</A>
+      <A href="https://svelte-teenyicons.codewithshin.com/" target="_blank">Svelte-Teenyicons</A>
     </h5>
     <List>
       <Li>600+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/teenyicons/teenyicons">Teenyicons</A></Li>
-      <Li><A href="https://svelte-teenyicons.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-teenyicons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -601,12 +601,12 @@
     <img src="https://badgen.net/npm/dw/svelte-twitter-emoji" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-twitter-emoji.vercel.app/" target="_blank">Svelte-Twitter-Emoji</A>
+      <A href="https://svelte-twitter-emoji.codewithshin.com/" target="_blank">Svelte-Twitter-Emoji</A>
     </h5>
     <List>
       <Li>3600+ Twitter emoji SVG color icons</Li>
       <Li>Source: <A href="https://github.com/twitter/twemoji">Twemoji</A></Li>
-      <Li><A href="https://svelte-twitter-emoji.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-twitter-emoji.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 
@@ -615,12 +615,12 @@
     <img src="https://badgen.net/npm/dw/svelte-weather" alt="weekly download number" class="inline" />
     <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
     <h5 class={hFiveClass}>
-      <A href="https://svelte-weather-icons.vercel.app/" target="_blank">Svelte-Weather</A>
+      <A href="https://svelte-weather-icons.codewithshin.com/" target="_blank">Svelte-Weather</A>
     </h5>
     <List>
       <Li>210+ Weather SVG icons</Li>
       <Li>Source: <A href="https://github.com/erikflowers/weather-icons">weather-icons</A></Li>
-      <Li><A href="https://svelte-weather-icons.vercel.app">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-weather-icons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
 </div>
