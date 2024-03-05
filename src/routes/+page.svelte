@@ -225,7 +225,7 @@
 <h1>Svelte SVG Icon Sets</h1>
 
 <div class="flex flex-wrap justify-center gap-4 pb-8">
-  <Badge color="pink">Svelte 3, 4, 5, and 5(Runes)</Badge>
+  <Badge color="pink">Svelte 4, 5, and 5:Runes</Badge>
   <Badge color="blue">Support CSS frameworks</Badge>
   <Badge color="purple">Faster compling</Badge>
   <Badge color="yellow">IDE Support</Badge>
@@ -236,20 +236,50 @@
   <Card img={imgFlowbite.src}>
     <img src="https://badgen.net/npm/dt/flowbite-svelte-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/flowbite-svelte-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5/Runes</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5/Runes</Badge>
     <h5 class={hFiveClass}>
       <A href="https://flowbite-svelte-icons.codewithshin.com/" target="_blank">Flowbite-Svelte-Icons</A>
     </h5>
     <List>
       <Li>510+ mono and color SVG icons</Li>
+      <Li>v1: 4/5, v2: 5:Runes</Li>
       <Li>Source: <A href="https://github.com/themesberg/flowbite-icons">Flowbite Icons</A></Li>
       <Li><A href="https://flowbite-svelte-icons.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
+  <Card img={imgAwesome.src}>
+    <img src="https://badgen.net/npm/dt/svelte-awesome-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" class="inline" />
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5/Runes</Badge>
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-awesome-icons.codewithshin.com/" target="_blank">Svelte-Awesome-Icons</A>
+    </h5>
+    <List>
+      <Li>2000+ SVG icons</Li>
+      <Li>v1: 4/5, v2: 5:Runes</Li>
+      <Li>Rource: <A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>
+      <Li><A href="https://svelte-awesome-icons.codewithshin.com/">Icons and Docs</A></Li>
+    </List>
+  </Card>
+  <Card img={imgSupertiny.src}>
+    <img src="https://badgen.net/npm/dt/svelte-supertiny" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-supertiny" alt="weekly download number" class="inline" />
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5/Runes</Badge>
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-supertiny.codewithshin.com" target="_blank">Svelte-Supertiny</A>
+    </h5>
+    <List>
+      <Li>340+ SVG logos for popular brands</Li>
+      <Li>v1: 4/5, v2: 5:Runes</Li>
+      <Li>Source: <A href="https://github.com/edent/SuperTinyIcons">SuperTinyIcons</A></Li>
+      <Li><A href="https://svelte-supertiny.codewithshin.com/">Icons and Docs</A></Li>
+    </List>
+  </Card>
+
   <Card img={imgAnt.src}>
     <img src="https://badgen.net/npm/dt/svelte-ant-design-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-ant-design-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-ant-design-icons.codewithshin.com" target="_blank">Svelte-Ant-Design-Icons</A>
     </h5>
@@ -259,23 +289,10 @@
       <Li><A href="https://svelte-ant-design-icons.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
-  <Card img={imgAwesome.src}>
-    <img src="https://badgen.net/npm/dt/svelte-awesome-icons" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5/Runes</Badge>
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-awesome-icons.codewithshin.com/" target="_blank">Svelte-Awesome-Icons</A>
-    </h5>
-    <List>
-      <Li>2000+ SVG icons</Li>
-      <Li>Rource: <A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>
-      <Li><A href="https://svelte-awesome-icons.codewithshin.com/">Icons and Docs</A></Li>
-    </List>
-  </Card>
   <Card img={imgBootstrap.src}>
     <img src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-bootstrap-svg-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-bootstrap-svg-icons.codewithshin.com/" target="_blank">Svelte-Bootstrap-Svg-Icons</A>
     </h5>
@@ -288,7 +305,7 @@
   <Card img={imgBoxicons.src}>
     <img src="https://badgen.net/npm/dt/svelte-boxicons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-boxicons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-boxicons.codewithshin.com" target="_blank">Svelte-Boxicons</A>
     </h5>
@@ -301,7 +318,7 @@
   <Card img={imgCircleFlags.src}>
     <img src="https://badgen.net/npm/dt/svelte-circle-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-circle-flags" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-circle-flags.codewithshin.com" target="_blank">Svelte-Circle-Flags</A>
     </h5>
@@ -314,7 +331,7 @@
   <Card img={imgCoreui.src}>
     <img src="https://badgen.net/npm/dt/svelte-coreui-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-coreui-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-coreui-icons.codewithshin.com" target="_blank">Svelte-Coreui-Icons</A>
     </h5>
@@ -327,7 +344,7 @@
   <Card img={imgCrypto.src}>
     <img src="https://badgen.net/npm/dt/svelte-cryptocurrency-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-cryptocurrency-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-cryptocurrency-icons.codewithshin.com/" target="_blank">Svelte-Cryptocurrency-Icons</A>
     </h5>
@@ -340,7 +357,7 @@
   <Card img={imgCssgg.src}>
     <img src="https://badgen.net/npm/dt/svelte-cssgg-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-cssgg-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-cssgg-icons.codewithshin.com" target="_blank">Svelte-Cssgg-Icons</A>
     </h5>
@@ -353,7 +370,7 @@
   <Card img={imgEvil.src}>
     <img src="https://badgen.net/npm/dt/svelte-evil-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-evil-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-evil-icons.codewithshin.com" target="_blank">Svelte-Evil-Icons</A>
     </h5>
@@ -366,7 +383,7 @@
   <Card img={imgFeather.src}>
     <img src="https://badgen.net/npm/dt/svelte-feathers" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-feathers" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-feathers.codewithshin.com/" target="_blank">Svelte-Feathers</A>
     </h5>
@@ -379,7 +396,7 @@
   <Card img={imgFile.src}>
     <img src="https://badgen.net/npm/dt/svelte-file-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-file-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-file-icons.codewithshin.com" target="_blank">Svelte-File-Icons</A>
     </h5>
@@ -392,7 +409,7 @@
   <Card img={imgFlagIcons.src}>
     <img src="https://badgen.net/npm/dt/svelte-flag-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-flag-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-flag-icons.codewithshin.com/" target="_blank">Svelte-Flag-Icons</A>
     </h5>
@@ -405,7 +422,7 @@
   <Card img={imgFlags.src}>
     <img src="https://badgen.net/npm/dt/svelte-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-flags.codewithshin.com/" target="_blank">Svelte-Flags</A>
     </h5>
@@ -419,7 +436,7 @@
   <Card img={imgGoogle.src}>
     <img src="https://badgen.net/npm/dt/svelte-google-materialdesign-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-google-materialdesign-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-google-materialdesign-icons.codewithshin.com/" target="_blank">Svelte-Google-Materialdesign-Icons</A>
     </h5>
@@ -432,7 +449,7 @@
   <Card img={imgHero.src}>
     <img src="https://badgen.net/npm/dt/svelte-heros" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-heros" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-heros.codewithshin.com/" target="_blank">Svelte-Heros</A>
     </h5>
@@ -445,7 +462,7 @@
   <Card img={imgHero2.src}>
     <img src="https://badgen.net/npm/dt/svelte-heros-v2" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-heros-v2" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-heros-v2.codewithshin.com/" target="_blank">Svelte-Heros-v2</A>
     </h5>
@@ -459,7 +476,7 @@
   <Card img={imgIon.src}>
     <img src="https://badgen.net/npm/dt/svelte-ionicons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-ionicons.codewithshin.com" target="_blank">Svelte-Ionicons</A>
     </h5>
@@ -473,7 +490,7 @@
   <Card img={imgLucide.src}>
     <img src="https://badgen.net/npm/dt/svelte-lucide" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-lucide" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-lucide.codewithshin.com/" target="_blank">Svelte-Lucide</A>
     </h5>
@@ -487,7 +504,7 @@
   <Card img={imgMaterial.src}>
     <img src="https://badgen.net/npm/dt/svelte-materialdesign-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-materialdesign-icons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-materialdesign-icons.codewithshin.com" target="_blank">Svelte-Materialdesign-Icons</A>
     </h5>
@@ -501,7 +518,7 @@
   <Card img={imgOct.src}>
     <img src="https://badgen.net/npm/dt/svelte-oct" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-oct" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-oct.codewithshin.com/" target="_blank">Svelte-Oct</A>
     </h5>
@@ -515,7 +532,7 @@
   <Card img={imgRadix.src}>
     <img src="https://badgen.net/npm/dt/svelte-radix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-radix.codewithshin.com/" target="_blank">Svelte-Radix</A>
     </h5>
@@ -529,7 +546,7 @@
   <Card img={imgRemix.src}>
     <img src="https://badgen.net/npm/dt/svelte-remix" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-remix" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-remix.codewithshin.com/" target="_blank">Svelte-Remix</A>
     </h5>
@@ -543,7 +560,7 @@
   <Card img={imgSimple.src}>
     <img src="https://badgen.net/npm/dt/svelte-simples" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-simples" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-simples.codewithshin.com/" target="_blank">Svelte-Simples</A>
     </h5>
@@ -553,25 +570,10 @@
       <Li><A href="https://svelte-simples.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
-
-  <Card img={imgSupertiny.src}>
-    <img src="https://badgen.net/npm/dt/svelte-supertiny" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-supertiny" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-supertiny.codewithshin.com" target="_blank">Svelte-Supertiny</A>
-    </h5>
-    <List>
-      <Li>340+ SVG logos for popular brands</Li>
-      <Li>Source: <A href="https://github.com/edent/SuperTinyIcons">SuperTinyIcons</A></Li>
-      <Li><A href="https://svelte-supertiny.codewithshin.com/">Icons and Docs</A></Li>
-    </List>
-  </Card>
-
   <Card img={imgTabler.src}>
     <img src="https://badgen.net/npm/dt/svelte-tabler" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-tabler" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-tabler.codewithshin.com/" target="_blank">Svelte-Tabler</A>
     </h5>
@@ -585,7 +587,7 @@
   <Card img={imgTeeny.src}>
     <img src="https://badgen.net/npm/dt/svelte-teenyicons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-teenyicons" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-teenyicons.codewithshin.com/" target="_blank">Svelte-Teenyicons</A>
     </h5>
@@ -599,7 +601,7 @@
   <Card img={imgTwemoji.src}>
     <img src="https://badgen.net/npm/dt/svelte-twitter-emoji" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-twitter-emoji" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-twitter-emoji.codewithshin.com/" target="_blank">Svelte-Twitter-Emoji</A>
     </h5>
@@ -613,7 +615,7 @@
   <Card img={imgWeather.src}>
     <img src="https://badgen.net/npm/dt/svelte-weather" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-weather" alt="weekly download number" class="inline" />
-    <Badge color="purple" class="dark:text-white px-2 my-2">Svelte 3/4/5</Badge>
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-weather.codewithshin.com/" target="_blank">Svelte-Weather</A>
     </h5>
