@@ -247,6 +247,19 @@
       <Li><A href="https://flowbite-svelte-icons.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
+  <Card img={imgAnt.src}>
+    <img src="https://badgen.net/npm/dt/svelte-ant-design-icons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-ant-design-icons" alt="weekly download number" class="inline" />
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5/Runes</Badge>
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-ant-design-icons.codewithshin.com" target="_blank">Svelte-Ant-Design-Icons</A>
+    </h5>
+    <List>
+      <Li>780+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/ant-design/ant-design-icons">Ant Design Icons</A></Li>
+      <Li><A href="https://svelte-ant-design-icons.codewithshin.com">Icons and Docs</A></Li>
+    </List>
+  </Card>
   <Card img={imgAwesome.src}>
     <img src="https://badgen.net/npm/dt/svelte-awesome-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" class="inline" />
@@ -276,19 +289,6 @@
     </List>
   </Card>
 
-  <Card img={imgAnt.src}>
-    <img src="https://badgen.net/npm/dt/svelte-ant-design-icons" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-ant-design-icons" alt="weekly download number" class="inline" />
-    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-ant-design-icons.codewithshin.com" target="_blank">Svelte-Ant-Design-Icons</A>
-    </h5>
-    <List>
-      <Li>780+ SVG icons</Li>
-      <Li>Source: <A href="https://github.com/ant-design/ant-design-icons">Ant Design Icons</A></Li>
-      <Li><A href="https://svelte-ant-design-icons.codewithshin.com">Icons and Docs</A></Li>
-    </List>
-  </Card>
   <Card img={imgBootstrap.src}>
     <img src="https://badgen.net/npm/dt/svelte-bootstrap-svg-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-bootstrap-svg-icons" alt="weekly download number" class="inline" />
