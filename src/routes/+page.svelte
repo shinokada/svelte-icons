@@ -267,6 +267,7 @@
     <img src="https://badgen.net/npm/dt/svelte-ant-design-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-ant-design-icons" alt="weekly download number" class="inline" />
     <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5/Runes</Badge>
+    <Badge large color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
     <h5 class={hFiveClass}>
       <A href="https://svelte-ant-design-icons.codewithshin.com" target="_blank">Svelte-Ant-Design-Icons</A>
     </h5>
