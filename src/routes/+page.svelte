@@ -259,7 +259,7 @@
     <List>
       <Li>2000+ SVG icons</Li>
       <Li>v1: 4/5, v2: 5:Runes</Li>
-      <Li>Rource: <A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>
+      <Li>Source: <A href="https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs">Font Awesome</A></Li>
       <Li><A href="https://svelte-awesome-icons.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
