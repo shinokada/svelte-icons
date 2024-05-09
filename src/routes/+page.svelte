@@ -263,6 +263,20 @@
       <Li><A href="https://svelte-awesome-icons.codewithshin.com/">Icons and Docs</A></Li>
     </List>
   </Card>
+  <Card img={imgHero2.src}>
+    <img src="https://badgen.net/npm/dt/svelte-heros-v2" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-heros-v2" alt="weekly download number" class="inline" />
+    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5/Runes</Badge>
+    <Badge large color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-heros-v2.codewithshin.com/" target="_blank">Svelte-Heros-v2</A>
+    </h5>
+    <List>
+      <Li>870+ SVG icons</Li>
+      <Li>Source: <A href="https://heroicons.com/">Heroicons v2</A></Li>
+      <Li><A href="https://svelte-heros-v2.codewithshin.com/">Icons and Docs</A></Li>
+    </List>
+  </Card>
   <Card img={imgAnt.src}>
     <img src="https://badgen.net/npm/dt/svelte-ant-design-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-ant-design-icons" alt="weekly download number" class="inline" />
@@ -462,20 +476,6 @@
       <Li><A href="https://svelte-heros.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
-  <Card img={imgHero2.src}>
-    <img src="https://badgen.net/npm/dt/svelte-heros-v2" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-heros-v2" alt="weekly download number" class="inline" />
-    <Badge large color="purple" class="dark:text-white px-2 my-2">Svelte 4/5</Badge>
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-heros-v2.codewithshin.com/" target="_blank">Svelte-Heros-v2</A>
-    </h5>
-    <List>
-      <Li>870+ SVG icons</Li>
-      <Li>Source: <A href="https://heroicons.com/">Heroicons v2</A></Li>
-      <Li><A href="https://svelte-heros-v2.codewithshin.com/">Icons and Docs</A></Li>
-    </List>
-  </Card>
-
   <Card img={imgIon.src}>
     <img src="https://badgen.net/npm/dt/svelte-ionicons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" class="inline" />
