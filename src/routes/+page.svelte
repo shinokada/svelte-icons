@@ -222,9 +222,9 @@
   }}
 />
 
-<h1 class="my-6 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte SVG Icon Sets</h1>
+<h1 class="my-6 text-7xl tracking-tight text-gray-900 dark:text-white">Svelte SVG Icon Sets</h1>
 
-<div class="flex flex-wrap justify-center gap-4 pb-8">
+<div class="flex flex-wrap justify-center gap-4 pb-6">
   <Badge color="pink">Svelte 4, 5, and 5:Runes</Badge>
   <Badge color="blue">Support CSS frameworks</Badge>
   <Badge color="purple">Faster compling</Badge>
@@ -232,7 +232,7 @@
   <Badge color="dark" large>Total downloads: {formatNumber(totalDownloads)}</Badge>
 </div>
 
-<h2 class="my-16 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte 5: Runes</h2>
+<h2 class="my-16 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte 5: Runes</h2>
 <div class="flex flex-wrap justify-center gap-4">
   <Card img={imgFlowbite.src}>
     <img src="https://badgen.net/npm/dt/flowbite-svelte-icons" alt="total download number" class="inline" />
@@ -350,7 +350,7 @@
   </Card>
 </div>
 
-<h2 class="my-16 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte 4/5</h2>
+<h2 class="my-16 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte 4/5</h2>
 
 <div class="flex flex-wrap justify-center gap-6">
   <Card img={imgFlowbite.src}>
