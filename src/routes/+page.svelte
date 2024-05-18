@@ -222,7 +222,7 @@
   }}
 />
 
-<h1>Svelte SVG Icon Sets</h1>
+<h1 class="my-6 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte SVG Icon Sets</h1>
 
 <div class="flex flex-wrap justify-center gap-4 pb-8">
   <Badge color="pink">Svelte 4, 5, and 5:Runes</Badge>
@@ -232,7 +232,7 @@
   <Badge color="dark" large>Total downloads: {formatNumber(totalDownloads)}</Badge>
 </div>
 
-<h2>Svelte 5: Runes</h2>
+<h2 class="my-16 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte 5: Runes</h2>
 <div class="flex flex-wrap justify-center gap-4">
   <Card img={imgFlowbite.src}>
     <img src="https://badgen.net/npm/dt/flowbite-svelte-icons" alt="total download number" class="inline" />
@@ -292,6 +292,20 @@
       <Li><A href="https://svelte-heros-v2.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
     </List>
   </Card>
+  <Card img={imgIon.src}>
+    <img src="https://badgen.net/npm/dt/svelte-ionicons" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-ionicons" alt="weekly download number" class="inline" />
+    <Badge  color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
+    <img src="https://img.shields.io/npm/v/svelte-ionicons/next" alt="npm" class="inline" >
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-ionicons.codewithshin.com" target="_blank">Svelte-Ionicons</A>
+    </h5>
+    <List>
+      <Li>1330+ SVG icons</Li>
+      <Li>Source: <A href="https://ionic.io/ionicons">Ionicicons</A></Li>
+      <Li><A href="https://svelte-ionicons.codewithshin.com">Icons and Docs</A></Li>
+    </List>
+  </Card>
   <Card img={imgFlags.src}>
     <img src="https://badgen.net/npm/dt/svelte-flags" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
@@ -336,9 +350,9 @@
   </Card>
 </div>
 
-<h2>Svelte 4/5</h2>
+<h2 class="my-16 text-4xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte 4/5</h2>
 
-<div class="flex flex-wrap justify-center gap-4">
+<div class="flex flex-wrap justify-center gap-6">
   <Card img={imgFlowbite.src}>
     <img src="https://badgen.net/npm/dt/flowbite-svelte-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/flowbite-svelte-icons" alt="weekly download number" class="inline" />
