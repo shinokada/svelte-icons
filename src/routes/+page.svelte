@@ -210,7 +210,7 @@
         alt: 'Svelte SVG Icon Sets'
       }
     ],
-    site_name: 'Svelte SVG Icon Sets'
+    siteName: 'Svelte SVG Icon Sets'
   }}
   twitter={{
     handle: '@shinokada',
@@ -290,6 +290,20 @@
       <Li>870+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons v2</A></Li>
       <Li><A href="https://svelte-heros-v2.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
+    </List>
+  </Card>
+  <Card img={imgFlags.src}>
+    <img src="https://badgen.net/npm/dt/svelte-flags" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-flags" alt="weekly download number" class="inline" />
+    <Badge  color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
+    <img src="https://img.shields.io/npm/v/svelte-flags/next" alt="npm" class="inline" >
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-flags.codewithshin.com/guide/svelte-5/getting-started" target="_blank">Svelte-Flags</A>
+    </h5>
+    <List>
+      <Li>250+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/hampusborgos/country-flags">Country flags</A></Li>
+      <Li><A href="https://svelte-flags.codewithshin.com">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgAnt.src}>
