@@ -250,34 +250,6 @@
       <Li><A href="https://flowbite-svelte-icons.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
     </List>
   </Card>
-  <Card img={imgLucide.src}>
-    <img src="https://badgen.net/npm/dt/svelte-lucide" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-lucide" alt="weekly download number" class="inline" />
-    <Badge  color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
-    <img src="https://img.shields.io/npm/v/svelte-lucide/next" alt="npm" class="inline" >
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-lucide.codewithshin.com/guide/svelte-5/getting-started" target="_blank">Svelte-Lucide</A>
-    </h5>
-    <List>
-      <Li>1460+ SVG icons</Li>
-      <Li>Source: <A href="https://github.com/lucide-icons/lucide">Lucide icons</A></Li>
-      <Li><A href="https://svelte-lucide.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
-    </List>
-  </Card>
-  <Card img={imgRadix.src}>
-    <img src="https://badgen.net/npm/dt/svelte-radix" alt="total download number" class="inline" />
-    <img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
-    <Badge  color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
-    <img src="https://img.shields.io/npm/v/svelte-radix/next" alt="npm" class="inline" >
-    <h5 class={hFiveClass}>
-      <A href="https://svelte-radix.codewithshin.com/guide/svelte-5/getting-started" target="_blank">Svelte-Radix</A>
-    </h5>
-    <List>
-      <Li>310+ SVG icons</Li>
-      <Li>Source: <A href="https://github.com/radix-ui/icons">Radix icons</A></Li>
-      <Li><A href="https://svelte-radix.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
-    </List>
-  </Card>
   <Card img={imgAwesome.src}>
     <img src="https://badgen.net/npm/dt/svelte-awesome-icons" alt="total download number" class="inline" />
     <img src="https://badgen.net/npm/dw/svelte-awesome-icons" alt="weekly download number" class="inline" />
@@ -305,6 +277,34 @@
       <Li>870+ SVG icons</Li>
       <Li>Source: <A href="https://heroicons.com/">Heroicons v2</A></Li>
       <Li><A href="https://svelte-heros-v2.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
+    </List>
+  </Card>
+  <Card img={imgLucide.src}>
+    <img src="https://badgen.net/npm/dt/svelte-lucide" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-lucide" alt="weekly download number" class="inline" />
+    <Badge  color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
+    <img src="https://img.shields.io/npm/v/svelte-lucide/next" alt="npm" class="inline" >
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-lucide.codewithshin.com/guide/svelte-5/getting-started" target="_blank">Svelte-Lucide</A>
+    </h5>
+    <List>
+      <Li>1460+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/lucide-icons/lucide">Lucide icons</A></Li>
+      <Li><A href="https://svelte-lucide.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
+    </List>
+  </Card>
+  <Card img={imgRadix.src}>
+    <img src="https://badgen.net/npm/dt/svelte-radix" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
+    <Badge  color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
+    <img src="https://img.shields.io/npm/v/svelte-radix/next" alt="npm" class="inline" >
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-radix.codewithshin.com/guide/svelte-5/getting-started" target="_blank">Svelte-Radix</A>
+    </h5>
+    <List>
+      <Li>310+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/radix-ui/icons">Radix icons</A></Li>
+      <Li><A href="https://svelte-radix.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgIon.src}>
