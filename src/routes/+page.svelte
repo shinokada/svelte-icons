@@ -261,7 +261,21 @@
     <List>
       <Li>1460+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/lucide-icons/lucide">Lucide icons</A></Li>
-      <Li><A href="https://svelte-lucide.codewithshin.com">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-lucide.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
+    </List>
+  </Card>
+  <Card img={imgRadix.src}>
+    <img src="https://badgen.net/npm/dt/svelte-radix" alt="total download number" class="inline" />
+    <img src="https://badgen.net/npm/dw/svelte-radix" alt="weekly download number" class="inline" />
+    <Badge  color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
+    <img src="https://img.shields.io/npm/v/svelte-radix/next" alt="npm" class="inline" >
+    <h5 class={hFiveClass}>
+      <A href="https://svelte-radix.codewithshin.com/guide/svelte-5/getting-started" target="_blank">Svelte-Radix</A>
+    </h5>
+    <List>
+      <Li>310+ SVG icons</Li>
+      <Li>Source: <A href="https://github.com/radix-ui/icons">Radix icons</A></Li>
+      <Li><A href="https://svelte-radix.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgAwesome.src}>
@@ -299,12 +313,12 @@
     <Badge  color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
     <img src="https://img.shields.io/npm/v/svelte-ionicons/next" alt="npm" class="inline" >
     <h5 class={hFiveClass}>
-      <A href="https://svelte-ionicons.codewithshin.com" target="_blank">Svelte-Ionicons</A>
+      <A href="https://svelte-ionicons.codewithshin.com/guide/svelte-5/getting-started" target="_blank">Svelte-Ionicons</A>
     </h5>
     <List>
       <Li>1330+ SVG icons</Li>
       <Li>Source: <A href="https://ionic.io/ionicons">Ionicicons</A></Li>
-      <Li><A href="https://svelte-ionicons.codewithshin.com">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-ionicons.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgFlags.src}>
@@ -318,7 +332,7 @@
     <List>
       <Li>250+ SVG icons</Li>
       <Li>Source: <A href="https://github.com/hampusborgos/country-flags">Country flags</A></Li>
-      <Li><A href="https://svelte-flags.codewithshin.com">Icons and Docs</A></Li>
+      <Li><A href="https://svelte-flags.codewithshin.com/guide/svelte-5/getting-started">Icons and Docs</A></Li>
     </List>
   </Card>
   <Card img={imgAnt.src}>
