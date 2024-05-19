@@ -189,6 +189,7 @@
   };
   let description = '20+ Icon sets from Font Awesome, Bootstrap, Flag, Cryptocurrency, Heroicons, File icons, Weather, Twitter emoji, Tabler icons and more.';
   const hFiveClass = 'my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ';
+  const h2Class = 'my-8 xl:my-12 2xl:my-16 text-4xl xl:text-5xl 2xl:text-6xl text-gray-900 dark:text-white'
 </script>
 
 <MetaTags
@@ -222,7 +223,7 @@
   }}
 />
 
-<h1 class="my-6 text-7xl tracking-tight text-gray-900 dark:text-white">Svelte SVG Icon Sets</h1>
+<h1 class="my-4 xl:my-5 2xl:my-6 text-5xl xl:text-6xl 2xl:text-7xl text-gray-900 dark:text-white">Svelte SVG Icon Sets</h1>
 
 <div class="flex flex-wrap justify-center gap-4 pb-6">
   <Badge color="pink">Svelte 4, 5, and 5:Runes</Badge>
@@ -232,7 +233,7 @@
   <Badge color="dark" large>Total downloads: {formatNumber(totalDownloads)}</Badge>
 </div>
 
-<h2 class="my-16 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte 5: Runes</h2>
+<h2 class={h2Class}>Svelte 5: Runes</h2>
 <div class="flex flex-wrap justify-center gap-4">
   <Card img={imgFlowbite.src}>
     <img src="https://badgen.net/npm/dt/flowbite-svelte-icons" alt="total download number" class="inline" />
@@ -350,7 +351,7 @@
   </Card>
 </div>
 
-<h2 class="my-16 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Svelte 4/5</h2>
+<h2 class={h2Class}>Svelte 4/5</h2>
 
 <div class="flex flex-wrap justify-center gap-6">
   <Card img={imgFlowbite.src}>
