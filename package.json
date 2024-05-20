@@ -1,10 +1,10 @@
 {
-  "name": "svelte-svg-icon-sets",
+  "name": "svelte-icons",
   "version": "2.0.0",
   "private": true,
   "description": "SVG icon sets for Svelte 4/5/Runes",
   "license": "MIT",
-  "homepage": "https://svelte-svg-icons.codewithshin.com/",
+  "homepage": "https://svelte-icons.codewithshin.com/",
   "author": {
     "name": "Shinichi Okada",
     "email": "connect@codewithshin.com",
@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/shinokada/svelte-svg-icons"
+    "url": "https://github.com/shinokada/svelte-icons"
   },
   "engines": {
     "npm": ">=7.0.0",
     "node": ">=18.0.0"
   },
-  "bugs": "https://github.com/shinokada/svelte-svg-icons/issues",
+  "bugs": "https://github.com/shinokada/svelte-icons/issues",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build && npm run package",
@@ -95,8 +95,8 @@
   ],
   "contributors": [
     {
-      "name": "shinokada/svelte-svg-icons",
-      "url": "https://github.com/shinokada/svelte-svg-icons"
+      "name": "shinokada/svelte-icons",
+      "url": "https://github.com/shinokada/svelte-icons"
     }
   ],
   "exports": {
