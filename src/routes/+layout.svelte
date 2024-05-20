@@ -1,14 +1,42 @@
-<script>
-  import '../app.postcss';
-  import DarkMode from 'flowbite-svelte/DarkMode.svelte';
-  import Runatics from './utils/Runatics.svelte';
-  export let data;
-  const analyticsId = data.ANALYTICS_ID_TWO
+<script lang="ts">
+  import '../app.pcss';
+  import { page } from '$app/stores';
+  // import type { ComponentType } from 'svelte';
+  // import type { ListType } from 'runes-webkit';
+  import { Footer } from 'runes-webkit'
+  import { RunesMetaTags, deepMerge } from 'runes-meta-tags';
+  // import Nav from './utils/Nav.svelte';
+  import { Runatics } from 'runatics';
 
-  let darkmodebtn = 'text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-lg p-2.5 fixed right-4 top-2 z-50';
+  let { children, data } = $props()
+  const analyticsId = data.ANALYTICS_ID_ICONS
+  let metaTags = $state(
+    $page.data.pageMetaTags
+      ? deepMerge($page.data.layoutMetaTags, $page.data.pageMetaTags)
+      : data.layoutMetaTags
+  );
+
+  let currentUrl = $state($page.url.pathname);
+  $effect(() => {
+    currentUrl = $page.url.pathname;
+    metaTags = $page.data.pageMetaTags
+      ? deepMerge($page.data.layoutMetaTags, $page.data.pageMetaTags)
+      : data.layoutMetaTags;
+  })
+
+  const brand = {
+    name: 'codewithshin.com',
+    href: 'https://codewithshin.com',
+  }
+  
+  // const siteName = removeHyphensAndCapitalize(__NAME__)
+  // const twitterUrl = 'https://twitter.com/shinokada'
+  // const githubUrl = `https://github.com/shinokada/${__NAME__}`
+
 </script>
+<RunesMetaTags {...metaTags} />
 <Runatics {analyticsId} />
-<DarkMode btnClass={darkmodebtn} />
 <main class="w-full mx-auto px-2 pt-12">
-  <slot />
+  {@render children()}
 </main>
+<Footer {brand} />

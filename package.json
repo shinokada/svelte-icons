@@ -1,51 +1,74 @@
 {
-  "name": "svelte-icons",
-  "version": "0.2.0",
-  "description": "29 SVG icon sets for Svelte",
+  "name": "svelte-svg-icon-sets",
+  "version": "2.0.0",
+  "private": true,
+  "description": "SVG icon sets for Svelte 4/5/Runes",
+  "license": "MIT",
+  "homepage": "https://svelte-svg-icons.codewithshin.com/",
   "author": {
     "name": "Shinichi Okada",
     "email": "connect@codewithshin.com",
-    "url": "https://blog.codewithshin.com"
+    "url": "https://codewithshin.com"
   },
-  "bugs": "https://github.com/shinokada/svelte-icons-website/issues",
-  "homepage": "https://github.com/shinokada/svelte-icons-website",
-  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinokada/svelte-svg-icons"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=18.0.0"
+  },
+  "bugs": "https://github.com/shinokada/svelte-svg-icons/issues",
   "scripts": {
     "dev": "vite dev",
-    "build": "vite build ",
+    "build": "vite build && npm run package",
     "preview": "vite preview",
-    "package": "svelte-kit sync && publint",
+    "package": "svelte-kit sync && svelte-package && publint",
     "prepublishOnly": "npm run package",
     "test": "npm run test:integration && npm run test:unit",
     "check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
     "check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch",
-    "lint": "prettier --plugin-search-dir . --check . && eslint .",
-    "format": "prettier --plugin-search-dir . --write .",
+    "lint": "prettier --check . && eslint .",
+    "format": "prettier --write .",
     "test:integration": "playwright test",
-    "test:unit": "vitest"
+    "test:unit": "vitest",
+    "gen:exports": "svelte-lib-helpers exports",
+    "copy:packagejson": "svelte-lib-helpers package",
+    "gen:docs5": "svelte-lib-helpers docs5FromType",
+    "lib-helpers": "npm run gen:docs5 && npm run package && npm run gen:exports && npm run copy:packagejson"
   },
   "devDependencies": {
+    "@changesets/cli": "^2.27.3",
     "@playwright/test": "^1.44.0",
     "@sveltejs/adapter-auto": "^3.2.0",
-    "@sveltejs/kit": "^2.5.7",
+    "@sveltejs/kit": "^2.5.9",
     "@sveltejs/package": "^2.3.1",
     "@sveltejs/vite-plugin-svelte": "^3.1.0",
-    "@typescript-eslint/eslint-plugin": "^6.21.0",
-    "@typescript-eslint/parser": "^6.21.0",
+    "@svitejs/changesets-changelog-github-compact": "^1.1.0",
+    "@types/eslint": "^8.56.10",
+    "@typescript-eslint/eslint-plugin": "^7.9.0",
+    "@typescript-eslint/parser": "^7.9.0",
     "autoprefixer": "^10.4.19",
     "eslint": "^8.57.0",
     "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-svelte": "^2.38.0",
-    "flowbite-svelte": "^0.44.24",
-    "flowbite-svelte-icons": "^1.6.0",
+    "eslint-plugin-svelte": "2.37.0",
+    "highlight.js": "^11.9.0",
     "postcss": "^8.4.38",
     "postcss-load-config": "^5.1.0",
     "prettier": "^3.2.5",
     "prettier-plugin-svelte": "^3.2.3",
-    "svelte": "^4.2.16",
+    "prettier-plugin-tailwindcss": "^0.5.14",
+    "publint": "^0.2.8",
+    "runatics": "^0.1.3",
+    "runes-meta-tags": "^0.2.5",
+    "runes-webkit": "^0.6.18",
+    "svelte": "5.0.0-next.136",
+    "svelte-5-ui-lib": "^0.4.13",
     "svelte-check": "^3.7.1",
-    "svelte-meta-tags": "^3.1.2",
+    "svelte-lib-helpers": "^0.4.6",
     "svelte-preprocess": "^5.1.4",
+    "svelte-rune-highlight": "^0.5.9",
+    "svelte-shields": "^0.2.3",
     "tailwind-merge": "^2.3.0",
     "tailwindcss": "^3.4.3",
     "tslib": "^2.6.2",
@@ -53,21 +76,33 @@
     "vite": "^5.2.11",
     "vitest": "^1.6.0"
   },
-  "type": "module",
-  "dependencies": {
-    "@popperjs/core": "2.11.6",
-    "classnames": "^2.5.1",
-    "flowbite": "^1.8.1"
+  "files": [
+    "dist",
+    "!dist/**/*.test.*",
+    "!dist/**/*.spec.*"
+  ],
+  "peerDependencies": {
+    "svelte": "^5.0.0"
   },
+  "svelte": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
   "keywords": [
     "svelte",
+    "runes",
     "sveltekit",
-    "icons",
-    "svg",
-    "svg-icons"
+    "ui"
   ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/shinokada/svelte-icons-website"
+  "contributors": [
+    {
+      "name": "shinokada/svelte-svg-icons",
+      "url": "https://github.com/shinokada/svelte-svg-icons"
+    }
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "svelte": "./dist/index.js"
+    }
   }
 }
