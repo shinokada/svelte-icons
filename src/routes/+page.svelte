@@ -281,7 +281,7 @@
         label : 'Flowbite Svelte Icons'
       },
       repo: 'https://github.com/shinokada/flowbite-svelte-icons',
-      docs: 'https://flowbite-svelte-icons.codewithshin.com/guide/svelte-4/getting-started',
+      docs: 'https://flowbite-svelte-icons.codewithshin.com/',
     },
     {
       packageName: 'svelte-awesome-icons',
@@ -298,7 +298,7 @@
         label : 'Font Awesome'
       },
       repo: 'https://github.com/shinokada/svelte-awesome-icons',
-      docs: 'https://svelte-awesome-icons.codewithshin.com/guide/svelte-5/getting-started',
+      docs: 'https://svelte-awesome-icons.codewithshin.com/',
     },
     {
       packageName: 'svelte-heros-v2',
@@ -315,7 +315,7 @@
         label : 'Heroicons v2'
       },
       repo: 'https://github.com/shinokada/svelte-heros-v2',
-      docs: 'https://svelte-heros-v2.codewithshin.com/guide/svelte-5/getting-started',
+      docs: 'https://svelte-heros-v2.codewithshin.com/',
     },
     {
       packageName : 'svelte-lucide',
@@ -332,7 +332,7 @@
         label : 'Lucide icons'
       },
       repo: 'https://github.com/shinokada/svelte-lucide',
-      docs: 'https://svelte-lucide.codewithshin.com/guide/svelte-5/getting-started',
+      docs: 'https://svelte-lucide.codewithshin.com/',
     },
     {
       packageName: 'svelte-radix',
@@ -349,7 +349,7 @@
         label: 'Radix icons'
       },
       repo: 'https://github.com/shinokada/svelte-radix',
-      docs: 'https://svelte-radix.codewithshin.com/guide/svelte-5/getting-started',
+      docs: 'https://svelte-radix.codewithshin.com/',
     },
     {
       packageName: 'svelte-ionicons',
@@ -366,7 +366,7 @@
         label : 'Ionicons'
       },
       repo: 'https://github.com/shinokada/svelte-ionicons',
-      docs: 'https://svelte-ionicons.codewithshin.com/guide/svelte-5/getting-started',
+      docs: 'https://svelte-ionicons.codewithshin.com/',
     },
     {
       packageName: 'svelte-flags',
@@ -383,7 +383,7 @@
         label : 'Country flags'
       },
       repo: 'https://github.com/shinokada/svelte-flags',
-      docs: 'https://svelte-flags.codewithshin.com/guide/svelte-5/getting-started',
+      docs: 'https://svelte-flags.codewithshin.com/',
     },
     {
       packageName: 'svelte-remix',
@@ -400,7 +400,7 @@
         label : 'Remixicon'
       },
       repo: 'https://github.com/shinokada/svelte-remix',
-      docs: 'https://svelte-remix.codewithshin.com/guide/svelte-5/getting-started',
+      docs: 'https://svelte-remix.codewithshin.com/',
     },
     {
       packageName: 'svelte-ant-design-icons',
@@ -417,7 +417,7 @@
         label : 'Ant Design Icons'
       },
       repo: 'https://github.com/shinokada/svelte-ant-design-icons',
-      docs: 'https://svelte-ant-design-icons.codewithshin.com/guide/svelte-5/getting-started',
+      docs: 'https://svelte-ant-design-icons.codewithshin.com/',
     },
     {
       packageName: 'svelte-supertiny',
