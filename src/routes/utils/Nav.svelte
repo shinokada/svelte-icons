@@ -1,12 +1,11 @@
 <script lang="ts">
   import { twMerge } from 'tailwind-merge';
-  import type { ComponentType } from 'svelte';
+  import type { Component } from 'svelte';
 	import { Navbar, NavLi, NavBrand, NavUl, uiHelpers, Darkmode, Dropdown, DropdownItem, Drawer } from 'svelte-5-ui-lib';
 	import { page } from '$app/stores';
   import { GithubSolid, random_tailwind_color, DotsHorizontalOutline, XSolid, Sidebar, sidebarList } from 'runes-webkit'
   import DynamicCodeBlockStyle from './DynamicCodeBlockStyle.svelte';
   import { sineIn } from 'svelte/easing';
-  import { newSidebarList } from '../+layout.svelte';
 
   function isIncluded(url: string, allowedUrls: string[]): boolean {
     return allowedUrls.some(allowedUrl => url.startsWith(allowedUrl));
@@ -15,7 +14,7 @@
   type LiType = {
     name: string;
     href: string;
-    icon?: ComponentType;
+    icon?: Component;
   }
   interface Props{
     lis?: LiType[];
@@ -137,51 +136,6 @@
 	</Navbar>
 </header>
 
-<Drawer
-  width="w-64"
-  drawerStatus={navDrawerStatus}
-  closeDrawer={closeNavDrawer}
-  {transitionParams}
-  divclass='dark_bg_theme'
->
-  <div class="flex items-center pb-4">
-    <h5
-      id="drawer-label"
-      class="inline-flex items-center text-lg font-semibold text-gray-500 dark:text-gray-400"
-    >
-      Runes Webkit
-    </h5>
-    <button
-      type="button"
-      onclick={closeNavDrawer}
-      class="ms-auto inline-flex h-8 w-8 items-center justify-center rounded-lg bg-transparent text-sm text-gray-400 hover:bg-gray-200 hover:text-gray-900 dark:hover:bg-gray-600 dark:hover:text-white"
-      data-modal-hide="default-modal"
-    >
-      <svg
-        class="h-3 w-3"
-        aria-hidden="true"
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 14 14"
-      >
-        <path
-          stroke="currentColor"
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
-          d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"
-        />
-      </svg>
-      <span class="sr-only">Close drawer</span>
-    </button>
-  </div>
-  <Sidebar
-    sidebarList={newSidebarList}
-    s_b_aside="w-60 p-0 border-none mx-2 mt-20 !important"
-    s_b_div="bg-transparent p-0"
-    sidebarClose={closeNavDrawer}
-  />
-</Drawer>
 
 <!--
 @component

@@ -1,7 +1,7 @@
 <script lang="ts">
   import '../app.pcss';
   import { page } from '$app/stores';
-  // import type { ComponentType } from 'svelte';
+  // import type { Component } from 'svelte';
   // import type { ListType } from 'runes-webkit';
   import { Footer } from 'runes-webkit'
   import { RunesMetaTags, deepMerge } from 'runes-meta-tags';
