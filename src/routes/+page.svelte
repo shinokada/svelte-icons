@@ -207,6 +207,25 @@
         docs: 'https://svelte-flags.codewithshin.com/guide/svelte-5/getting-started',
       },
       {
+        packageName: 'svelte-flag-icons',
+        label: 'Svelte Flag Icons',
+        tag: 'next',
+        a11y: true,
+        img : {
+          src: '/images/resized/flag-icons3.webp',
+          alt: 'Svelte Flags'
+        },
+        download_color: '3FCD41',
+        version_color: 'red',
+        desc: '260+ SVG icons',
+        source: {
+        url : 'https://github.com/lipis/flag-icons',
+        label : 'Flag icons'
+      },
+      repo: 'https://github.com/shinokada/svelte-flag-icons',
+      docs: 'https://svelte-flag-icons.codewithshin.com',
+      },
+      {
         packageName: 'svelte-remix',
         label: 'Svelte Remix',
         tag: 'next',
