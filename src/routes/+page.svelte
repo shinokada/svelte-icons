@@ -822,9 +822,9 @@ version_color, desc, source, repo, docs, tag, a11y })}
 <div class="flex flex-wrap justify-center gap-6">
   
 {#each svelte5_icons as { packageName, label, img, download_color,
-  version_color, desc, source, docs, tag, a11y }}
+  version_color, desc, source, repo, docs, tag, a11y }}
   {@render runesIcon({ packageName, label, img, download_color,
-    version_color, desc, source, docs, tag, a11y })}
+    version_color, desc, source, repo, docs, tag, a11y })}
 {/each}
 
 </div>
@@ -836,9 +836,9 @@ version_color, desc, source, repo, docs, tag, a11y })}
 <div class="flex flex-wrap justify-center gap-6">
 
   {#each svelte4_icons as { packageName, label, img, download_color,
-    version_color, desc, source, docs }}
+    version_color, desc, source, repo, docs, a11y }}
     {@render runesIcon({ packageName, label, img, download_color,
-      version_color, desc, source, docs })}
+      version_color, desc, source, repo, docs, a11y })}
   {/each}
 
 </div>
