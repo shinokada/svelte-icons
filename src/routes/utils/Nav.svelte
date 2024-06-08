@@ -108,7 +108,7 @@
         {#if include}
 				<DynamicCodeBlockStyle />
         {/if}
-        <DotsHorizontalOutline onclick={dropdown.toggle} class="dark:text-white ml-6 mr-4" size="lg" />
+        <DotsHorizontalOutline withEvents onclick={dropdown.toggle} class="dark:text-white ml-6 mr-4" size="lg" />
       <div class="relative">
         <Dropdown {dropdownStatus}
         {closeDropdown}
