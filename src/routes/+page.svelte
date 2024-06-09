@@ -187,24 +187,24 @@
         repo: 'https://github.com/shinokada/svelte-ionicons',
         docs: 'https://svelte-ionicons.codewithshin.com/guide/svelte-5/getting-started',
       },
-      // {
-      //   packageName: 'svelte-tabler',
-      //   label: 'Svelte Tabler',
-      //   tag: 'next',
-      //   img : {
-      //     src: '/images/resized/tabler1.webp',
-      //     alt: 'Svelte Tabler'
-      //   },
-      //   download_color: '3FCD41',
-      //   version_color: 'red',
-      //   desc: '5290+ SVG icons',
-      //   source: {
-      //     url : 'https://github.com/tabler/tabler-icons',
-      //     label : 'Tabler Icons'
-      //   },
-      //   repo: 'https://github.com/shinokada/svelte-tabler',
-      //   docs: 'https://svelte-tabler.codewithshin.com/guide/svelte-5/getting-started',
-      // },
+      {
+        packageName: 'svelte-tabler',
+        label: 'Svelte Tabler',
+        tag: 'next',
+        img : {
+          src: '/images/resized/tabler1.webp',
+          alt: 'Svelte Tabler'
+        },
+        download_color: '3FCD41',
+        version_color: 'red',
+        desc: '5290+ SVG icons',
+        source: {
+          url : 'https://github.com/tabler/tabler-icons',
+          label : 'Tabler Icons'
+        },
+        repo: 'https://github.com/shinokada/svelte-tabler',
+        docs: 'https://svelte-tabler.codewithshin.com/guide/svelte-5/getting-started',
+      },
       {
         packageName: 'svelte-flags',
         label: 'Svelte Flags',
