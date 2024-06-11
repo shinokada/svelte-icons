@@ -131,6 +131,25 @@
         docs: 'https://svelte-heros-v2.codewithshin.com/guide/svelte-5/getting-started',
       },
       {
+        packageName: 'svelte-heros',
+        label: 'Svelte Heros',
+        tag: 'next',
+        a11y: true,
+        img : {
+          src: '/images/resized/heros.webp',
+          alt: 'Svelte Heros'
+        },
+        download_color: '3FCD41',
+        version_color: 'red',
+        desc: '460+ SVG icons',
+        source: {
+          url : 'https://heroicons.com/',
+          label : 'Heroicons'
+        },
+        repo: 'https://github.com/shinokada/svelte-heros',
+        docs: 'https://svelte-heros.codewithshin.com',
+      },
+      {
         packageName : 'svelte-lucide',
         label : 'Svelte Lucide',
         tag: 'next',
@@ -669,7 +688,7 @@
       },
       download_color: '3FCD41',
       version_color: 'blue',
-      desc: '580+ SVG icons',
+      desc: '460+ SVG icons',
       source: {
         url : 'https://heroicons.com/',
         label : 'Heroicons'
