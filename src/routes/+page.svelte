@@ -210,6 +210,7 @@
         packageName: 'svelte-tabler',
         label: 'Svelte Tabler',
         tag: 'next',
+        a11y: true,
         img : {
           src: '/images/resized/tabler1.webp',
           alt: 'Svelte Tabler'
