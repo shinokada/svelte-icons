@@ -90,7 +90,7 @@
           label : 'Flowbite Icons'
         },
         repo: 'https://github.com/themesberg/flowbite-svelte-icons',
-        docs: 'https://flowbite-svelte-icons.codewithshin.com/guide/svelte-5/getting-started',
+        docs: 'https://flowbite-svelte.com/icons/svelte-5',
       },
       {
         packageName: 'svelte-awesome-icons',
@@ -338,7 +338,7 @@
         label : 'Flowbite Svelte Icons'
       },
       repo: 'https://github.com/shinokada/flowbite-svelte-icons',
-      docs: 'https://flowbite-svelte-icons.codewithshin.com/',
+      docs: 'https://flowbite-svelte.com/icons/svelte-4',
     },
     {
       packageName: 'svelte-awesome-icons',
