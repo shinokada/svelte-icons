@@ -54,7 +54,7 @@
 	let closeNav = nav.close;
 	let divClass = 'ml-auto w-full';
 	let ulclass = 'dark:lg:bg-transparent lg:space-x-4';
-	let navclass = 'w-full divide-gray-200 border-gray-200 bg-gray-50 dark_bg_theme text-gray-500 dark:divide-gray-700 dark:border-gray-700 dark:transparent dark:text-gray-400 sm:px-4';
+	let navClass = 'w-full divide-gray-200 border-gray-200 bg-gray-50 dark_bg_theme text-gray-500 dark:divide-gray-700 dark:border-gray-700 dark:transparent dark:text-gray-400 sm:px-4';
   let headerCls = twMerge('sticky top-0 z-40 mx-auto w-full flex-none border-b border-gray-200 bg-gray-100 dark:border-gray-600 dark:bg-sky-950', headerClass)
 
 	$effect(() => {
@@ -76,7 +76,7 @@
 {/snippet}
 
 <header class={headerCls}>
-	<Navbar {navclass} {toggleNav} {closeNav} {navStatus} breakPoint="lg" fluid div2class={divClass}>
+	<Navbar {navClass} {toggleNav} {closeNav} {navStatus} breakPoint="lg" fluid div2Class={divClass}>
 		{#snippet brand()}
     <button
     onclick={navDrawer.toggle}
@@ -102,34 +102,34 @@
     </svg>
   </button>
     {#if siteName}
-			<NavBrand {siteName} spanclass="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500" />
+			<NavBrand {siteName} spanClass="self-center whitespace-nowrap text-2xl font-semibold text-primary-900 dark:text-primary-500" />
     {/if}
 			<div class="ml-auto flex items-center lg:order-1">
         {#if include}
 				<DynamicCodeBlockStyle />
         {/if}
-        <DotsHorizontalOutline withEvents onclick={dropdown.toggle} class="dark:text-white ml-6 mr-4" size="lg" />
+        <DotsHorizontalOutline onclick={dropdown.toggle} class="dark:text-white ml-6 mr-4" size="lg" />
       <div class="relative">
         <Dropdown {dropdownStatus}
         {closeDropdown}
-        transitionParams={dropdownTransitionParams} divclass="absolute -left-[47px] top-8 w-12 pl-1.5">
+        transitionParams={dropdownTransitionParams} divClass="absolute -left-[47px] top-8 w-12 pl-1.5">
           {#if twitterUrl}
-          <DropdownItem href={twitterUrl} target="_blank" aclass='p-2 m-0'><XSolid /></DropdownItem>
+          <DropdownItem href={twitterUrl} target="_blank" aClass='p-2 m-0'><XSolid /></DropdownItem>
           {/if}
           {#if githubUrl}
-          <DropdownItem href="{githubUrl}" target="_blank" aclass='p-2 m-0'>
+          <DropdownItem href={githubUrl} target="_blank" aClass='p-2 m-0'>
               <GithubSolid />
           </DropdownItem>
           {/if}
           <DropdownItem>
-            <Darkmode btnclass="p-2 m-0"/>
+            <Darkmode class="p-2 m-0"/>
           </DropdownItem>
         </Dropdown>
       </div>
 			</div>
 		{/snippet}
     {#if lis}
-    <NavUl {ulclass}>
+    <NavUl class={ulclass}>
       {@render navLi(lis)}
     </NavUl>
     {/if}

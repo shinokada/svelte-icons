@@ -4,7 +4,7 @@
   import Li from 'svelte-5-ui-lib/Li.svelte';
   import A from 'svelte-5-ui-lib/A.svelte';
   import Badge from 'svelte-5-ui-lib/Badge.svelte';
-  import { NpmVersion, NpmDownloads } from 'svelte-shields';
+  import { NpmVersion, NpmDownload } from 'svelte-shields';
 
   import { onMount } from 'svelte';
 
@@ -825,10 +825,10 @@
 {#snippet runesIcon({ packageName, label, img, download_color,
 version_color, desc, source, repo, docs, tag, a11y })}
 <Card img={img}>
-  <NpmDownloads packageName={packageName} color={download_color} logo='' interval='dy' class="inline my-2"/>
-  <NpmDownloads packageName={packageName} color={download_color} logo='' interval='dw' class="inline"/>
+  <NpmDownload packageName={packageName} color={download_color} logo='' interval='dy' class="inline my-2"/>
+  <NpmDownload packageName={packageName} color={download_color} logo='' interval='dw' class="inline"/>
   {#if a11y}
-  <Badge color="pink" divclass="dark:text-white px-2 my-2">A11y</Badge>
+  <Badge color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
   {/if}
   <NpmVersion packageName={packageName} color={version_color} {tag} label={label} logo='svelte'/>
   <h5 class={hFiveClass}>
