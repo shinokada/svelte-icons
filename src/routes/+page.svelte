@@ -71,8 +71,26 @@
       return number.toString();
     }
   }
-
-  const svelte5_icons = [
+  interface LibType {
+    packageName: string;
+    label: string;
+    tag?: string;
+    a11y?: boolean;
+    img: {
+      src: string;
+      alt: string;
+    };
+    download_color: string;
+    version_color: string;
+    desc: string;
+    source: {
+      url: string;
+      label: string;
+    };
+    repo: string;
+    docs: string;
+  }
+  const svelte5_icons: LibType[] = [
       {
         packageName: 'flowbite-svelte-icons',
         label: 'Flowbite Svelte Icons',
@@ -822,23 +840,22 @@
   const h2Class = 'text-center my-8 xl:my-12 2xl:my-16 text-4xl xl:text-5xl 2xl:text-6xl text-gray-900 dark:text-white'
 </script>
 
-{#snippet runesIcon({ packageName, label, img, download_color,
-version_color, desc, source, repo, docs, tag, a11y })}
-<Card img={img}>
-  <NpmDownload packageName={packageName} color={download_color} logo='' interval='dy' class="inline my-2"/>
-  <NpmDownload packageName={packageName} color={download_color} logo='' interval='dw' class="inline"/>
-  {#if a11y}
+{#snippet runesIcon(lib: LibType)}
+<Card img={lib.img}>
+  <NpmDownload packageName={lib.packageName} color={lib.download_color} logo='' interval='dy' class="inline my-2"/>
+  <NpmDownload packageName={lib.packageName} color={lib.download_color} logo='' interval='dw' class="inline"/>
+  {#if lib.a11y}
   <Badge color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
   {/if}
-  <NpmVersion packageName={packageName} color={version_color} {tag} label={label} logo='svelte'/>
+  <NpmVersion packageName={lib.packageName} color={lib.version_color} tag={lib.tag} label={lib.label} logo='svelte'/>
   <h5 class={hFiveClass}>
-    <A href={docs} target="_blank">{label}</A>
+    <A href={lib.docs} target="_blank">{lib.label}</A>
   </h5>
   <List>
-    <Li>{desc}</Li>
-    <Li><A href={repo} target="_blank">GitHub repo</A></Li>
-    <Li>Source: <A href={source.url} target="_blank">{source.label}</A></Li>
-    <Li><A href={docs} target="_blank">Icon and Docs</A></Li>
+    <Li>{lib.desc}</Li>
+    <Li><A href={lib.repo} target="_blank">GitHub repo</A></Li>
+    <Li>Source: <A href={lib.source.url} target="_blank">{lib.source.label}</A></Li>
+    <Li><A href={lib.docs} target="_blank">Icon and Docs</A></Li>
   </List>
 </Card>
 {/snippet}
@@ -854,29 +871,20 @@ version_color, desc, source, repo, docs, tag, a11y })}
   <Badge color="red" large>Total downloads: {formatNumber(totalDownloads)}</Badge>
 </div>
 
-
-
 <h2 class={h2Class}>Svelte 5: Runes</h2>
 <div class="flex flex-wrap justify-center gap-6">
-  
 {#each svelte5_icons as { packageName, label, img, download_color,
   version_color, desc, source, repo, docs, tag, a11y }}
   {@render runesIcon({ packageName, label, img, download_color,
     version_color, desc, source, repo, docs, tag, a11y })}
 {/each}
-
 </div>
 
 <h2 class={h2Class}>Svelte 4/5</h2>
-
-
-
 <div class="flex flex-wrap justify-center gap-6">
-
   {#each svelte4_icons as { packageName, label, img, download_color,
     version_color, desc, source, repo, docs, a11y }}
     {@render runesIcon({ packageName, label, img, download_color,
       version_color, desc, source, repo, docs, a11y })}
   {/each}
-
 </div>
