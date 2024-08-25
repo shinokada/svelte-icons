@@ -165,7 +165,7 @@
           label : 'Heroicons'
         },
         repo: 'https://github.com/shinokada/svelte-heros',
-        docs: 'https://svelte-heros.codewithshin.com',
+        docs: 'https://svelte-heros.codewithshin.com/guide/svelte-5/getting-started',
       },
       {
         packageName : 'svelte-lucide',
