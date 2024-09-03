@@ -868,7 +868,7 @@
   <Badge color="blue">Support CSS frameworks</Badge>
   <Badge color="purple">Faster compling</Badge>
   <Badge color="yellow">IDE Support</Badge>
-  <Badge color="red" large>Total downloads: {formatNumber(totalDownloads)}</Badge>
+  <Badge color="green" large>Total downloads: {formatNumber(totalDownloads)}</Badge>
 </div>
 
 <h2 class={h2Class}>Svelte 5: Runes</h2>
