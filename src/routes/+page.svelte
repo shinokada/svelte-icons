@@ -845,7 +845,7 @@
   <NpmDownload packageName={lib.packageName} color={lib.download_color} logo='' interval='dy' class="inline my-2"/>
   <NpmDownload packageName={lib.packageName} color={lib.download_color} logo='' interval='dw' class="inline"/>
   {#if lib.a11y}
-  <Badge color="pink" class="dark:text-white px-2 my-2">A11y</Badge>
+  <Badge class="dark:text-white px-2 my-2">A11y</Badge>
   {/if}
   <NpmVersion packageName={lib.packageName} color={lib.version_color} tag={lib.tag} label={lib.label} logo='svelte'/>
   <h5 class={hFiveClass}>
@@ -864,11 +864,11 @@
 <h1 class="text-center my-4 xl:my-5 2xl:my-6 text-5xl xl:text-6xl 2xl:text-7xl text-gray-900 dark:text-white">Svelte SVG Icon Sets</h1>
 
 <div class="flex flex-wrap justify-center gap-4 pb-6">
-  <Badge color="pink">Svelte 4, 5, and 5:Runes</Badge>
-  <Badge color="blue">Support CSS frameworks</Badge>
-  <Badge color="purple">Faster compling</Badge>
-  <Badge color="yellow">IDE Support</Badge>
-  <Badge color="green" large>Total downloads: {formatNumber(totalDownloads)}</Badge>
+  <Badge color="pink" large class="p-2">Svelte 4, 5, and 5:Runes</Badge>
+  <Badge color="blue" large class="p-2">Support CSS frameworks</Badge>
+  <Badge color="purple" large class="p-2">Faster compling</Badge>
+  <Badge color="yellow" large class="p-2">IDE Support</Badge>
+  <Badge color="green" large class="p-2">Total downloads: {formatNumber(totalDownloads)}</Badge>
 </div>
 
 <h2 class={h2Class}>Svelte 5: Runes</h2>
