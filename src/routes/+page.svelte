@@ -781,7 +781,7 @@
         label : 'Tabler Icons'
       },
       repo: 'https://github.com/shinokada/svelte-tabler',
-      docs: 'https://svelte-tabler-v1.codewithshin.com',
+      docs: 'https://svelte-tabler.codewithshin.com',
     },
     {
       packageName: 'svelte-teenyicons',
