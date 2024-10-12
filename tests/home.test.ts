@@ -6,7 +6,7 @@ test.beforeEach(async ({ page }) => {
 });
 
 test('index page has expected h1', async ({ page }) => {
-	await expect(page.getByRole('heading', { name: 'Svelte SVG Icon Sets', level: 1 })).toBeVisible();
+  await expect(page.getByRole('heading', { name: 'Svelte SVG Icon Sets', level: 1 })).toBeVisible();
 });
 
 test('index page has expected meta title', async ({ page }) => {
@@ -20,7 +20,10 @@ test('index page has expected meta description', async ({ page }) => {
 
 test('index page has expected meta keywords', async ({ page }) => {
   const metaKeywords = page.locator('meta[name="keywords"]');
-  await expect(metaKeywords).toHaveAttribute('content', 'svelte, runes, svg icons, sveltekit, svg component');
+  await expect(metaKeywords).toHaveAttribute(
+    'content',
+    'svelte, runes, svg icons, sveltekit, svg component'
+  );
 });
 
 test('index page has expected meta og', async ({ page }) => {
@@ -41,7 +44,10 @@ test('index page has expected meta twitter', async ({ page }) => {
   const metaTwitterTitle = page.locator('meta[name="twitter:title"]');
   await expect(metaTwitterTitle).toHaveAttribute('content', 'Svelte Svg Icon Sets');
   const metaTwitterDescription = page.locator('meta[name="twitter:description"]');
-  await expect(metaTwitterDescription).toHaveAttribute('content', 'SVG icon sets for Svelte 4/5/Runes');
+  await expect(metaTwitterDescription).toHaveAttribute(
+    'content',
+    'SVG icon sets for Svelte 4/5/Runes'
+  );
   const metaTwitterImage = page.locator('meta[name="twitter:image"]');
   await expect(metaTwitterImage).toHaveAttribute(
     'content',

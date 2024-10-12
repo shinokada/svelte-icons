@@ -5,7 +5,7 @@ import { metaTitle, metaDescription, metaImg } from 'runes-meta-tags';
 export const load = ({ url }) => {
   const siteName = metaTitle('/', __NAME__);
   const title = metaTitle(url.pathname, __NAME__);
-  const basicDesc = 'SVG icon sets for Svelte 4/5/Runes'
+  const basicDesc = 'SVG icon sets for Svelte 4/5/Runes';
   const description = metaDescription(url.pathname, basicDesc);
   const image = metaImg(url.pathname, __NAME__);
   const keywords = 'svelte, runes, svg icons, sveltekit, svg component';
@@ -21,7 +21,7 @@ export const load = ({ url }) => {
       title,
       description,
       image: 'https://open-graph-vercel.vercel.app/api/svelte-svg-icons',
-      imageAlt: title,
+      imageAlt: title
     },
     og: {
       type: 'website',
