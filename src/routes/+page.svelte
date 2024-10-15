@@ -4,9 +4,10 @@
   import Li from 'svelte-5-ui-lib/Li.svelte';
   import A from 'svelte-5-ui-lib/A.svelte';
   import Badge from 'svelte-5-ui-lib/Badge.svelte';
-  import { NpmVersion, NpmDownload } from 'svelte-shields';
+  import { NpmVersion, NpmDownload, type NpmDownloadPropsType } from 'svelte-shields';
 
   import { onMount } from 'svelte';
+  import type { ListType } from 'runes-webkit';
 
   let totalDownloads = $state(0);
 
@@ -75,8 +76,14 @@
   interface LibType {
     packageName: string;
     label: string;
+    logo?: string;
+    logoColor?: string;
+    labelColor?: string;
+    link?: string[];
+    link2?: string[];
     tag?: string;
     a11y?: boolean;
+    href?: string;
     img: {
       src: string;
       alt: string;
@@ -95,6 +102,18 @@
     {
       packageName: 'flowbite-svelte-icons',
       label: 'Flowbite Svelte Icons',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/flowbite-svelte-icons',
+        'https://www.npmjs.com/package/flowbite-svelte-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://flowbite-svelte-icons.codewithshin.com/',
+        'https://github.com/themesberg/flowbite-svelte-icons/releases'
+      ],
+      href: 'https://flowbite-svelte-icons.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -114,6 +133,18 @@
     {
       packageName: 'svelte-awesome-icons',
       label: 'Svelte Awesome Icons',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-awesome-icons',
+        'https://www.npmjs.com/package/svelte-awesome-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-awesome-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-awesome-icons/releases'
+      ],
+      href: 'https://svelte-awesome-icons.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -133,6 +164,18 @@
     {
       packageName: 'svelte-heros-v2',
       label: 'Svelte Heros v2',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-heros-v2',
+        'https://www.npmjs.com/package/svelte-heros-v2?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-heros-v2.codewithshin.com/',
+        'https://github.com/shinokada/svelte-heros-v2/releases'
+      ],
+      href: 'https://svelte-heros-v2.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -152,6 +195,18 @@
     {
       packageName: 'svelte-heros',
       label: 'Svelte Heros',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-heros',
+        'https://www.npmjs.com/package/svelte-heros?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-heros.codewithshin.com/',
+        'https://github.com/shinokada/svelte-heros/releases'
+      ],
+      href: 'https://svelte-heros.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -171,6 +226,18 @@
     {
       packageName: 'svelte-lucide',
       label: 'Svelte Lucide',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-lucide',
+        'https://www.npmjs.com/package/svelte-lucide?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-lucide.codewithshin.com/',
+        'https://github.com/shinokada/svelte-lucide/releases'
+      ],
+      href: 'https://svelte-lucide.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -190,6 +257,18 @@
     {
       packageName: 'svelte-radix',
       label: 'Svelte Radix',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-radix',
+        'https://www.npmjs.com/package/svelte-radix?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-radix.codewithshin.com/',
+        'https://github.com/shinokada/svelte-radix/releases'
+      ],
+      href: 'https://svelte-radix.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -209,6 +288,18 @@
     {
       packageName: 'svelte-ionicons',
       label: 'Svelte Ionicons',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-ionicons',
+        'https://www.npmjs.com/package/svelte-ionicons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-ionicons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-ionicons/releases'
+      ],
+      href: 'https://svelte-ionicons.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -228,6 +319,18 @@
     {
       packageName: 'svelte-tabler',
       label: 'Svelte Tabler',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-tabler',
+        'https://www.npmjs.com/package/svelte-tabler?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-tabler.codewithshin.com/',
+        'https://github.com/shinokada/svelte-tabler/releases'
+      ],
+      href: 'https://svelte-tabler.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -247,6 +350,18 @@
     {
       packageName: 'svelte-flags',
       label: 'Svelte Flags',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-flags',
+        'https://www.npmjs.com/package/svelte-flags?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-flags.codewithshin.com/',
+        'https://github.com/shinokada/svelte-flags/releases'
+      ],
+      href: 'https://svelte-flags.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -266,6 +381,18 @@
     {
       packageName: 'svelte-flag-icons',
       label: 'Svelte Flag Icons',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-flag-icons',
+        'https://www.npmjs.com/package/svelte-flag-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-flag-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-flag-icons/releases'
+      ],
+      href: 'https://svelte-flag-icons.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -285,6 +412,18 @@
     {
       packageName: 'svelte-remix',
       label: 'Svelte Remix',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-remix',
+        'https://www.npmjs.com/package/svelte-remix?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-remix.codewithshin.com/',
+        'https://github.com/shinokada/svelte-remix/releases'
+      ],
+      href: 'https://svelte-remix.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -304,6 +443,18 @@
     {
       packageName: 'svelte-ant-design-icons',
       label: 'Svelte Ant Design Icons',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-ant-design-icons',
+        'https://www.npmjs.com/package/svelte-ant-design-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-ant-design-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-ant-design-icons/releases'
+      ],
+      href: 'https://svelte-ant-design-icons.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       a11y: true,
       img: {
@@ -323,6 +474,18 @@
     {
       packageName: 'svelte-supertiny',
       label: 'Svelte Supertiny',
+      logoColor: 'red',
+      labelColor: 'white',
+      logo: 'npm',
+      link: [
+        'https://www.npmjs.com/package/svelte-supertiny',
+        'https://www.npmjs.com/package/svelte-supertiny?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-supertiny.codewithshin.com/',
+        'https://github.com/shinokada/svelte-supertiny/releases'
+      ],
+      href: 'https://svelte-supertiny.codewithshin.com/guide/svelte-5/props#A11y',
       tag: 'next',
       img: {
         src: '/images/resized/supertiny.webp',
@@ -340,11 +503,20 @@
     }
   ];
 
-  const svelte4_icons = [
+  const svelte4_icons: LibType[] = [
     {
       packageName: 'flowbite-svelte-icons',
       label: 'Flowbite Svelte Icons',
-      a11y: true,
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/flowbite-svelte-icons',
+        'https://www.npmjs.com/package/flowbite-svelte-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://flowbite-svelte-icons.codewithshin.com/',
+        'https://github.com/themesberg/flowbite-svelte-icons/releases'
+      ],
       img: {
         src: '/images/resized/flowbite.webp',
         alt: 'Flowbite Svelte Icons'
@@ -362,6 +534,16 @@
     {
       packageName: 'svelte-awesome-icons',
       label: 'Svelte Awesome Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-awesome-icons',
+        'https://www.npmjs.com/package/svelte-awesome-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-awesome-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-awesome-icons/releases'
+      ],
       img: {
         src: '/images/resized/awesome.webp',
         alt: 'Svelte Awesome Icons'
@@ -379,6 +561,16 @@
     {
       packageName: 'svelte-heros-v2',
       label: 'Svelte Heros v2',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-heros-v2',
+        'https://www.npmjs.com/package/svelte-heros-v2?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-heros-v2.codewithshin.com/',
+        'https://github.com/shinokada/svelte-heros-v2/releases'
+      ],
       img: {
         src: '/images/resized/heros.webp',
         alt: 'Svelte Heros v2: v2'
@@ -396,6 +588,16 @@
     {
       packageName: 'svelte-lucide',
       label: 'Svelte Lucide',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-lucide',
+        'https://www.npmjs.com/package/svelte-lucide?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-lucide.codewithshin.com/',
+        'https://github.com/shinokada/svelte-lucide/releases'
+      ],
       img: {
         src: '/images/resized/lucide.webp',
         alt: 'Svelte Lucide'
@@ -413,6 +615,16 @@
     {
       packageName: 'svelte-radix',
       label: 'Svelte Radix',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-radix',
+        'https://www.npmjs.com/package/svelte-radix?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-radix.codewithshin.com/',
+        'https://github.com/shinokada/svelte-radix/releases'
+      ],
       img: {
         src: '/images/resized/radix.webp',
         alt: 'Svelte Radix'
@@ -430,6 +642,16 @@
     {
       packageName: 'svelte-ionicons',
       label: 'Svelte Ionicons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-ionicons',
+        'https://www.npmjs.com/package/svelte-ionicons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-ionicons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-ionicons/releases'
+      ],
       img: {
         src: '/images/resized/ion.webp',
         alt: 'Svelte Ionicons'
@@ -447,6 +669,16 @@
     {
       packageName: 'svelte-flags',
       label: 'Svelte Flags',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-flags',
+        'https://www.npmjs.com/package/svelte-flags?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-flags.codewithshin.com/',
+        'https://github.com/shinokada/svelte-flags/releases'
+      ],
       img: {
         src: '/images/resized/flags.webp',
         alt: 'Svelte Flags'
@@ -464,6 +696,16 @@
     {
       packageName: 'svelte-remix',
       label: 'Svelte Remix',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-remix',
+        'https://www.npmjs.com/package/svelte-remix?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-remix.codewithshin.com/',
+        'https://github.com/shinokada/svelte-remix/releases'
+      ],
       img: {
         src: '/images/resized/remix1.webp',
         alt: 'Svelte Remix'
@@ -481,6 +723,16 @@
     {
       packageName: 'svelte-ant-design-icons',
       label: 'Svelte Ant Design Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-ant-design-icons',
+        'https://www.npmjs.com/package/svelte-ant-design-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-ant-design-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-ant-design-icons/releases'
+      ],
       img: {
         src: '/images/resized/ant.webp',
         alt: 'Svelte Ant Design Icons'
@@ -498,6 +750,16 @@
     {
       packageName: 'svelte-supertiny',
       label: 'Svelte Supertiny',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-supertiny',
+        'https://www.npmjs.com/package/svelte-supertiny?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-supertiny.codewithshin.com/',
+        'https://github.com/shinokada/svelte-supertiny/releases'
+      ],
       img: {
         src: '/images/resized/supertiny.webp',
         alt: 'Svelte Supertiny'
@@ -515,6 +777,16 @@
     {
       packageName: 'svelte-bootstrap-svg-icons',
       label: 'Svelte Bootstrap SVG Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-bootstrap-svg-icons',
+        'https://www.npmjs.com/package/svelte-bootstrap-svg-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-bootstrap-svg-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-bootstrap-svg-icons/releases'
+      ],
       img: {
         src: '/images/resized/bootstrap1.webp',
         alt: 'Svelte Bootstrap SVG Icons'
@@ -532,6 +804,16 @@
     {
       packageName: 'svelte-boxicons',
       label: 'Svelte Boxicons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-boxicons',
+        'https://www.npmjs.com/package/svelte-boxicons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-boxicons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-boxicons/releases'
+      ],
       img: {
         src: '/images/resized/boxicons.webp',
         alt: 'Svelte Boxicons'
@@ -549,6 +831,16 @@
     {
       packageName: 'svelte-circle-flags',
       label: 'Svelte Circle Flags',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-circle-flags',
+        'https://www.npmjs.com/package/svelte-circle-flags?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-circle-flags.codewithshin.com/',
+        'https://github.com/shinokada/svelte-circle-flags/releases'
+      ],
       img: {
         src: '/images/resized/circle-flags.webp',
         alt: 'Svelte Circle Flags'
@@ -566,6 +858,16 @@
     {
       packageName: 'svelte-coreui-icons',
       label: 'Svelte Coreui Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-coreui-icons',
+        'https://www.npmjs.com/package/svelte-coreui-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-coreui-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-coreui-icons/releases'
+      ],
       img: {
         src: '/images/resized/coreui.webp',
         alt: 'Svelte Coreui Icons'
@@ -583,6 +885,16 @@
     {
       packageName: 'svelte-cryptocurrency-icons',
       label: 'Svelte Cryptocurrency Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-cryptocurrency-icons',
+        'https://www.npmjs.com/package/svelte-cryptocurrency-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-cryptocurrency-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-cryptocurrency-icons/releases'
+      ],
       img: {
         src: '/images/resized/crypto.webp',
         alt: 'Svelte Cryptocurrency Icons'
@@ -600,6 +912,16 @@
     {
       packageName: 'svelte-cssgg-icons',
       label: 'Svelte CSSGG Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-cssgg-icons',
+        'https://www.npmjs.com/package/svelte-cssgg-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-cssgg-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-cssgg-icons/releases'
+      ],
       img: {
         src: '/images/resized/cssgg.webp',
         alt: 'Svelte CSSGG Icons'
@@ -617,6 +939,16 @@
     {
       packageName: 'svelte-evil-icons',
       label: 'Svelte Evil Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-evil-icons',
+        'https://www.npmjs.com/package/svelte-evil-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-evil-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-evil-icons/releases'
+      ],
       img: {
         src: '/images/resized/evil.webp',
         alt: 'Svelte Evil Icons'
@@ -634,6 +966,16 @@
     {
       packageName: 'svelte-feathers',
       label: 'Svelte Feathers',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-feathers',
+        'https://www.npmjs.com/package/svelte-feathers?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-feathers.codewithshin.com/',
+        'https://github.com/shinokada/svelte-feathers/releases'
+      ],
       img: {
         src: '/images/resized/feather.webp',
         alt: 'Svelte Feathers'
@@ -651,6 +993,16 @@
     {
       packageName: 'svelte-file-icons',
       label: 'Svelte File Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-file-icons',
+        'https://www.npmjs.com/package/svelte-file-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-file-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-file-icons/releases'
+      ],
       img: {
         src: '/images/resized/fileicons.webp',
         alt: 'Svelte File Icons'
@@ -668,6 +1020,16 @@
     {
       packageName: 'svelte-flag-icons',
       label: 'Svelte Flag Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-flag-icons',
+        'https://www.npmjs.com/package/svelte-flag-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-flag-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-flag-icons/releases'
+      ],
       img: {
         src: '/images/resized/flag-icons3.webp',
         alt: 'Svelte Flag Icons'
@@ -685,6 +1047,16 @@
     {
       packageName: 'svelte-google-materialdesign-icons',
       label: 'Svelte Google Material Design Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-google-materialdesign-icons',
+        'https://www.npmjs.com/package/svelte-google-materialdesign-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-google-materialdesign-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-google-materialdesign-icons/releases'
+      ],
       img: {
         src: '/images/resized/google-material.webp',
         alt: 'Svelte Google Material Design Icons'
@@ -702,6 +1074,16 @@
     {
       packageName: 'svelte-heros',
       label: 'Svelte Heros',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-heros',
+        'https://www.npmjs.com/package/svelte-heros?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-heros.codewithshin.com/',
+        'https://github.com/shinokada/svelte-heros/releases'
+      ],
       img: {
         src: '/images/resized/heros.webp',
         alt: 'Svelte Heros'
@@ -719,6 +1101,16 @@
     {
       packageName: 'svelte-materialdesign-icons',
       label: 'Svelte Material Design Icons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-materialdesign-icons',
+        'https://www.npmjs.com/package/svelte-materialdesign-icons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-materialdesign-icons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-materialdesign-icons/releases'
+      ],
       img: {
         src: '/images/resized/materialdesign.webp',
         alt: 'Svelte Material Design Icons'
@@ -736,6 +1128,16 @@
     {
       packageName: 'svelte-oct',
       label: 'Svelte Oct',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-oct',
+        'https://www.npmjs.com/package/svelte-oct?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-oct.codewithshin.com/',
+        'https://github.com/shinokada/svelte-oct/releases'
+      ],
       img: {
         src: '/images/resized/octicons.webp',
         alt: 'Svelte Oct'
@@ -753,6 +1155,16 @@
     {
       packageName: 'svelte-simples',
       label: 'Svelte Simples',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-simples',
+        'https://www.npmjs.com/package/svelte-simples?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-simples.codewithshin.com/',
+        'https://github.com/shinokada/svelte-simples/releases'
+      ],
       img: {
         src: '/images/resized/simple.webp',
         alt: 'Svelte Simples'
@@ -770,6 +1182,16 @@
     {
       packageName: 'svelte-tabler',
       label: 'Svelte Tabler',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-tabler',
+        'https://www.npmjs.com/package/svelte-tabler?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-tabler.codewithshin.com/',
+        'https://github.com/shinokada/svelte-tabler/releases'
+      ],
       img: {
         src: '/images/resized/tabler1.webp',
         alt: 'Svelte Tabler'
@@ -787,6 +1209,16 @@
     {
       packageName: 'svelte-teenyicons',
       label: 'Svelte Teenyicons',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-teenyicons',
+        'https://www.npmjs.com/package/svelte-teenyicons?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-teenyicons.codewithshin.com/',
+        'https://github.com/shinokada/svelte-teenyicons/releases'
+      ],
       img: {
         src: '/images/resized/teeny1.webp',
         alt: 'Svelte Teenyicons'
@@ -804,6 +1236,16 @@
     {
       packageName: 'svelte-twitter-emoji',
       label: 'Svelte Twitter Emoji',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-twitter-emoji',
+        'https://www.npmjs.com/package/svelte-twitter-emoji?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-twitter-emoji.codewithshin.com/',
+        'https://github.com/shinokada/svelte-twitter-emoji/releases'
+      ],
       img: {
         src: '/images/resized/twemoji2.webp',
         alt: 'Svelte Twitter Emoji'
@@ -821,6 +1263,16 @@
     {
       packageName: 'svelte-weather',
       label: 'Svelte Weather',
+      logo: 'npm',
+      logoColor: 'red',
+      link: [
+        'https://www.npmjs.com/package/svelte-weather',
+        'https://www.npmjs.com/package/svelte-weather?activeTab=versions'
+      ],
+      link2: [
+        'https://svelte-weather.codewithshin.com/',
+        'https://github.com/shinokada/svelte-weather/releases'
+      ],
       img: {
         src: '/images/resized/weather.webp',
         alt: 'Svelte Weather'
@@ -837,45 +1289,73 @@
     }
   ];
 
-  const hFiveClass = 'my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ';
+  const hFiveClass =
+    'relative my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ';
   const h2Class =
     'text-center my-8 xl:my-12 2xl:my-16 text-4xl xl:text-5xl 2xl:text-6xl text-gray-900 dark:text-white';
 </script>
 
-{#snippet runesIcon(lib: LibType)}
-  <Card img={lib.img}>
+{#snippet runesIcon({
+  packageName,
+  label,
+  link,
+  link2,
+  logo,
+  logoColor,
+  img,
+  download_color,
+  labelColor,
+  version_color,
+  desc,
+  source,
+  repo,
+  docs,
+  tag,
+  a11y,
+  href
+}: LibType)}
+  <Card {img}>
     <NpmDownload
-      packageName={lib.packageName}
-      color={lib.download_color}
-      logo=""
+      {packageName}
+      color={download_color}
+      {logo}
+      {logoColor}
+      {labelColor}
       interval="dy"
       class="my-2 inline"
+      {link}
     />
     <NpmDownload
-      packageName={lib.packageName}
-      color={lib.download_color}
-      logo=""
+      {packageName}
+      color={download_color}
+      {logo}
+      {logoColor}
+      {labelColor}
       interval="dw"
       class="inline"
+      {link}
     />
-    {#if lib.a11y}
-      <Badge class="my-2 px-2 dark:text-white">A11y</Badge>
-    {/if}
     <NpmVersion
-      packageName={lib.packageName}
-      color={lib.version_color}
-      tag={lib.tag}
-      label={lib.label}
+      {packageName}
+      color={version_color}
+      {logoColor}
+      {labelColor}
+      {tag}
+      {label}
       logo="svelte"
+      link={link2}
     />
     <h5 class={hFiveClass}>
-      <A href={lib.docs} target="_blank">{lib.label}</A>
+      <A href={docs} target="_blank">{label}</A>
+      {#if a11y}
+        <Badge {href} target="_blank" class="absolute right-0 top-2 dark:text-white">A11y</Badge>
+      {/if}
     </h5>
     <List>
-      <Li>{lib.desc}</Li>
-      <Li><A href={lib.repo} target="_blank">GitHub repo</A></Li>
-      <Li>Source: <A href={lib.source.url} target="_blank">{lib.source.label}</A></Li>
-      <Li><A href={lib.docs} target="_blank">Icon and Docs</A></Li>
+      <Li>{desc}</Li>
+      <Li><A href={repo} target="_blank">GitHub repo</A></Li>
+      <Li>Source: <A href={source.url} target="_blank">{source.label}</A></Li>
+      <Li><A href={docs} target="_blank">Icon and Docs</A></Li>
     </List>
   </Card>
 {/snippet}
@@ -896,26 +1376,32 @@
 
 <h2 class={h2Class}>Svelte 5: Runes</h2>
 <div class="flex flex-wrap justify-center gap-6">
-  {#each svelte5_icons as { packageName, label, img, download_color, version_color, desc, source, repo, docs, tag, a11y }}
+  {#each svelte5_icons as { packageName, label, link, link2, logo, logoColor, labelColor, img, download_color, version_color, desc, source, repo, docs, tag, a11y, href }}
     {@render runesIcon({
       packageName,
       label,
+      link,
+      link2,
+      logo,
+      logoColor,
       img,
       download_color,
+      labelColor,
       version_color,
       desc,
       source,
       repo,
       docs,
       tag,
-      a11y
+      a11y,
+      href
     })}
   {/each}
 </div>
 
 <h2 class={h2Class}>Svelte 4/5</h2>
 <div class="flex flex-wrap justify-center gap-6">
-  {#each svelte4_icons as { packageName, label, img, download_color, version_color, desc, source, repo, docs, a11y }}
+  {#each svelte4_icons as { packageName, label, logo, logoColor, link, link2, img, download_color, version_color, desc, source, repo, docs }}
     {@render runesIcon({
       packageName,
       label,
@@ -926,7 +1412,10 @@
       source,
       repo,
       docs,
-      a11y
+      logo,
+      logoColor,
+      link,
+      link2
     })}
   {/each}
 </div>
