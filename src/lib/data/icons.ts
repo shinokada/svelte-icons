@@ -309,7 +309,7 @@ export const svelte5_icons: LibType[] = [
       label: 'Flag icons'
     },
     repo: 'https://github.com/shinokada/svelte-flag-icons',
-    docs: 'https://svelte-flag-icons.codewithshin.com'
+    docs: 'https://svelte-flag-icons.codewithshin.com/guide/svelte-5/getting-started'
   },
   {
     packageName: 'svelte-remix',
