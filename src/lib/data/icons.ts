@@ -408,7 +408,7 @@ export const svelte5_icons: LibType[] = [
 export const svelte4_icons: LibType[] = [
   {
     packageName: 'flowbite-svelte-icons',
-    label: 'Flowbite Svelte Icons',
+    label: 'Flowbite Svelte Icons@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -436,7 +436,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-awesome-icons',
-    label: 'Svelte Awesome Icons',
+    label: 'Svelte Awesome Icons@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -464,7 +464,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-heros-v2',
-    label: 'Svelte Heros v2',
+    label: 'Svelte Heros v2@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -492,7 +492,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-lucide',
-    label: 'Svelte Lucide',
+    label: 'Svelte Lucide@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -520,7 +520,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-radix',
-    label: 'Svelte Radix',
+    label: 'Svelte Radix@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -548,7 +548,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-ionicons',
-    label: 'Svelte Ionicons',
+    label: 'Svelte Ionicons@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -576,7 +576,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-flags',
-    label: 'Svelte Flags',
+    label: 'Svelte Flags@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -604,7 +604,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-remix',
-    label: 'Svelte Remix',
+    label: 'Svelte Remix@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -632,7 +632,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-ant-design-icons',
-    label: 'Svelte Ant Design Icons',
+    label: 'Svelte Ant Design Icons@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -660,7 +660,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-supertiny',
-    label: 'Svelte Supertiny',
+    label: 'Svelte Supertiny@v1-latest',
     logo: 'npm',
     
     logoColor: 'red',
@@ -931,8 +931,9 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-flag-icons',
-    label: 'Svelte Flag Icons',
+    label: 'Svelte Flag Icons@v1-latest',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-flag-icons',
@@ -985,8 +986,9 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-heros',
-    label: 'Svelte Heros',
+    label: 'Svelte Heros@v1-latest',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-heros',
@@ -1093,7 +1095,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-tabler',
-    label: 'Svelte Tabler',
+    label: 'Svelte Tabler@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -1121,8 +1123,9 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-teenyicons',
-    label: 'Svelte Teenyicons',
+    label: 'Svelte Teenyicons@v1-latest',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-teenyicons',
