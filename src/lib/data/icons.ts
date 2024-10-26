@@ -1095,6 +1095,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-tabler',
     label: 'Svelte Tabler',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-tabler',

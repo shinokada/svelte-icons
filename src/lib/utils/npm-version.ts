@@ -45,19 +45,6 @@ export async function fetchPackageVersions(packages: LibType[]): Promise<Package
           latest: latestFromTag,
           v1Latest
         };
-        // if (latestFromTag) {
-        //   // Get all versions except the latest to find the previous stable
-        //   const remainingVersions = versions.filter((v) => v !== latestFromTag);
-        //   const previousStable = getTwoHighestVersions(remainingVersions).latest;
-
-        //   results[pkg.packageName] = {
-        //     latest: latestFromTag,
-        //     previousStable
-        //   };
-        // } else {
-        //   // If no dist-tag, find two highest versions
-        //   results[pkg.packageName] = getTwoHighestVersions(versions);
-        // }
       } catch (error) {
         console.error(`Error fetching versions for ${pkg.packageName}:`, error);
         results[pkg.packageName] = {
