@@ -26,7 +26,7 @@ export interface LibType {
 
 export interface Versions {
   latest: string | undefined;
-  previousStable: string | undefined;
+  v1Latest: string | undefined;
 }
 
 export interface PackageVersions {

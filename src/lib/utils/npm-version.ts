@@ -4,25 +4,25 @@ function isPrerelease(version: string): boolean {
   return version.includes('-');
 }
 
-function getTwoHighestVersions(versions: string[]): Versions {
-  // First get all stable versions (no pre-release tags)
-  const stableVersions = versions
-    .filter((v) => !isPrerelease(v))
-    .sort((a, b) => -a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
+// function getTwoHighestVersions(versions: string[]): Versions {
+//   // First get all stable versions (no pre-release tags)
+//   const stableVersions = versions
+//     .filter((v) => !isPrerelease(v))
+//     .sort((a, b) => -a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
 
-  // If we have no stable versions, fall back to including pre-release versions
-  const sortedVersions =
-    stableVersions.length > 0
-      ? stableVersions
-      : versions.sort(
-          (a, b) => -a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
-        );
+//   // If we have no stable versions, fall back to including pre-release versions
+//   const sortedVersions =
+//     stableVersions.length > 0
+//       ? stableVersions
+//       : versions.sort(
+//           (a, b) => -a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
+//         );
 
-  return {
-    latest: sortedVersions[0],
-    previousStable: sortedVersions[1]
-  };
-}
+//   return {
+//     latest: sortedVersions[0],
+//     previousStable: sortedVersions[1]
+//   };
+// }
 
 export async function fetchPackageVersions(packages: LibType[]): Promise<PackageVersions> {
   const results: PackageVersions = {};
@@ -40,25 +40,29 @@ export async function fetchPackageVersions(packages: LibType[]): Promise<Package
 
         // First check if there's a latest dist-tag
         const latestFromTag = data['dist-tags']?.['latest'];
+        const v1Latest = data['dist-tags']?.['v1-latest'];
+        results[pkg.packageName] = {
+          latest: latestFromTag,
+          v1Latest
+        };
+        // if (latestFromTag) {
+        //   // Get all versions except the latest to find the previous stable
+        //   const remainingVersions = versions.filter((v) => v !== latestFromTag);
+        //   const previousStable = getTwoHighestVersions(remainingVersions).latest;
 
-        if (latestFromTag) {
-          // Get all versions except the latest to find the previous stable
-          const remainingVersions = versions.filter((v) => v !== latestFromTag);
-          const previousStable = getTwoHighestVersions(remainingVersions).latest;
-
-          results[pkg.packageName] = {
-            latest: latestFromTag,
-            previousStable
-          };
-        } else {
-          // If no dist-tag, find two highest versions
-          results[pkg.packageName] = getTwoHighestVersions(versions);
-        }
+        //   results[pkg.packageName] = {
+        //     latest: latestFromTag,
+        //     previousStable
+        //   };
+        // } else {
+        //   // If no dist-tag, find two highest versions
+        //   results[pkg.packageName] = getTwoHighestVersions(versions);
+        // }
       } catch (error) {
         console.error(`Error fetching versions for ${pkg.packageName}:`, error);
         results[pkg.packageName] = {
           latest: undefined,
-          previousStable: undefined
+          v1Latest: undefined
         };
       }
     })

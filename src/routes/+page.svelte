@@ -141,35 +141,6 @@
       logo="svelte"
       link={link2}
     />
-    {#if labelColor==='white'}
-    <StaticBadge
-    color={version_color}
-    {logoColor}
-    {labelColor}
-    {label}
-    logo="svelte"
-    link={link2}
-      badgeContent={safeReplace(packageName) +
-        '-' +
-        (data?.versions[packageName]?.latest || '') +
-        '-red'}
-    />
-    {:else}
-    <StaticBadge
-    color={version_color}
-    {logoColor}
-    {labelColor}
-    {label}
-    logo="svelte"
-    link={link2}
-      badgeContent={safeReplace(packageName) +
-        '-' +
-        (data?.versions[packageName]?.previousStable || '') +
-        '-blue'}
-    />
-    {/if}
-    <p class="dark:text-white">Previous Stable: {data.versions[packageName].previousStable}</p>
-    <p class="dark:text-white">Latest: {data.versions[packageName].latest}</p>
     <h5 class={hFiveClass}>
       <A href={docs} target="_blank">{label}</A>
       {#if a11y}
@@ -227,7 +198,7 @@
 
 <h2 class={h2Class}>Svelte 4/5</h2>
 <div class="flex flex-wrap justify-center gap-6">
-  {#each svelte4_icons as { packageName, label, logo, logoColor, link, link2, img, download_color, version_color, desc, source, repo, docs }}
+  {#each svelte4_icons as { packageName, label, logo, logoColor, tag, link, link2, img, download_color, version_color, desc, source, repo, docs }}
     {@render runesIcon({
       packageName,
       label,
@@ -240,6 +211,7 @@
       docs,
       logo,
       logoColor,
+      tag,
       link,
       link2
     })}

@@ -16,7 +16,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/themesberg/flowbite-svelte-icons/releases'
     ],
     href: 'https://flowbite-svelte-icons.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/flowbite.webp',
@@ -47,7 +47,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-awesome-icons/releases'
     ],
     href: 'https://svelte-awesome-icons.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/awesome.webp',
@@ -78,7 +78,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-heros-v2/releases'
     ],
     href: 'https://svelte-heros-v2.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/heros.webp',
@@ -109,7 +109,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-heros/releases'
     ],
     href: 'https://svelte-heros.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/heros.webp',
@@ -140,7 +140,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-lucide/releases'
     ],
     href: 'https://svelte-lucide.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/lucide.webp',
@@ -171,7 +171,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-radix/releases'
     ],
     href: 'https://svelte-radix.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/radix.webp',
@@ -202,7 +202,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-ionicons/releases'
     ],
     href: 'https://svelte-ionicons.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/ion.webp',
@@ -264,7 +264,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-flags/releases'
     ],
     href: 'https://svelte-flags.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/flags.webp',
@@ -295,7 +295,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-flag-icons/releases'
     ],
     href: 'https://svelte-flag-icons.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/flag-icons3.webp',
@@ -326,7 +326,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-remix/releases'
     ],
     href: 'https://svelte-remix.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/remix1.webp',
@@ -357,7 +357,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-ant-design-icons/releases'
     ],
     href: 'https://svelte-ant-design-icons.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     a11y: true,
     img: {
       src: '/images/resized/ant.webp',
@@ -388,7 +388,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-supertiny/releases'
     ],
     href: 'https://svelte-supertiny.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'next',
+    
     img: {
       src: '/images/resized/supertiny.webp',
       alt: 'Svelte Supertiny'
@@ -410,6 +410,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'flowbite-svelte-icons',
     label: 'Flowbite Svelte Icons',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/flowbite-svelte-icons',
@@ -437,6 +438,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-awesome-icons',
     label: 'Svelte Awesome Icons',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-awesome-icons',
@@ -464,6 +466,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-heros-v2',
     label: 'Svelte Heros v2',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-heros-v2',
@@ -491,6 +494,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-lucide',
     label: 'Svelte Lucide',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-lucide',
@@ -518,6 +522,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-radix',
     label: 'Svelte Radix',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-radix',
@@ -545,6 +550,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-ionicons',
     label: 'Svelte Ionicons',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-ionicons',
@@ -572,6 +578,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-flags',
     label: 'Svelte Flags',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-flags',
@@ -599,6 +606,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-remix',
     label: 'Svelte Remix',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-remix',
@@ -626,6 +634,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-ant-design-icons',
     label: 'Svelte Ant Design Icons',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-ant-design-icons',
@@ -653,6 +662,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-supertiny',
     label: 'Svelte Supertiny',
     logo: 'npm',
+    
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-supertiny',
