@@ -492,7 +492,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-heros',
-    label: 'Svelte Heros',
+    label: 'Svelte Heros@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -632,7 +632,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-flag-icons',
-    label: 'Svelte Flag Icons',
+    label: 'Svelte Flag Icons@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -716,7 +716,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-tabler',
-    label: 'Svelte Tabler',
+    label: 'Svelte Tabler@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
@@ -744,7 +744,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-supertiny',
-    label: 'Svelte Supertiny',
+    label: 'Svelte Supertiny@v1-latest',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
