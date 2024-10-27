@@ -491,6 +491,34 @@ export const svelte4_icons: LibType[] = [
     docs: 'https://svelte-heros-v2.codewithshin.com/'
   },
   {
+    packageName: 'svelte-heros',
+    label: 'Svelte Heros',
+    logo: 'npm',
+    tag:'v1-latest',
+    logoColor: 'red',
+    link: [
+      'https://www.npmjs.com/package/svelte-heros',
+      'https://www.npmjs.com/package/svelte-heros?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-heros.codewithshin.com/',
+      'https://github.com/shinokada/svelte-heros/releases'
+    ],
+    img: {
+      src: '/images/resized/heros.webp',
+      alt: 'Svelte Heros'
+    },
+    download_color: '3FCD41',
+    version_color: 'blue',
+    desc: '460+ SVG icons',
+    source: {
+      url: 'https://heroicons.com/',
+      label: 'Heroicons'
+    },
+    repo: 'https://github.com/shinokada/svelte-heros',
+    docs: 'https://svelte-heros.codewithshin.com'
+  },
+  {
     packageName: 'svelte-lucide',
     label: 'Svelte Lucide@v1-latest',
     logo: 'npm',
@@ -603,6 +631,34 @@ export const svelte4_icons: LibType[] = [
     docs: 'https://svelte-flags.codewithshin.com/'
   },
   {
+    packageName: 'svelte-flag-icons',
+    label: 'Svelte Flag Icons',
+    logo: 'npm',
+    tag:'v1-latest',
+    logoColor: 'red',
+    link: [
+      'https://www.npmjs.com/package/svelte-flag-icons',
+      'https://www.npmjs.com/package/svelte-flag-icons?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-flag-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-flag-icons/releases'
+    ],
+    img: {
+      src: '/images/resized/flag-icons3.webp',
+      alt: 'Svelte Flag Icons'
+    },
+    download_color: '3FCD41',
+    version_color: 'blue',
+    desc: '260+ SVG icons',
+    source: {
+      url: 'https://github.com/lipis/flag-icons',
+      label: 'Flag icons'
+    },
+    repo: 'https://github.com/shinokada/svelte-flag-icons',
+    docs: 'https://svelte-flag-icons.codewithshin.com'
+  },
+  {
     packageName: 'svelte-remix',
     label: 'Svelte Remix@v1-latest',
     logo: 'npm',
@@ -659,10 +715,38 @@ export const svelte4_icons: LibType[] = [
     docs: 'https://svelte-ant-design-icons.codewithshin.com/'
   },
   {
-    packageName: 'svelte-supertiny',
-    label: 'Svelte Supertiny@v1-latest',
+    packageName: 'svelte-tabler',
+    label: 'Svelte Tabler',
     logo: 'npm',
-    
+    tag:'v1-latest',
+    logoColor: 'red',
+    link: [
+      'https://www.npmjs.com/package/svelte-tabler',
+      'https://www.npmjs.com/package/svelte-tabler?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-tabler.codewithshin.com/',
+      'https://github.com/shinokada/svelte-tabler/releases'
+    ],
+    img: {
+      src: '/images/resized/tabler1.webp',
+      alt: 'Svelte Tabler'
+    },
+    download_color: '3FCD41',
+    version_color: 'blue',
+    desc: '5290+ SVG icons',
+    source: {
+      url: 'https://github.com/tabler/tabler-icons',
+      label: 'Tabler Icons'
+    },
+    repo: 'https://github.com/shinokada/svelte-tabler',
+    docs: 'https://svelte-tabler.codewithshin.com'
+  },
+  {
+    packageName: 'svelte-supertiny',
+    label: 'Svelte Supertiny',
+    logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-supertiny',
@@ -930,34 +1014,6 @@ export const svelte4_icons: LibType[] = [
     docs: 'https://svelte-file-icons.codewithshin.com'
   },
   {
-    packageName: 'svelte-flag-icons',
-    label: 'Svelte Flag Icons@v1-latest',
-    logo: 'npm',
-    tag:'v1-latest',
-    logoColor: 'red',
-    link: [
-      'https://www.npmjs.com/package/svelte-flag-icons',
-      'https://www.npmjs.com/package/svelte-flag-icons?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-flag-icons.codewithshin.com/',
-      'https://github.com/shinokada/svelte-flag-icons/releases'
-    ],
-    img: {
-      src: '/images/resized/flag-icons3.webp',
-      alt: 'Svelte Flag Icons'
-    },
-    download_color: '3FCD41',
-    version_color: 'blue',
-    desc: '260+ SVG icons',
-    source: {
-      url: 'https://github.com/lipis/flag-icons',
-      label: 'Flag icons'
-    },
-    repo: 'https://github.com/shinokada/svelte-flag-icons',
-    docs: 'https://svelte-flag-icons.codewithshin.com'
-  },
-  {
     packageName: 'svelte-google-materialdesign-icons',
     label: 'Svelte Google Material Design Icons',
     logo: 'npm',
@@ -983,34 +1039,6 @@ export const svelte4_icons: LibType[] = [
     },
     repo: 'https://github.com/shinokada/svelte-google-materialdesign-icons',
     docs: 'https://svelte-google-materialdesign-icons.codewithshin.com'
-  },
-  {
-    packageName: 'svelte-heros',
-    label: 'Svelte Heros@v1-latest',
-    logo: 'npm',
-    tag:'v1-latest',
-    logoColor: 'red',
-    link: [
-      'https://www.npmjs.com/package/svelte-heros',
-      'https://www.npmjs.com/package/svelte-heros?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-heros.codewithshin.com/',
-      'https://github.com/shinokada/svelte-heros/releases'
-    ],
-    img: {
-      src: '/images/resized/heros.webp',
-      alt: 'Svelte Heros'
-    },
-    download_color: '3FCD41',
-    version_color: 'blue',
-    desc: '460+ SVG icons',
-    source: {
-      url: 'https://heroicons.com/',
-      label: 'Heroicons'
-    },
-    repo: 'https://github.com/shinokada/svelte-heros',
-    docs: 'https://svelte-heros.codewithshin.com'
   },
   {
     packageName: 'svelte-materialdesign-icons',
@@ -1094,36 +1122,8 @@ export const svelte4_icons: LibType[] = [
     docs: 'https://svelte-simples.codewithshin.com'
   },
   {
-    packageName: 'svelte-tabler',
-    label: 'Svelte Tabler@v1-latest',
-    logo: 'npm',
-    tag:'v1-latest',
-    logoColor: 'red',
-    link: [
-      'https://www.npmjs.com/package/svelte-tabler',
-      'https://www.npmjs.com/package/svelte-tabler?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-tabler.codewithshin.com/',
-      'https://github.com/shinokada/svelte-tabler/releases'
-    ],
-    img: {
-      src: '/images/resized/tabler1.webp',
-      alt: 'Svelte Tabler'
-    },
-    download_color: '3FCD41',
-    version_color: 'blue',
-    desc: '5290+ SVG icons',
-    source: {
-      url: 'https://github.com/tabler/tabler-icons',
-      label: 'Tabler Icons'
-    },
-    repo: 'https://github.com/shinokada/svelte-tabler',
-    docs: 'https://svelte-tabler.codewithshin.com'
-  },
-  {
     packageName: 'svelte-teenyicons',
-    label: 'Svelte Teenyicons@v1-latest',
+    label: 'Svelte Teenyicons',
     logo: 'npm',
     tag:'v1-latest',
     logoColor: 'red',
