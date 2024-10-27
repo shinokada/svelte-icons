@@ -1125,7 +1125,6 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-teenyicons',
     label: 'Svelte Teenyicons',
     logo: 'npm',
-    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-teenyicons',
