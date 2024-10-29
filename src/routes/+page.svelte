@@ -5,17 +5,29 @@
   import Li from 'svelte-5-ui-lib/Li.svelte';
   import A from 'svelte-5-ui-lib/A.svelte';
   import Badge from 'svelte-5-ui-lib/Badge.svelte';
-  import { NpmVersion, NpmDownload, StaticBadge } from 'svelte-shields';
+  import { NpmVersion, NpmDownload } from 'svelte-shields';
   import { svelte4_icons, svelte5_icons } from '$lib/data/icons';
 
   import { onMount } from 'svelte';
 
   const { data } = $props<{ data: PageData }>();
 
+  // Utility function to format date as YYYY-MM-DD
+  const formatDate = (date) => date.toISOString().slice(0, 10);
+
+  // Get date range for last 12 months
+  const getLastTwelveMonthsRange = () => {
+    const endDate = new Date();
+    const startDate = new Date();
+    startDate.setMonth(endDate.getMonth() - 12);
+    
+    return {
+      start: formatDate(startDate),
+      end: formatDate(endDate)
+    };
+  };
+
   let totalDownloads = $state(0);
-  function safeReplace(packageName: string | undefined) {
-    return typeof packageName === 'string' ? packageName.replace(/-/g, '--') : '';
-  }
 
   onMount(async () => {
     try {
@@ -51,11 +63,18 @@
         'svelte-weather'
       ];
 
-      const today = new Date();
-      const todayString = today.toISOString().slice(0, 10);
+      // const today = new Date();
+      // const todayString = today.toISOString().slice(0, 10);
 
+      // const totalPromises = libs.map((lib) =>
+      //   fetch(`https://api.npmjs.org/downloads/point/2020-01-01:${todayString}/${lib}`)
+      // );
+
+      const dateRange = getLastTwelveMonthsRange();
       const totalPromises = libs.map((lib) =>
-        fetch(`https://api.npmjs.org/downloads/point/2020-01-01:${todayString}/${lib}`)
+        fetch(
+          `https://api.npmjs.org/downloads/point/${dateRange.start}:${dateRange.end}/${lib}`
+        )
       );
 
       const totalResponses = await Promise.all(totalPromises);
@@ -167,7 +186,7 @@
   <Badge color="blue" large>Support CSS frameworks</Badge>
   <Badge color="purple" large>Faster compling</Badge>
   <Badge color="yellow" large>IDE Support</Badge>
-  <Badge color="green" large>Total Downloads (last 18 months): {formatNumber(totalDownloads)}</Badge
+  <Badge color="green" large>Total Downloads (12 months): {formatNumber(totalDownloads)}</Badge
   >
 </div>
 
