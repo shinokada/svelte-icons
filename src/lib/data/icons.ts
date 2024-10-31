@@ -387,7 +387,6 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-ant-design-icons/releases'
     ],
     href: 'https://svelte-ant-design-icons.codewithshin.com/guide/svelte-5/props#A11y',
-    
     a11y: true,
     img: {
       src: '/images/resized/ant.webp',
@@ -418,7 +417,7 @@ export const svelte5_icons: LibType[] = [
       'https://github.com/shinokada/svelte-supertiny/releases'
     ],
     href: 'https://svelte-supertiny.codewithshin.com/guide/svelte-5/props#A11y',
-    
+    a11y: true,
     img: {
       src: '/images/resized/supertiny.webp',
       alt: 'Svelte Supertiny'
