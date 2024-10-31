@@ -33,99 +33,6 @@ export const svelte5_icons: LibType[] = [
     docs: 'https://flowbite-svelte-icons.codewithshin.com/guide/svelte-5/getting-started'
   },
   {
-    packageName: 'svelte-awesome-icons',
-    label: 'Svelte Awesome Icons',
-    logoColor: 'red',
-    labelColor: 'white',
-    logo: 'npm',
-    link: [
-      'https://www.npmjs.com/package/svelte-awesome-icons',
-      'https://www.npmjs.com/package/svelte-awesome-icons?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-awesome-icons.codewithshin.com/',
-      'https://github.com/shinokada/svelte-awesome-icons/releases'
-    ],
-    href: 'https://svelte-awesome-icons.codewithshin.com/guide/svelte-5/props#A11y',
-    
-    a11y: true,
-    img: {
-      src: '/images/resized/awesome.webp',
-      alt: 'Svelte Awesome Icons'
-    },
-    download_color: '3FCD41',
-    version_color: 'red',
-    desc: '2000+ SVG icons',
-    source: {
-      url: 'https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs',
-      label: 'Font Awesome'
-    },
-    repo: 'https://github.com/shinokada/svelte-awesome-icons',
-    docs: 'https://svelte-awesome-icons.codewithshin.com/guide/svelte-5/getting-started'
-  },
-  {
-    packageName: 'svelte-heros-v2',
-    label: 'Svelte Heros v2',
-    logoColor: 'red',
-    labelColor: 'white',
-    logo: 'npm',
-    link: [
-      'https://www.npmjs.com/package/svelte-heros-v2',
-      'https://www.npmjs.com/package/svelte-heros-v2?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-heros-v2.codewithshin.com/',
-      'https://github.com/shinokada/svelte-heros-v2/releases'
-    ],
-    href: 'https://svelte-heros-v2.codewithshin.com/guide/svelte-5/props#A11y',
-    
-    a11y: true,
-    img: {
-      src: '/images/resized/heros.webp',
-      alt: 'Svelte Heros v2: v2'
-    },
-    download_color: '3FCD41',
-    version_color: 'red',
-    desc: '870+ SVG icons',
-    source: {
-      url: 'https://heroicons.com/',
-      label: 'Heroicons v2'
-    },
-    repo: 'https://github.com/shinokada/svelte-heros-v2',
-    docs: 'https://svelte-heros-v2.codewithshin.com/guide/svelte-5/getting-started'
-  },
-  {
-    packageName: 'svelte-heros',
-    label: 'Svelte Heros',
-    logoColor: 'red',
-    labelColor: 'white',
-    logo: 'npm',
-    link: [
-      'https://www.npmjs.com/package/svelte-heros',
-      'https://www.npmjs.com/package/svelte-heros?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-heros.codewithshin.com/',
-      'https://github.com/shinokada/svelte-heros/releases'
-    ],
-    href: 'https://svelte-heros.codewithshin.com/guide/svelte-5/props#A11y',
-    
-    a11y: true,
-    img: {
-      src: '/images/resized/heros.webp',
-      alt: 'Svelte Heros'
-    },
-    download_color: '3FCD41',
-    version_color: 'red',
-    desc: '460+ SVG icons',
-    source: {
-      url: 'https://heroicons.com/',
-      label: 'Heroicons'
-    },
-    repo: 'https://github.com/shinokada/svelte-heros',
-    docs: 'https://svelte-heros.codewithshin.com/guide/svelte-5/getting-started'
-  },
-  {
     packageName: 'svelte-lucide',
     label: 'Svelte Lucide',
     logoColor: 'red',
@@ -188,6 +95,68 @@ export const svelte5_icons: LibType[] = [
     docs: 'https://svelte-radix.codewithshin.com/guide/svelte-5/getting-started'
   },
   {
+    packageName: 'svelte-awesome-icons',
+    label: 'Svelte Awesome Icons',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/svelte-awesome-icons',
+      'https://www.npmjs.com/package/svelte-awesome-icons?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-awesome-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-awesome-icons/releases'
+    ],
+    href: 'https://svelte-awesome-icons.codewithshin.com/guide/svelte-5/props#A11y',
+    
+    a11y: true,
+    img: {
+      src: '/images/resized/awesome.webp',
+      alt: 'Svelte Awesome Icons'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: '2000+ SVG icons',
+    source: {
+      url: 'https://github.com/FortAwesome/Font-Awesome/tree/6.x/svgs',
+      label: 'Font Awesome'
+    },
+    repo: 'https://github.com/shinokada/svelte-awesome-icons',
+    docs: 'https://svelte-awesome-icons.codewithshin.com/guide/svelte-5/getting-started'
+  },
+  {
+    packageName: 'svelte-heros-v2',
+    label: 'Svelte Heros v2',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/svelte-heros-v2',
+      'https://www.npmjs.com/package/svelte-heros-v2?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-heros-v2.codewithshin.com/',
+      'https://github.com/shinokada/svelte-heros-v2/releases'
+    ],
+    href: 'https://svelte-heros-v2.codewithshin.com/guide/svelte-5/props#A11y',
+    
+    a11y: true,
+    img: {
+      src: '/images/resized/heros.webp',
+      alt: 'Svelte Heros v2: v2'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: '870+ SVG icons',
+    source: {
+      url: 'https://heroicons.com/',
+      label: 'Heroicons v2'
+    },
+    repo: 'https://github.com/shinokada/svelte-heros-v2',
+    docs: 'https://svelte-heros-v2.codewithshin.com/guide/svelte-5/getting-started'
+  },
+  {
     packageName: 'svelte-ionicons',
     label: 'Svelte Ionicons',
     logoColor: 'red',
@@ -217,37 +186,6 @@ export const svelte5_icons: LibType[] = [
     },
     repo: 'https://github.com/shinokada/svelte-ionicons',
     docs: 'https://svelte-ionicons.codewithshin.com/guide/svelte-5/getting-started'
-  },
-  {
-    packageName: 'svelte-tabler',
-    label: 'Svelte Tabler',
-    logoColor: 'red',
-    labelColor: 'white',
-    logo: 'npm',
-    link: [
-      'https://www.npmjs.com/package/svelte-tabler',
-      'https://www.npmjs.com/package/svelte-tabler?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-tabler.codewithshin.com/',
-      'https://github.com/shinokada/svelte-tabler/releases'
-    ],
-    href: 'https://svelte-tabler.codewithshin.com/guide/svelte-5/props#A11y',
-    tag: 'latest',
-    a11y: true,
-    img: {
-      src: '/images/resized/tabler1.webp',
-      alt: 'Svelte Tabler'
-    },
-    download_color: '3FCD41',
-    version_color: 'red',
-    desc: '5290+ SVG icons',
-    source: {
-      url: 'https://github.com/tabler/tabler-icons',
-      label: 'Tabler Icons'
-    },
-    repo: 'https://github.com/shinokada/svelte-tabler',
-    docs: 'https://svelte-tabler.codewithshin.com/guide/svelte-5/getting-started'
   },
   {
     packageName: 'svelte-flags',
@@ -312,6 +250,37 @@ export const svelte5_icons: LibType[] = [
     docs: 'https://svelte-flag-icons.codewithshin.com/guide/svelte-5/getting-started'
   },
   {
+    packageName: 'svelte-heros',
+    label: 'Svelte Heros',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/svelte-heros',
+      'https://www.npmjs.com/package/svelte-heros?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-heros.codewithshin.com/',
+      'https://github.com/shinokada/svelte-heros/releases'
+    ],
+    href: 'https://svelte-heros.codewithshin.com/guide/svelte-5/props#A11y',
+    
+    a11y: true,
+    img: {
+      src: '/images/resized/heros.webp',
+      alt: 'Svelte Heros'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: '460+ SVG icons',
+    source: {
+      url: 'https://heroicons.com/',
+      label: 'Heroicons'
+    },
+    repo: 'https://github.com/shinokada/svelte-heros',
+    docs: 'https://svelte-heros.codewithshin.com/guide/svelte-5/getting-started'
+  },
+  {
     packageName: 'svelte-remix',
     label: 'Svelte Remix',
     logoColor: 'red',
@@ -341,6 +310,67 @@ export const svelte5_icons: LibType[] = [
     },
     repo: 'https://github.com/shinokada/svelte-remix',
     docs: 'https://svelte-remix.codewithshin.com/guide/svelte-5/getting-started'
+  },
+  {
+    packageName: 'svelte-bootstrap-svg-icons',
+    label: 'Svelte Bootstrap SVG Icons',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/svelte-bootstrap-svg-icons',
+      'https://www.npmjs.com/package/svelte-bootstrap-svg-icons?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-ant-design-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-bootstrap-svg-icons/releases'
+    ],
+    href: 'https://svelte-bootstrap-svg-icons.codewithshin.com/guide/svelte-5/props#A11y',
+    a11y: true,
+    img: {
+      src: '/images/resized/bootstrap1.webp',
+      alt: 'Svelte Bootstrap SVG Icons'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: '2050+ SVG icons',
+    source: {
+      url: 'https://github.com/twbs/icons',
+      label: 'Bootstrap icons'
+    },
+    repo: 'https://github.com/shinokada/svelte-bootstrap-svg-icons',
+    docs: 'https://svelte-bootstrap-svg-icons.codewithshin.com/guide/svelte-5/getting-started'
+  },
+  {
+    packageName: 'svelte-tabler',
+    label: 'Svelte Tabler',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/svelte-tabler',
+      'https://www.npmjs.com/package/svelte-tabler?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-tabler.codewithshin.com/',
+      'https://github.com/shinokada/svelte-tabler/releases'
+    ],
+    href: 'https://svelte-tabler.codewithshin.com/guide/svelte-5/props#A11y',
+    tag: 'latest',
+    a11y: true,
+    img: {
+      src: '/images/resized/tabler1.webp',
+      alt: 'Svelte Tabler'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: '5290+ SVG icons',
+    source: {
+      url: 'https://github.com/tabler/tabler-icons',
+      label: 'Tabler Icons'
+    },
+    repo: 'https://github.com/shinokada/svelte-tabler',
+    docs: 'https://svelte-tabler.codewithshin.com/guide/svelte-5/getting-started'
   },
   {
     packageName: 'svelte-ant-design-icons',
@@ -774,6 +804,7 @@ export const svelte4_icons: LibType[] = [
     packageName: 'svelte-bootstrap-svg-icons',
     label: 'Svelte Bootstrap SVG Icons',
     logo: 'npm',
+    tag:'v1-latest',
     logoColor: 'red',
     link: [
       'https://www.npmjs.com/package/svelte-bootstrap-svg-icons',
