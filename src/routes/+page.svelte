@@ -13,14 +13,14 @@
   const { data } = $props<{ data: PageData }>();
 
   // Utility function to format date as YYYY-MM-DD
-  const formatDate = (date) => date.toISOString().slice(0, 10);
+  const formatDate = (date: Date) => date.toISOString().slice(0, 10);
 
   // Get date range for last 12 months
   const getLastTwelveMonthsRange = () => {
     const endDate = new Date();
     const startDate = new Date();
     startDate.setMonth(endDate.getMonth() - 12);
-    
+
     return {
       start: formatDate(startDate),
       end: formatDate(endDate)
@@ -72,9 +72,7 @@
 
       const dateRange = getLastTwelveMonthsRange();
       const totalPromises = libs.map((lib) =>
-        fetch(
-          `https://api.npmjs.org/downloads/point/${dateRange.start}:${dateRange.end}/${lib}`
-        )
+        fetch(`https://api.npmjs.org/downloads/point/${dateRange.start}:${dateRange.end}/${lib}`)
       );
 
       const totalResponses = await Promise.all(totalPromises);
@@ -186,8 +184,7 @@
   <Badge color="blue" large>Support CSS frameworks</Badge>
   <Badge color="purple" large>Faster compling</Badge>
   <Badge color="yellow" large>IDE Support</Badge>
-  <Badge color="green" large>Total Downloads (12 months): {formatNumber(totalDownloads)}</Badge
-  >
+  <Badge color="green" large>Total Downloads (12 months): {formatNumber(totalDownloads)}</Badge>
 </div>
 
 <h2 class={h2Class}>Svelte 5: Runes</h2>

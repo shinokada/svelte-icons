@@ -15,7 +15,7 @@
       ? deepMerge($page.data.layoutMetaTags, $page.data.pageMetaTags)
       : data.layoutMetaTags
   );
-
+  /*  eslint-disable @typescript-eslint/no-unused-vars */
   let currentUrl = $state($page.url.pathname);
   $effect(() => {
     currentUrl = $page.url.pathname;

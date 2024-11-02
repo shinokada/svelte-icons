@@ -10,18 +10,10 @@
     Darkmode,
     Dropdown,
     DropdownUl,
-    DropdownLi,
-    Drawer
+    DropdownLi
   } from 'svelte-5-ui-lib';
   import { page } from '$app/stores';
-  import {
-    GithubSolid,
-    random_tailwind_color,
-    DotsHorizontalOutline,
-    XSolid,
-    Sidebar,
-    sidebarList
-  } from 'runes-webkit';
+  import { GithubSolid, random_tailwind_color, DotsHorizontalOutline, XSolid } from 'runes-webkit';
   import DynamicCodeBlockStyle from './DynamicCodeBlockStyle.svelte';
   import { sineIn } from 'svelte/easing';
 
@@ -48,15 +40,9 @@
     twitterUrl,
     githubUrl,
     headerClass,
-    urlsToIncludeSwitcher = ['/guide'],
-    ...restProps
+    urlsToIncludeSwitcher = ['/guide']
   }: Props = $props();
 
-  let transitionParams = {
-    x: -320,
-    duration: 200,
-    easing: sineIn
-  };
   let dropdownTransitionParams = {
     y: 0,
     duration: 200,
@@ -67,8 +53,8 @@
   let closeDropdown = dropdown.close;
 
   const navDrawer = uiHelpers();
+  /*  eslint-disable @typescript-eslint/no-unused-vars */
   let navDrawerStatus = $state(false);
-  const closeNavDrawer = navDrawer.close;
 
   let currentUrl = $state($page.url.pathname);
   let nav = uiHelpers();

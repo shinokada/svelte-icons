@@ -1,28 +1,4 @@
-import type { LibType, PackageVersions, Versions } from '../types';
-
-function isPrerelease(version: string): boolean {
-  return version.includes('-');
-}
-
-// function getTwoHighestVersions(versions: string[]): Versions {
-//   // First get all stable versions (no pre-release tags)
-//   const stableVersions = versions
-//     .filter((v) => !isPrerelease(v))
-//     .sort((a, b) => -a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' }));
-
-//   // If we have no stable versions, fall back to including pre-release versions
-//   const sortedVersions =
-//     stableVersions.length > 0
-//       ? stableVersions
-//       : versions.sort(
-//           (a, b) => -a.localeCompare(b, undefined, { numeric: true, sensitivity: 'base' })
-//         );
-
-//   return {
-//     latest: sortedVersions[0],
-//     previousStable: sortedVersions[1]
-//   };
-// }
+import type { LibType, PackageVersions } from '../types';
 
 export async function fetchPackageVersions(packages: LibType[]): Promise<PackageVersions> {
   const results: PackageVersions = {};
@@ -36,7 +12,6 @@ export async function fetchPackageVersions(packages: LibType[]): Promise<Package
         }
 
         const data = await response.json();
-        const versions = Object.keys(data.versions);
 
         // First check if there's a latest dist-tag
         const latestFromTag = data['dist-tags']?.['latest'];
