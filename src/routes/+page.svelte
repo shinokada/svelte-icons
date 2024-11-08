@@ -167,7 +167,9 @@
     <List>
       <Li>{desc}</Li>
       <Li><A href={repo} target="_blank">GitHub repo</A></Li>
+      {#if source}
       <Li>Source: <A href={source.url} target="_blank">{source.label}</A></Li>
+      {/if}
       <Li><A href={docs} target="_blank">Icon and Docs</A></Li>
     </List>
   </Card>

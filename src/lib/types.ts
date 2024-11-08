@@ -16,7 +16,7 @@ export interface LibType {
   download_color: string;
   version_color: string;
   desc: string;
-  source: {
+  source?: {
     url: string;
     label: string;
   };
