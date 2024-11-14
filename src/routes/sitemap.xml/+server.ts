@@ -5,13 +5,13 @@ interface Page {
   lastmod?: string;
 }
 
-const site = 'https://runes-webkit.codewithshin.com';
+const site = 'https://svelte-svg-icons.codewithshin.com/';
 const pages: Page[] = [
   {
     loc: '',
     changefreq: 'weekly',
     priority: '0.5',
-    lastmod: '2024-05-20'
+    lastmod: '2024-11-14'
   }
 ];
 

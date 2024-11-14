@@ -32,6 +32,7 @@
   onMount(async () => {
     try {
       const libs = [
+        'svelte-animated-icons',
         'flowbite-svelte-icons',
         'svelte-ant-design-icons',
         'svelte-awesome-icons',
