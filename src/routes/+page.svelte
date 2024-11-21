@@ -1,13 +1,8 @@
 <script lang="ts">
   import type { LibType, PageData } from '$lib/types.js';
-  import Card from 'svelte-5-ui-lib/Card.svelte';
-  import List from 'svelte-5-ui-lib/List.svelte';
-  import Li from 'svelte-5-ui-lib/Li.svelte';
-  import A from 'svelte-5-ui-lib/A.svelte';
-  import Badge from 'svelte-5-ui-lib/Badge.svelte';
+  import { Card, List, Li, A, Badge } from 'svelte-5-ui-lib';
   import { NpmVersion, NpmDownload } from 'svelte-shields';
   import { svelte4_icons, svelte5_icons } from '$lib/data/icons';
-
   import { onMount } from 'svelte';
 
   const { data } = $props<{ data: PageData }>();
