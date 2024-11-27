@@ -22,6 +22,32 @@
     };
   };
 
+  const getLastOneMonthRange = () => {
+    const endDate = new Date();
+    endDate.setDate(endDate.getDate() - 1); // Set end date to yesterday
+
+    const startDate = new Date(endDate);
+    startDate.setDate(startDate.getDate() - 29); // 29 days before yesterday (total 30 days)
+
+    return {
+      start: formatDate(startDate),
+      end: formatDate(endDate)
+    };
+  };
+
+  const getLastOneWeekRange = () => {
+    const endDate = new Date();
+    endDate.setDate(endDate.getDate() - 1); // Set end date to yesterday
+
+    const startDate = new Date(endDate);
+    startDate.setDate(startDate.getDate() - 6); // 6 days before yesterday
+
+    return {
+      start: formatDate(startDate),
+      end: formatDate(endDate)
+    };
+  };
+
   let totalDownloads = $state(0);
 
   onMount(async () => {
@@ -66,7 +92,7 @@
       //   fetch(`https://api.npmjs.org/downloads/point/2020-01-01:${todayString}/${lib}`)
       // );
 
-      const dateRange = getLastTwelveMonthsRange();
+      const dateRange = getLastOneWeekRange();
       const totalPromises = libs.map((lib) =>
         fetch(`https://api.npmjs.org/downloads/point/${dateRange.start}:${dateRange.end}/${lib}`)
       );
@@ -97,11 +123,6 @@
     'relative my-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white ';
   const h2Class =
     'text-center my-8 xl:my-12 2xl:my-16 text-4xl xl:text-5xl 2xl:text-6xl text-gray-900 dark:text-white';
-  // Access versions for a specific package
-  $effect(() => {
-    // Example of using the data
-    console.log('Svelte versions:', data.versions);
-  });
 </script>
 
 {#snippet runesIcon({
@@ -182,7 +203,7 @@
   <Badge color="blue" large>Support CSS frameworks</Badge>
   <Badge color="purple" large>Faster compling</Badge>
   <Badge color="yellow" large>IDE Support</Badge>
-  <Badge color="green" large>Total Downloads (12 months): {formatNumber(totalDownloads)}</Badge>
+  <Badge color="green" large>Total Weekly Downloads: {formatNumber(totalDownloads)}</Badge>
 </div>
 
 <h2 class={h2Class}>Svelte 5: Runes</h2>
