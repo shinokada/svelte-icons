@@ -178,7 +178,7 @@
     <h5 class={hFiveClass}>
       <A href={docs} target="_blank">{label}</A>
       {#if a11y}
-        <Badge {href} target="_blank" class="absolute right-0 top-2 dark:text-white">A11y</Badge>
+        <Badge {href} target="_blank" class="text-sm absolute right-0 top-1 dark:text-white">A11y</Badge>
       {/if}
     </h5>
     <List>
