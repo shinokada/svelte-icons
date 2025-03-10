@@ -2,32 +2,6 @@ import { type LibType } from '$lib/types';
 
 export const svelte5_icons: LibType[] = [
   {
-    packageName: 'svelte-animated-icons',
-    label: 'Svelte Animated Icons',
-    logoColor: 'red',
-    labelColor: 'white',
-    logo: 'npm',
-    link: [
-      'https://www.npmjs.com/package/svelte-animated-icons',
-      'https://www.npmjs.com/package/svelte-animated-icons?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-animated-icons.codewithshin.com/',
-      'https://github.com/shinokada/svelte-animated-icons/releases'
-    ],
-    href: 'https://svelte-animated-icons.codewithshin.com/',
-    a11y: true,
-    img: {
-      src: '/images/resized/svelte-animated-icons.webp',
-      alt: 'Svelte Animated Icons'
-    },
-    download_color: '3FCD41',
-    version_color: 'red',
-    desc: 'A collection of animated SVG icons for Svelte with customizable draw transitions, events, and accessibility features.',
-    repo: 'https://github.com/shinokada/svelte-animated-icons',
-    docs: 'https://svelte-animated-icons.codewithshin.com/'
-  },
-  {
     packageName: 'flowbite-svelte-icons',
     label: 'Flowbite Svelte Icons',
     logoColor: 'red',
@@ -457,6 +431,32 @@ export const svelte5_icons: LibType[] = [
     },
     repo: 'https://github.com/shinokada/svelte-supertiny',
     docs: 'https://svelte-supertiny.codewithshin.com'
+  },
+  {
+    packageName: 'svelte-animated-icons',
+    label: 'Svelte Animated Icons',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/svelte-animated-icons',
+      'https://www.npmjs.com/package/svelte-animated-icons?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-animated-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-animated-icons/releases'
+    ],
+    href: 'https://svelte-animated-icons.codewithshin.com/',
+    a11y: true,
+    img: {
+      src: '/images/resized/svelte-animated-icons.webp',
+      alt: 'Svelte Animated Icons'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: 'A collection of animated SVG icons for Svelte with customizable draw transitions, events, and accessibility features.',
+    repo: 'https://github.com/shinokada/svelte-animated-icons',
+    docs: 'https://svelte-animated-icons.codewithshin.com/'
   }
 ];
 

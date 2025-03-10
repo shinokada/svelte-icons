@@ -5,35 +5,8 @@
   import { svelte4_icons, svelte5_icons } from '$lib/data/icons';
   import { onMount } from 'svelte';
 
-  // const { data } = $props<{ data: PageData }>();
-
   // Utility function to format date as YYYY-MM-DD
   const formatDate = (date: Date) => date.toISOString().slice(0, 10);
-
-  // Get date range for last 12 months
-  // const getLastTwelveMonthsRange = () => {
-  //   const endDate = new Date();
-  //   const startDate = new Date();
-  //   startDate.setMonth(endDate.getMonth() - 12);
-
-  //   return {
-  //     start: formatDate(startDate),
-  //     end: formatDate(endDate)
-  //   };
-  // };
-
-  // const getLastOneMonthRange = () => {
-  //   const endDate = new Date();
-  //   endDate.setDate(endDate.getDate() - 1); // Set end date to yesterday
-
-  //   const startDate = new Date(endDate);
-  //   startDate.setDate(startDate.getDate() - 29); // 29 days before yesterday (total 30 days)
-
-  //   return {
-  //     start: formatDate(startDate),
-  //     end: formatDate(endDate)
-  //   };
-  // };
 
   const getLastOneWeekRange = () => {
     const endDate = new Date();

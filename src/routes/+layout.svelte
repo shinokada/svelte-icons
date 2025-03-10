@@ -1,6 +1,6 @@
 <script lang="ts">
-  import '../app.pcss';
-  import { page } from '$app/stores';
+  import '../app.css';
+  import { page } from '$app/state';
   import { Footer } from 'runes-webkit';
   import { RunesMetaTags, deepMerge } from 'runes-meta-tags';
   import { Runatics } from 'runatics';
@@ -8,16 +8,16 @@
   let { children, data } = $props();
   const analyticsId = data.ANALYTICS_ID_ICONS;
   let metaTags = $state(
-    $page.data.pageMetaTags
-      ? deepMerge($page.data.layoutMetaTags, $page.data.pageMetaTags)
+    page.data.pageMetaTags
+      ? deepMerge(page.data.layoutMetaTags, page.data.pageMetaTags)
       : data.layoutMetaTags
   );
   /*  eslint-disable @typescript-eslint/no-unused-vars */
-  let currentUrl = $state($page.url.pathname);
+  let currentUrl = $state(page.url.pathname);
   $effect(() => {
-    currentUrl = $page.url.pathname;
-    metaTags = $page.data.pageMetaTags
-      ? deepMerge($page.data.layoutMetaTags, $page.data.pageMetaTags)
+    currentUrl = page.url.pathname;
+    metaTags = page.data.pageMetaTags
+      ? deepMerge(page.data.layoutMetaTags, page.data.pageMetaTags)
       : data.layoutMetaTags;
   });
 
