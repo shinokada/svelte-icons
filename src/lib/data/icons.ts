@@ -1,5 +1,39 @@
 import { type LibType } from '$lib/types';
 
+export const illust: LibType[] = [
+  {
+    packageName: 'flowbite-svelte-illustrations',
+    label: 'Flowbite Svelte Illustrations',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/flowbite-svelte-illustrations',
+      'https://www.npmjs.com/package/flowbite-svelte-illustrations?activeTab=versions'
+    ],
+    link2: [
+      'https://flowbite-svelte-illustrations.codewithshin.com/',
+      'https://github.com/themesberg/flowbite-svelte-illustrations/releases'
+    ],
+    href: 'https://flowbite-svelte-illustrations.codewithshin.com',
+
+    a11y: true,
+    img: {
+      src: '/images/resized/flowbite-svelte-illustrations.webp',
+      alt: 'Flowbite Svelte Illustrations'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: '50+ SVG illustrations',
+    source: {
+      url: 'https://github.com/themesberg/flowbite-illustrations',
+      label: 'Flowbite Illustrations'
+    },
+    repo: 'https://github.com/shinokada/flowbite-svelte-illustrations',
+    docs: 'https://flowbite-svelte-illustrations.codewithshin.com'
+  },
+]
+
 export const svelte5_icons: LibType[] = [
   {
     packageName: 'flowbite-svelte-icons',

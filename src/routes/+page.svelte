@@ -2,7 +2,7 @@
   import type { LibType } from '$lib/types.js';
   import { Card, List, Li, A, Badge } from 'svelte-5-ui-lib';
   import { NpmVersion, NpmDownload } from 'svelte-shields';
-  import { svelte4_icons, svelte5_icons } from '$lib/data/icons';
+  import { svelte4_icons, svelte5_icons, illust } from '$lib/data/icons';
   import { onMount } from 'svelte';
 
   // Utility function to format date as YYYY-MM-DD
@@ -26,6 +26,7 @@
   onMount(async () => {
     try {
       const libs = [
+        'flowbite-svelte-illustrations',
         'svelte-animated-icons',
         'flowbite-svelte-icons',
         'svelte-ant-design-icons',
@@ -179,9 +180,34 @@
   <Badge color="green" large>Total Weekly Downloads: {formatNumber(totalDownloads)}</Badge>
 </div>
 
-<h2 class={h2Class}>Svelte 5: Runes</h2>
+<h2 class={h2Class}>Svelte 5</h2>
 <div class="flex flex-wrap justify-center gap-6">
   {#each svelte5_icons as { packageName, label, link, link2, logo, logoColor, labelColor, img, download_color, version_color, desc, source, repo, docs, tag, a11y, href }}
+    {@render runesIcon({
+      packageName,
+      label,
+      link,
+      link2,
+      logo,
+      logoColor,
+      img,
+      download_color,
+      labelColor,
+      version_color,
+      desc,
+      source,
+      repo,
+      docs,
+      tag,
+      a11y,
+      href
+    })}
+  {/each}
+</div>
+
+<h2 class={h2Class}>Illustrations</h2>
+<div class="flex flex-wrap justify-center gap-6">
+  {#each illust as { packageName, label, link, link2, logo, logoColor, labelColor, img, download_color, version_color, desc, source, repo, docs, tag, a11y, href }}
     {@render runesIcon({
       packageName,
       label,
