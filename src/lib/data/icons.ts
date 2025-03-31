@@ -2,6 +2,37 @@ import { type LibType } from '$lib/types';
 
 export const illust: LibType[] = [
   {
+    packageName: 'svelte-kawaii',
+    label: 'Svelte Kawaii',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/svelte-kawaii',
+      'https://www.npmjs.com/package/svelte-kawaii?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-kawaii.codewithshin.com/',
+      'https://github.com/shinokada/svelte-kawaii/releases'
+    ],
+    href: 'https://svelte-kawaii.codewithshin.com',
+
+    a11y: true,
+    img: {
+      src: '/images/resized/svelte-kawaii.webp',
+      alt: 'Svelte Kawaii'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: '16 kawaii SVG illustrations',
+    source: {
+      url: 'https://github.com/elizabetdev/react-kawaii',
+      label: 'React Kawaii'
+    },
+    repo: 'https://github.com/shinokada/svelte-kawaii',
+    docs: 'https://svelte-kawaii.codewithshin.com'
+  },
+  {
     packageName: 'flowbite-svelte-illustrations',
     label: 'Flowbite Svelte Illustrations',
     logoColor: 'red',
