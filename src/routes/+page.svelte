@@ -27,6 +27,7 @@
     try {
       const libs = [
         'flowbite-svelte-illustrations',
+        'svelte-kawaii',
         'svelte-animated-icons',
         'flowbite-svelte-icons',
         'svelte-ant-design-icons',
