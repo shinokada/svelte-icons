@@ -892,7 +892,7 @@ export const svelte4_icons: LibType[] = [
   },
   {
     packageName: 'svelte-bootstrap-svg-icons',
-    label: 'Svelte Bootstrap SVG Icons',
+    label: 'Svelte Bootstrap SVG Icons@v1-latest',
     logo: 'npm',
     tag: 'v1-latest',
     logoColor: 'red',
