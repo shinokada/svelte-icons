@@ -928,7 +928,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-boxicons?activeTab=versions'
     ],
     link2: [
-      'https://svelte-boxicons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-boxicons',
       'https://github.com/shinokada/svelte-boxicons/releases'
     ],
     img: {
@@ -943,7 +943,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Boxicons'
     },
     repo: 'https://github.com/shinokada/svelte-boxicons',
-    docs: 'https://svelte-boxicons.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-boxicons'
   },
   {
     packageName: 'svelte-circle-flags',
@@ -955,7 +955,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-circle-flags?activeTab=versions'
     ],
     link2: [
-      'https://svelte-circle-flags.codewithshin.com/',
+      'https://github.com/shinokada/svelte-circle-flags',
       'https://github.com/shinokada/svelte-circle-flags/releases'
     ],
     img: {
@@ -970,7 +970,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Circle-Flags'
     },
     repo: 'https://github.com/shinokada/svelte-circle-flags',
-    docs: 'https://svelte-circle-flags.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-circle-flags'
   },
   {
     packageName: 'svelte-coreui-icons',
@@ -982,7 +982,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-coreui-icons?activeTab=versions'
     ],
     link2: [
-      'https://svelte-coreui-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-coreui-icons',
       'https://github.com/shinokada/svelte-coreui-icons/releases'
     ],
     img: {
@@ -997,7 +997,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Coreui Icons'
     },
     repo: 'https://github.com/shinokada/svelte-coreui-icons',
-    docs: 'https://svelte-coreui-icons.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-coreui-icons'
   },
   {
     packageName: 'svelte-cryptocurrency-icons',
@@ -1009,7 +1009,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-cryptocurrency-icons?activeTab=versions'
     ],
     link2: [
-      'https://svelte-cryptocurrency-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-cryptocurrency-icons',
       'https://github.com/shinokada/svelte-cryptocurrency-icons/releases'
     ],
     img: {
@@ -1024,7 +1024,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Cryptocurrency icons'
     },
     repo: 'https://github.com/shinokada/svelte-cryptocurrency-icons',
-    docs: 'https://svelte-cryptocurrency-icons.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-cryptocurrency-icons'
   },
   {
     packageName: 'svelte-cssgg-icons',
@@ -1036,7 +1036,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-cssgg-icons?activeTab=versions'
     ],
     link2: [
-      'https://svelte-cssgg-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-cssgg-icons',
       'https://github.com/shinokada/svelte-cssgg-icons/releases'
     ],
     img: {
@@ -1051,7 +1051,7 @@ export const svelte4_icons: LibType[] = [
       label: 'css.gg'
     },
     repo: 'https://github.com/shinokada/svelte-cssgg-icons',
-    docs: 'https://svelte-cssgg-icons.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-cssgg-icons'
   },
   {
     packageName: 'svelte-evil-icons',
@@ -1090,7 +1090,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-feathers?activeTab=versions'
     ],
     link2: [
-      'https://svelte-feathers.codewithshin.com/',
+      'https://github.com/shinokada/svelte-feathers',
       'https://github.com/shinokada/svelte-feathers/releases'
     ],
     img: {
@@ -1105,7 +1105,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Feather-icons'
     },
     repo: 'https://github.com/shinokada/svelte-feathers',
-    docs: 'https://svelte-feathers.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-feathers'
   },
   {
     packageName: 'svelte-file-icons',
@@ -1117,7 +1117,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-file-icons?activeTab=versions'
     ],
     link2: [
-      'https://svelte-file-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-file-icons',
       'https://github.com/shinokada/svelte-file-icons/releases'
     ],
     img: {
@@ -1132,7 +1132,7 @@ export const svelte4_icons: LibType[] = [
       label: 'File icons'
     },
     repo: 'https://github.com/shinokada/svelte-file-icons',
-    docs: 'https://svelte-file-icons.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-file-icons'
   },
   {
     packageName: 'svelte-google-materialdesign-icons',
@@ -1144,7 +1144,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-google-materialdesign-icons?activeTab=versions'
     ],
     link2: [
-      'https://svelte-google-materialdesign-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-google-materialdesign-icons',
       'https://github.com/shinokada/svelte-google-materialdesign-icons/releases'
     ],
     img: {
@@ -1159,7 +1159,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Material Design Icons'
     },
     repo: 'https://github.com/shinokada/svelte-google-materialdesign-icons',
-    docs: 'https://svelte-google-materialdesign-icons.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-google-materialdesign-icons'
   },
   {
     packageName: 'svelte-materialdesign-icons',
@@ -1171,7 +1171,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-materialdesign-icons?activeTab=versions'
     ],
     link2: [
-      'https://svelte-materialdesign-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-materialdesign-icons',
       'https://github.com/shinokada/svelte-materialdesign-icons/releases'
     ],
     img: {
@@ -1186,7 +1186,7 @@ export const svelte4_icons: LibType[] = [
       label: 'MaterialDesign'
     },
     repo: 'https://github.com/shinokada/svelte-materialdesign-icons',
-    docs: 'https://svelte-materialdesign-icons.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-materialdesign-icons'
   },
   {
     packageName: 'svelte-oct',
@@ -1198,7 +1198,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-oct?activeTab=versions'
     ],
     link2: [
-      'https://svelte-oct.codewithshin.com/',
+      'https://github.com/shinokada/svelte-oct',
       'https://github.com/shinokada/svelte-oct/releases'
     ],
     img: {
@@ -1213,7 +1213,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Octicons'
     },
     repo: 'https://github.com/shinokada/svelte-oct',
-    docs: 'https://svelte-oct.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-oct'
   },
   {
     packageName: 'svelte-simples',
@@ -1225,7 +1225,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-simples?activeTab=versions'
     ],
     link2: [
-      'https://svelte-simples.codewithshin.com/',
+      'https://github.com/shinokada/svelte-simples',
       'https://github.com/shinokada/svelte-simples/releases'
     ],
     img: {
@@ -1240,7 +1240,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Simple-icons'
     },
     repo: 'https://github.com/shinokada/svelte-simples',
-    docs: 'https://svelte-simples.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-simples'
   },
   {
     packageName: 'svelte-teenyicons',
@@ -1252,7 +1252,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-teenyicons?activeTab=versions'
     ],
     link2: [
-      'https://svelte-teenyicons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-teenyicons',
       'https://github.com/shinokada/svelte-teenyicons/releases'
     ],
     img: {
@@ -1267,7 +1267,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Teenyicons'
     },
     repo: 'https://github.com/shinokada/svelte-teenyicons',
-    docs: 'https://svelte-teenyicons.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-teenyicons'
   },
   {
     packageName: 'svelte-twitter-emoji',
@@ -1279,7 +1279,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-twitter-emoji?activeTab=versions'
     ],
     link2: [
-      'https://svelte-twitter-emoji.codewithshin.com/',
+      'https://github.com/shinokada/svelte-twitter-emoji',
       'https://github.com/shinokada/svelte-twitter-emoji/releases'
     ],
     img: {
@@ -1294,7 +1294,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Twemoji'
     },
     repo: 'https://github.com/shinokada/svelte-twitter-emoji',
-    docs: 'https://svelte-twitter-emoji.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-twitter-emoji'
   },
   {
     packageName: 'svelte-weather',
@@ -1306,7 +1306,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-weather?activeTab=versions'
     ],
     link2: [
-      'https://svelte-weather.codewithshin.com/',
+      'https://github.com/shinokada/svelte-weather',
       'https://github.com/shinokada/svelte-weather/releases'
     ],
     img: {
@@ -1321,6 +1321,6 @@ export const svelte4_icons: LibType[] = [
       label: 'weather-icons'
     },
     repo: 'https://github.com/shinokada/svelte-weather',
-    docs: 'https://svelte-weather.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-weather'
   }
 ];
