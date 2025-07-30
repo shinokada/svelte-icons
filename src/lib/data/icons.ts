@@ -1063,7 +1063,7 @@ export const svelte4_icons: LibType[] = [
       'https://www.npmjs.com/package/svelte-evil-icons?activeTab=versions'
     ],
     link2: [
-      'https://svelte-evil-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-evil-icons',
       'https://github.com/shinokada/svelte-evil-icons/releases'
     ],
     img: {
@@ -1078,7 +1078,7 @@ export const svelte4_icons: LibType[] = [
       label: 'Evil Icons'
     },
     repo: 'https://github.com/shinokada/svelte-evil-icons',
-    docs: 'https://svelte-evil-icons.codewithshin.com'
+    docs: 'https://github.com/shinokada/svelte-evil-icons'
   },
   {
     packageName: 'svelte-feathers',
