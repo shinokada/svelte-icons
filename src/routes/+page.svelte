@@ -235,7 +235,7 @@
 
 
 <h2 class={h2Class}>Svelte 4/5</h2>
-<div class="flex flex-wrap justify-center gap-6">
+<div class="flex flex-wrap justify-center gap-6 mb-8">
   {#each svelte4_icons as { packageName, label, logo, logoColor, tag, link, link2, img, download_color, version_color, desc, source, repo, docs }}
     {@render runesIcon({
       packageName,
