@@ -1,6 +1,6 @@
 <script lang="ts">
   import type { LibType } from '$lib/types.js';
-  import { Card, List, Li, A, Badge } from 'svelte-5-ui-lib';
+  import { Card, List, Li, A, Badge } from 'flowbite-svelte';
   import { NpmVersion, NpmDownload } from 'svelte-shields';
   import { svelte4_icons, svelte5_icons, illust } from '$lib/data/icons';
   import { onMount } from 'svelte';
@@ -119,7 +119,8 @@
   a11y,
   href
 }: LibType)}
-  <Card {img}>
+  <Card img={img['src']}>
+    <div class="m-6">
     <NpmDownload
       {packageName}
       color={download_color}
@@ -164,6 +165,7 @@
       {/if}
       <Li><A href={docs} target="_blank">Icon and Docs</A></Li>
     </List>
+    </div>
   </Card>
 {/snippet}
 
