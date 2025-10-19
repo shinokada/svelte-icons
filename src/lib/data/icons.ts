@@ -98,37 +98,6 @@ export const svelte5_icons: LibType[] = [
     docs: 'https://flowbite-svelte-icons.codewithshin.com/guide/svelte-5/getting-started'
   },
   {
-    packageName: 'svelte-lucide',
-    label: 'Svelte Lucide',
-    logoColor: 'red',
-    labelColor: 'white',
-    logo: 'npm',
-    link: [
-      'https://www.npmjs.com/package/svelte-lucide',
-      'https://www.npmjs.com/package/svelte-lucide?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-lucide.codewithshin.com/',
-      'https://github.com/shinokada/svelte-lucide/releases'
-    ],
-    href: 'https://svelte-lucide.codewithshin.com/guide/svelte-5/props#A11y',
-
-    a11y: true,
-    img: {
-      src: '/images/resized/lucide.webp',
-      alt: 'Svelte Lucide'
-    },
-    download_color: '3FCD41',
-    version_color: 'red',
-    desc: '1460+ SVG icons',
-    source: {
-      url: 'https://github.com/lucide-icons/lucide',
-      label: 'Lucide icons'
-    },
-    repo: 'https://github.com/shinokada/svelte-lucide',
-    docs: 'https://svelte-lucide.codewithshin.com/guide/svelte-5/getting-started'
-  },
-  {
     packageName: 'svelte-radix',
     label: 'Svelte Radix',
     logoColor: 'red',
@@ -253,37 +222,6 @@ export const svelte5_icons: LibType[] = [
     docs: 'https://svelte-ionicons.codewithshin.com/guide/svelte-5/getting-started'
   },
   {
-    packageName: 'svelte-flags',
-    label: 'Svelte Flags',
-    logoColor: 'red',
-    labelColor: 'white',
-    logo: 'npm',
-    link: [
-      'https://www.npmjs.com/package/svelte-flags',
-      'https://www.npmjs.com/package/svelte-flags?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-flags.codewithshin.com/',
-      'https://github.com/shinokada/svelte-flags/releases'
-    ],
-    href: 'https://svelte-flags.codewithshin.com/guide/svelte-5/props#A11y',
-
-    a11y: true,
-    img: {
-      src: '/images/resized/flags.webp',
-      alt: 'Svelte Flags'
-    },
-    download_color: '3FCD41',
-    version_color: 'red',
-    desc: '250+ SVG icons',
-    source: {
-      url: 'https://github.com/hampusborgos/country-flags',
-      label: 'Country flags'
-    },
-    repo: 'https://github.com/shinokada/svelte-flags',
-    docs: 'https://svelte-flags.codewithshin.com/guide/svelte-5/getting-started'
-  },
-  {
     packageName: 'svelte-flag-icons',
     label: 'Svelte Flag Icons',
     logoColor: 'red',
@@ -302,7 +240,7 @@ export const svelte5_icons: LibType[] = [
     a11y: true,
     img: {
       src: '/images/resized/flag-icons3.webp',
-      alt: 'Svelte Flags'
+      alt: 'Svelte Flag Icons'
     },
     download_color: '3FCD41',
     version_color: 'red',
@@ -407,6 +345,94 @@ export const svelte5_icons: LibType[] = [
     docs: 'https://svelte-bootstrap-svg-icons.codewithshin.com/guide/svelte-5/getting-started'
   },
   {
+    packageName: 'svelte-animated-icons',
+    label: 'Svelte Animated Icons',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/svelte-animated-icons',
+      'https://www.npmjs.com/package/svelte-animated-icons?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-animated-icons.codewithshin.com/',
+      'https://github.com/shinokada/svelte-animated-icons/releases'
+    ],
+    href: 'https://svelte-animated-icons.codewithshin.com/',
+    a11y: true,
+    img: {
+      src: '/images/resized/svelte-animated-icons.webp',
+      alt: 'Svelte Animated Icons'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: 'A collection of animated SVG icons for Svelte with customizable draw transitions, events, and accessibility features.',
+    repo: 'https://github.com/shinokada/svelte-animated-icons',
+    docs: 'https://svelte-animated-icons.codewithshin.com/'
+  },
+  {
+    packageName: 'svelte-lucide',
+    label: 'Svelte Lucide',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/svelte-lucide',
+      'https://www.npmjs.com/package/svelte-lucide?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-lucide.codewithshin.com/',
+      'https://github.com/shinokada/svelte-lucide/releases'
+    ],
+    href: 'https://svelte-lucide.codewithshin.com/guide/svelte-5/props#A11y',
+
+    a11y: true,
+    img: {
+      src: '/images/resized/lucide.webp',
+      alt: 'Svelte Lucide'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: '1460+ SVG icons',
+    source: {
+      url: 'https://github.com/lucide-icons/lucide',
+      label: 'Lucide icons'
+    },
+    repo: 'https://github.com/shinokada/svelte-lucide',
+    docs: 'https://svelte-lucide.codewithshin.com/guide/svelte-5/getting-started'
+  },
+  {
+    packageName: 'svelte-flags',
+    label: 'Svelte Flags',
+    logoColor: 'red',
+    labelColor: 'white',
+    logo: 'npm',
+    link: [
+      'https://www.npmjs.com/package/svelte-flags',
+      'https://www.npmjs.com/package/svelte-flags?activeTab=versions'
+    ],
+    link2: [
+      'https://svelte-flags.codewithshin.com/',
+      'https://github.com/shinokada/svelte-flags/releases'
+    ],
+    href: 'https://svelte-flags.codewithshin.com/guide/svelte-5/props#A11y',
+
+    a11y: true,
+    img: {
+      src: '/images/resized/flags.webp',
+      alt: 'Svelte Flags'
+    },
+    download_color: '3FCD41',
+    version_color: 'red',
+    desc: '250+ SVG icons',
+    source: {
+      url: 'https://github.com/hampusborgos/country-flags',
+      label: 'Country flags'
+    },
+    repo: 'https://github.com/shinokada/svelte-flags',
+    docs: 'https://svelte-flags.codewithshin.com/guide/svelte-5/getting-started'
+  },
+  {
     packageName: 'svelte-tabler',
     label: 'Svelte Tabler',
     logoColor: 'red',
@@ -496,32 +522,6 @@ export const svelte5_icons: LibType[] = [
     },
     repo: 'https://github.com/shinokada/svelte-supertiny',
     docs: 'https://svelte-supertiny.codewithshin.com'
-  },
-  {
-    packageName: 'svelte-animated-icons',
-    label: 'Svelte Animated Icons',
-    logoColor: 'red',
-    labelColor: 'white',
-    logo: 'npm',
-    link: [
-      'https://www.npmjs.com/package/svelte-animated-icons',
-      'https://www.npmjs.com/package/svelte-animated-icons?activeTab=versions'
-    ],
-    link2: [
-      'https://svelte-animated-icons.codewithshin.com/',
-      'https://github.com/shinokada/svelte-animated-icons/releases'
-    ],
-    href: 'https://svelte-animated-icons.codewithshin.com/',
-    a11y: true,
-    img: {
-      src: '/images/resized/svelte-animated-icons.webp',
-      alt: 'Svelte Animated Icons'
-    },
-    download_color: '3FCD41',
-    version_color: 'red',
-    desc: 'A collection of animated SVG icons for Svelte with customizable draw transitions, events, and accessibility features.',
-    repo: 'https://github.com/shinokada/svelte-animated-icons',
-    docs: 'https://svelte-animated-icons.codewithshin.com/'
   }
 ];
 
