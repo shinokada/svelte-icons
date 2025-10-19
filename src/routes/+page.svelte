@@ -4,7 +4,26 @@
   import { NpmVersion, NpmDownload } from 'svelte-shields';
   import { svelte4_icons, svelte5_icons, illust } from '$lib/data/icons';
   import { onMount } from 'svelte';
+  
+  let { data } = $props();
 
+  // $inspect('data: ', data.iconCounts);
+
+  const svelte5_icons_dynamic = $derived(
+    svelte5_icons.map(icon => {
+      const count = data.iconCounts?.[icon.packageName];
+      // console.log('icon', icon.packageName, 'count', count);
+      if (count !== undefined) {
+        return {
+          ...icon,
+          desc: `${count} SVG icons`
+        };
+      }
+      return icon;
+    })
+  );
+
+  // $inspect('svelte5_icons_dynamic', svelte5_icons_dynamic);
   // Utility function to format date as YYYY-MM-DD
   const formatDate = (date: Date) => date.toISOString().slice(0, 10);
 
@@ -183,6 +202,32 @@
   <Badge color="green" large>Total Weekly Downloads: {formatNumber(totalDownloads)}</Badge>
 </div>
 
+<h2 class={h2Class}>Svelte 5</h2>
+<div class="flex flex-wrap justify-center gap-6">
+  {#each svelte5_icons_dynamic as { packageName, label, link, link2, logo, logoColor, labelColor, img, download_color, version_color, desc, source, repo, docs, tag, a11y, href }}
+    {@render runesIcon({
+      packageName,
+      label,
+      link,
+      link2,
+      logo,
+      logoColor,
+      img,
+      download_color,
+      labelColor,
+      version_color,
+      desc,
+      source,
+      repo,
+      docs,
+      tag,
+      a11y,
+      href
+    })}
+  {/each}
+</div>
+
+
 <h2 class={h2Class}>Illustrations</h2>
 <div class="flex flex-wrap justify-center gap-6">
   {#each illust as { packageName, label, link, link2, logo, logoColor, labelColor, img, download_color, version_color, desc, source, repo, docs, tag, a11y, href }}
@@ -207,32 +252,6 @@
     })}
   {/each}
 </div>
-
-<h2 class={h2Class}>Svelte 5</h2>
-<div class="flex flex-wrap justify-center gap-6">
-  {#each svelte5_icons as { packageName, label, link, link2, logo, logoColor, labelColor, img, download_color, version_color, desc, source, repo, docs, tag, a11y, href }}
-    {@render runesIcon({
-      packageName,
-      label,
-      link,
-      link2,
-      logo,
-      logoColor,
-      img,
-      download_color,
-      labelColor,
-      version_color,
-      desc,
-      source,
-      repo,
-      docs,
-      tag,
-      a11y,
-      href
-    })}
-  {/each}
-</div>
-
 
 <h2 class={h2Class}>Svelte 4/5</h2>
 <div class="flex flex-wrap justify-center gap-6 mb-8">
