@@ -202,7 +202,7 @@
   <Badge color="green" large>Total Weekly Downloads: {formatNumber(totalDownloads)}</Badge>
 </div>
 
-<h2 class={h2Class}>Svelte 5</h2>
+<h2 class={h2Class}>Svelte 5 Runes</h2>
 <div class="flex flex-wrap justify-center gap-6">
   {#each svelte5_icons_dynamic as { packageName, label, link, link2, logo, logoColor, labelColor, img, download_color, version_color, desc, source, repo, docs, tag, a11y, href }}
     {@render runesIcon({
