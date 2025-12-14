@@ -1,11 +1,13 @@
+export type LinkType = [string, string];
+
 export interface LibType {
 	packageName: string;
 	label: string;
 	logo?: string;
 	logoColor?: string;
 	labelColor?: string;
-	link?: string[];
-	link2?: string[];
+	link?: LinkType;
+	link2?: LinkType;
 	tag?: string;
 	a11y?: boolean;
 	href?: string;

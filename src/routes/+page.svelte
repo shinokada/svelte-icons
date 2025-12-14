@@ -80,13 +80,6 @@
 				'svelte-weather'
 			];
 
-			// const today = new Date();
-			// const todayString = today.toISOString().slice(0, 10);
-
-			// const totalPromises = libs.map((lib) =>
-			//   fetch(`https://api.npmjs.org/downloads/point/2020-01-01:${todayString}/${lib}`)
-			// );
-
 			const dateRange = getLastOneWeekRange();
 			const totalPromises = libs.map((lib) =>
 				fetch(`https://api.npmjs.org/downloads/point/${dateRange.start}:${dateRange.end}/${lib}`)
